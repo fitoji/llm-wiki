@@ -17,7 +17,7 @@ El REBT és el reglament que regula les instal·lacions elèctriques de baixa te
 - El certificat ELEC-1 declara que la instal·lació s'ha realitzat d'acord amb les prescripcions del REBT i les seves ITC.
 
 ## Detalls
-La normativa es cita com a base de la certificació en el model ELEC-1 i en el butlletí de reconeixement. Les ITC-BT concreten requisits per a tipus d'instal·lació específics (vegeu [[classificacio-p1-p2]] i [[usos-installacio-bt]]).
+La normativa es cita com a base de la certificació en el model ELEC-1 i en el butlletí de reconeixement. Les ITC-BT concreten requisits per a tipus d'instal·lació específics (vegeu [[classificacio-p1-p2]] i [[usos-installacio-bt]]). Les guies tècniques d'aplicació complementen aquestes ITC per a instal·lacions interiors en viviendas: Guía-BT-25 (número de circuits i característiques), Guía-BT-26 (prescripcions generals) i Guía-BT-27 (locals amb banyera o dutxa).
 
 ## Relacionado
 - [[certificat-installacio-electrica-bt]]
