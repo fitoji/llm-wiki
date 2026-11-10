@@ -1,5 +1,5 @@
 ---
-title: Reglament Electrotècnic per a Baixa Tensió (REBT)
+title: Reglamento Electrotécnico para Baja Tensión (REBT)
 type: concept
 tags: [rebt, baixa-tensio, normativa, espanya]
 sources: [papers/2026-11-10-certificat-installacio-electrica-bt-elc1.md, papers/2026-11-10-butlleti-reconeixement-bt.md, papers/2026-11-10-rebt-reglamento-baixa-tensio-texto-integro.md, papers/2026-11-10-rebt-informacion-relacionada.md]
@@ -7,17 +7,17 @@ created: 2026-11-10
 updated: 2026-11-10
 ---
 
-# Reglament Electrotècnic per a Baixa Tensió (REBT)
+# Reglamento Electrotécnico para Baja Tensión (REBT)
 
-El REBT és el reglament que regula les instal·lacions elèctriques de baixa tensió a Espanya. Va ser aprovat pel Reial Decret 842/2002, de 2 d'agost.
+El REBT es el reglamento que regula las instalaciones eléctricas de baja tensión en España. Fue aprobado por el Real Decreto 842/2002, de 2 de agosto.
 
-## Punts clau
-- Aprovat pel Reial Decret 842/2002, de 2 d'agost.
-- S'estructura en Instruccions Tècniques Complementàries (ITC-BT): ITC-BT-01 (terminologia), ITC-BT-28 (locals d'espectacles), ITC-BT-33 (obres), ITC-BT-44 (rètols lluminosos), etc.
-- El certificat ELEC-1 declara que la instal·lació s'ha realitzat d'acord amb les prescripcions del REBT i les seves ITC.
+## Puntos clave
+- Aprobado por el Real Decreto 842/2002, de 2 de agosto.
+- Se estructura en Instrucciones Técnicas Complementarias (ITC-BT): ITC-BT-01 (terminología), ITC-BT-28 (locales de espectáculos), ITC-BT-33 (obras), ITC-BT-44 (rótulos luminosos), etc.
+- El certificado ELEC-1 declara que la instalación se ha realizado de acuerdo con las prescripciones del REBT y sus ITC.
 
-## Detalls
-La normativa es cita com a base de la certificació en el model ELEC-1 i en el butlletí de reconeixement. Les ITC-BT concreten requisits per a tipus d'instal·lació específics (vegeu [[classificacio-p1-p2]] i [[usos-installacio-bt]]). Les guies tècniques d'aplicació complementen aquestes ITC per a instal·lacions interiors en viviendas: Guía-BT-25 (número de circuits i característiques), Guía-BT-26 (prescripcions generals) i Guía-BT-27 (locals amb banyera o dutxa).
+## Detalles
+La normativa se cita como base de la certificación en el modelo ELEC-1 y en el boletín de reconocimiento. Las ITC-BT concretan requisitos para tipos de instalación específicos (ver [[classificacio-p1-p2]] y [[usos-installacio-bt]]). Las guías técnicas de aplicación complementan estas ITC para instalaciones interiores en viviendas: Guía-BT-25 (número de circuitos y características), Guía-BT-26 (prescripciones generales) y Guía-BT-27 (locales con bañera o ducha).
 
 ## Relacionado
 - [[certificat-installacio-electrica-bt]]

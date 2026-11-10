@@ -1,9 +1,9 @@
 # Índice de la wiki
 
 ## Concepts
-- [[butlleti-reconeixement-baixa-tensio]] — butlletí justificatiu de les condicions de seguretat davant la distribuïdora (validesa 6 mesos)
-- [[certificat-installacio-electrica-bt]] — certificat ELEC-1: declara la conformitat amb el REBT
-- [[classificacio-p1-p2]] — llistes P1 i P2 que determinen si cal memòria tècnica
+- [[butlleti-reconeixement-baixa-tensio]] — boletín justificativo de las condiciones de seguridad ante la distribuidora (validez 6 meses)
+- [[certificat-installacio-electrica-bt]] — certificado ELEC-1: declara la conformidad con el REBT
+- [[classificacio-p1-p2]] — listas P1 y P2 que determinan si hace falta memoria técnica
 - [[conductores-y-ejecucion-instalacion-interior]] — conductores, identificación, sistemas de instalación y condiciones generales (Guía-BT-26)
 - [[instalaciones-interiores-viviendas-bt]] — electrificación básica/elevada, circuitos C1–C13 e IGA (Guía-BT-25)
 - [[itc-bt-01-terminologia]] — terminología (ITC-BT-01)
@@ -59,8 +59,8 @@
 - [[itc-bt-51-instalaciones-de-sistemas-de-automatizacion-gestion-tecnica-de-la-energia-y-seguridad-para-vivi]] — instalaciones de sistemas de automatización, gestión técnica de la energía y seguridad para viviendas y edificios (ITC-BT-51)
 - [[itc-bt-52-instalaciones-con-fines-especiales-infraestructura-para-la-recarga-de-vehiculos-electricos]] — instalaciones con fines especiales. Infraestructura para la recarga de vehículos eléctricos (ITC-BT-52)
 - [[locales-banera-ducha-bt]] — volúmenes 0–3, protección y grados IP en baños y duchas (Guía-BT-27)
-- [[memoria-tecnica-baixa-tensio]] — memòria tècnica ELEC-3 per a instal·lacions de classe P1
+- [[memoria-tecnica-baixa-tensio]] — memoria técnica ELEC-3 para instalaciones de clase P1
 - [[puntos-utilizacion-vivienda]] — puntos de utilización mínimos y de confort por estancia (Guía-BT-25)
-- [[reglament-electrotecnic-baixa-tensio]] — REBT aprovat pel RD 842/2002, amb el text íntegre del BOE
+- [[reglament-electrotecnic-baixa-tensio]] — REBT aprobado por el RD 842/2002, con el texto íntegro del BOE
 - [[toma-de-tierra-edificios-viviendas]] — toma de tierra: anillo, picas, bornes y secciones (Guía-BT-26)
-- [[usos-installacio-bt]] — usos d'instal·lació i subclassificacions g/h del certificat ELEC-1
+- [[usos-installacio-bt]] — usos de instalación y subclasificaciones g/h del certificado ELEC-1

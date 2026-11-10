@@ -1,5 +1,5 @@
 ---
-title: Classificació P1 i P2 d'instal·lacions de baixa tensió
+title: Clasificación P1 y P2 de instalaciones de baja tensión
 type: concept
 tags: [rebt, baixa-tensio, classificacio, p1, p2, memoria-tecnica]
 sources: [papers/2026-11-10-certificat-installacio-electrica-bt-elc1.md]
@@ -7,48 +7,48 @@ created: 2026-11-10
 updated: 2026-11-10
 ---
 
-# Classificació P1 i P2 d'instal·lacions de baixa tensió
+# Clasificación P1 y P2 de instalaciones de baja tensión
 
-El certificat ELEC-1 obliga a classificar la instal·lació en una de tres opcions excloents: classe P1, classe P2 o memòria tècnica de disseny. La memòria tècnica (model ELEC-3) s'exigeix per a les instal·lacions de classe P1.
+El certificado ELEC-1 obliga a clasificar la instalación en una de tres opciones excluyentes: clase P1, clase P2 o memoria técnica de diseño. La memoria técnica (modelo ELEC-3) se exige para las instalaciones de clase P1.
 
-## Punts clau
-- Classe P1: instal·lacions d'alta exigència (industrials > 100 kW, locals de pública concurrència, risc d'incendi/explosió, piscines, quiròfans, enllumenat exterior, infraestructures de recàrrega > 50 kW, etc.).
-- Classe P2: instal·lacions d'exigència mitjana (indústries 20–100 kW, locals humits, locals mullats, generadors, instal·lacions temporals, habitatges unifamiliars > 50 kW, aparcaments, línies comunes amb alta tensió, etc.).
-- Les instal·lacions no incloses en P1 ni P2 poden requerir memòria tècnica de disseny o no, segons el cas.
+## Puntos clave
+- Clase P1: instalaciones de alta exigencia (industriales > 100 kW, locales de pública concurrencia, riesgo de incendio/explosión, piscinas, quirófanos, alumbrado exterior, infraestructuras de recarga > 50 kW, etc.).
+- Clase P2: instalaciones de exigencia media (industrias 20–100 kW, locales húmedos, locales mojados, generadores, instalaciones temporales, viviendas unifamiliares > 50 kW, aparcamientos, líneas comunes con alta tensión, etc.).
+- Las instalaciones no incluidas en P1 ni P2 pueden requerir o no memoria técnica de diseño, según el caso.
 
-## Llista P1
-- a) Instal·lacions industrials amb una potència màxima admissible superior a 100 kW
-- b) Locals de pública concurrència
-- c) Locals amb risc d'incendi o explosió, de classe I, excepte aparcaments i estacionaments de menys de 25 places
-- d) Locals mullats P > 25 kW
-- e) Piscines P > 10 kW
-- f) Sales d'operacions quirúrgiques i sales d'intervenció
-- g) Instal·lacions d'enllumenat exterior P > 5 kW
-- h) Instal·lacions comunes d'edificis destinats a habitatges de 20 subministraments o més i/o més de 100 kW per CGP
-- i1) Infraestructures per a la recàrrega del vehicle elèctric (P > 50 kW)
-- i2) Recàrrega de vehicle elèctric a l'exterior (P > 10 kW)
-- i3) Instal·lacions amb estacions de recàrrega previstes pel mode de càrrega 4
+## Lista P1
+- a) Instalaciones industriales con una potencia máxima admisible superior a 100 kW
+- b) Locales de pública concurrencia
+- c) Locales con riesgo de incendio o explosión, de clase I, excepto aparcamientos y estacionamientos de menos de 25 plazas
+- d) Locales mojados P > 25 kW
+- e) Piscinas P > 10 kW
+- f) Salas de operaciones quirúrgicas y salas de intervención
+- g) Instalaciones de alumbrado exterior P > 5 kW
+- h) Instalaciones comunes de edificios destinados a viviendas de 20 suministros o más y/o más de 100 kW por CGP
+- i1) Infraestructuras para la recarga del vehículo eléctrico (P > 50 kW)
+- i2) Recarga de vehículo eléctrico en el exterior (P > 10 kW)
+- i3) Instalaciones con estaciones de recarga previstas para el modo de carga 4
 
-## Llista P2
-- a) Indústries, en general 20 kW > P ≤ 100 kW
-- b1) Locals humits, amb pols o risc de corrosió (P > 10 kW)
-- b2) Bombes d'extracció o elevació d'aigua (P > 10 kW)
-- c1) Locals mullats (P > 10 kW)
-- c2) Generadors i convertidors (P > 10 kW)
-- c3) Conductors aïllats per caldejament, exclosos els habitatges (P > 10 kW i P < 25 kW)
-- d1) Instal·lacions temporals per a maquinària d'obres de construcció (P > 50 kW)
-- d2) Instal·lacions temporals en locals o emplaçaments oberts (P > 50 kW)
-- e) Edificis destinats a oficines i locals comercials no de pública concurrència amb més de 100 kW per CGP
-- f) Habitatges unifamiliars P > 50 kW
-- g) Aparcaments amb ventilació forçada (menys de 25 places)
-- h) Aparcaments amb ventilació natural (més de 5 i menys de 25 places)
-- j1) Línies de BT amb suports comuns amb alta tensió
-- j2) Màquines d'elevació i transport
-- j3) Instal·lacions amb tensions especials
-- j4) Rètols lluminosos (segons ITC-BT 44)
-- j5) Tanques elèctriques
-- n) Piscines i fonts P > 5 kW, piscines fins a 10 kW
-- o) Locals sense risc específic amb potència màxima admissible > 100 kW
+## Lista P2
+- a) Industrias, en general 20 kW > P ≤ 100 kW
+- b1) Locales húmedos, con polvo o riesgo de corrosión (P > 10 kW)
+- b2) Bombas de extracción o elevación de agua (P > 10 kW)
+- c1) Locales mojados (P > 10 kW)
+- c2) Generadores y convertidores (P > 10 kW)
+- c3) Conductores aislados para caldeamiento, excluidas las viviendas (P > 10 kW y P < 25 kW)
+- d1) Instalaciones temporales para maquinaria de obras de construcción (P > 50 kW)
+- d2) Instalaciones temporales en locales o emplazamientos abiertos (P > 50 kW)
+- e) Edificios destinados a oficinas y locales comerciales no de pública concurrencia con más de 100 kW por CGP
+- f) Viviendas unifamiliares P > 50 kW
+- g) Aparcamientos con ventilación forzada (menos de 25 plazas)
+- h) Aparcamientos con ventilación natural (más de 5 y menos de 25 plazas)
+- j1) Líneas de BT con soportes comunes con alta tensión
+- j2) Máquinas de elevación y transporte
+- j3) Instalaciones con tensiones especiales
+- j4) Rótulos luminosos (según ITC-BT 44)
+- j5) Cercas eléctricas
+- n) Piscinas y fuentes P > 5 kW, piscinas hasta 10 kW
+- o) Locales sin riesgo específico con potencia máxima admisible > 100 kW
 
 ## Relacionado
 - [[certificat-installacio-electrica-bt]]

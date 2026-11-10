@@ -1,5 +1,5 @@
 ---
-title: Butlletí de reconeixement de baixa tensió
+title: Boletín de reconocimiento de baja tensión
 type: concept
 tags: [rebt, baixa-tensio, catalunya, formularis, certificacio]
 sources: [papers/2026-11-10-butlleti-reconeixement-bt.md]
@@ -7,20 +7,20 @@ created: 2026-11-10
 updated: 2026-11-10
 ---
 
-# Butlletí de reconeixement de baixa tensió
+# Boletín de reconocimiento de baja tensión
 
-Document justificatiu de les condicions de seguretat de la instal·lació davant l'empresa distribuïdora. Formulari G146NERGIA-072-00.
+Documento justificativo de las condiciones de seguridad de la instalación ante la empresa distribuidora. Formulario G146NERGIA-072-00.
 
-## Punts clau
-- Justifica les condicions de seguretat davant l'empresa distribuïdora per ampliació de potència contractada fins a un 50 % de la potència mínima regulada inicial, i per a la potència mínima a contractar en instal·lacions amb ascensor que substitueixin un ICP per un maxímetre.
-- Validesa de 6 mesos.
-- No s'admeten defectes als punts 1–5 ni cap altre que comporti un imminent perill greu per a les persones; tampoc els dels punts 6 i 7 si es pretén una elevació de la tensió de servei. En aquests casos l'instal·lador no signa el butlletí.
-- L'usuari ha de corregir els defectes assenyalats com més aviat millor.
+## Puntos clave
+- Justifica las condiciones de seguridad ante la empresa distribuidora para ampliación de potencia contratada hasta un 50 % de la potencia mínima regulada inicial, y para la potencia mínima a contratar en instalaciones con ascensor que sustituyan un ICP por un maximetro.
+- Validez de 6 meses.
+- No se admiten defectos en los puntos 1–5 ni ningún otro que comporte un peligro grave e inminente para las personas; tampoco los de los puntos 6 y 7 si se pretende una elevación de la tensión de servicio. En estos casos el instalador no firma el boletín.
+- El usuario debe corregir los defectos señalados lo antes posible.
 
-## Detalls
-El formulari recull dades de l'empresa instal·ladora (telèfon, número RASIC, instal·lador autoritzat), del local (activitat anterior/actual, superfície, situació), del titular i del treball realitzat. A les característiques tècniques s'anoten: sensibilitat dels diferencials, secció de la derivació individual, resistència de terra i d'aïllament, potències (màxima admissible, inicial, a contractar) i, si escau, la potència de l'ascensor.
+## Detalles
+El formulario recoge datos de la empresa instaladora (teléfono, número RASIC, instalador autorizado), del local (actividad anterior/actual, superficie, situación), del titular y del trabajo realizado. En las características técnicas se anotan: sensibilidad de los diferenciales, sección de la derivación individual, resistencia de tierra y de aislamiento, potencias (máxima admisible, inicial, a contratar) y, en su caso, la potencia del ascensor.
 
-Els defectes que es poden fer constar inclouen: receptors en volum prohibit de bany/dutxa, manca de mesures contra contactes indirectes, manca de protecció contra curtcircuits i sobrecàrregues, manca de resistència d'aïllament, excés de corrent de fuita, valors excessius de resistència a terra i excés de caiguda de tensió.
+Los defectos que se pueden hacer constar incluyen: receptores en volumen prohibido de baño/ducha, falta de medidas contra contactos indirectos, falta de protección contra cortocircuitos y sobrecargas, falta de resistencia de aislamiento, exceso de corriente de fuga, valores excesivos de resistencia a tierra y exceso de caída de tensión.
 
 ## Relacionado
 - [[reglament-electrotecnic-baixa-tensio]]

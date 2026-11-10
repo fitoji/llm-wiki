@@ -27,7 +27,7 @@ knowledge/
 ## Reglas generales
 
 1. Nunca modifiques el contenido de `knowledge/raw/`. Lo único que puedes cambiar es `compiled: false` -> `compiled: true` en el frontmatter.
-2. Escribe los artículos de la wiki en español, aunque la fuente esté en otro idioma. Mantén en el idioma original los nombres propios y términos técnicos.
+2. Escribe los artículos de la wiki en español SIEMPRE, aunque la fuente esté en otro idioma (catalán incluido): traduce al español todo contenido en catalán antes de escribirlo o actualizarlo. Mantén en el idioma original solo los nombres propios y términos técnicos sin equivalente corriente.
 3. Antes de crear un artículo nuevo, comprueba si ya existe uno sobre el mismo tema (mira `_index.md` y busca con tu herramienta de búsqueda sobre `knowledge/wiki/`; en este equipo no hay `grep` ni `rg` en el PATH, así que no uses un comando de shell). Si existe, ACTUALIZALO en lugar de duplicarlo.
 4. No inventes datos. Todo lo que escribas debe poder apoyarse en una fuente de `raw/`. Si algo no está claro en la fuente, no lo afirmes.
 5. Cada afirmación importante debe poder rastrearse: lista las fuentes en el frontmatter (`sources`).

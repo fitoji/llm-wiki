@@ -1,5 +1,5 @@
 ---
-title: Memòria tècnica de baixa tensió (model ELEC-3)
+title: Memoria técnica de baja tensión (modelo ELEC-3)
 type: concept
 tags: [rebt, baixa-tensio, catalunya, formularis, memoria-tecnica]
 sources: [papers/2026-11-10-memoria-tecnica-elc3.md]
@@ -7,18 +7,18 @@ created: 2026-11-10
 updated: 2026-11-10
 ---
 
-# Memòria tècnica de baixa tensió (model ELEC-3)
+# Memoria técnica de baja tensión (modelo ELEC-3)
 
-Document tècnic que acompanya determinades instal·lacions. Formulari G146NSIN-157-00.
+Documento técnico que acompaña a determinadas instalaciones. Formulario G146NSIN-157-00.
 
-## Punts clau
-- Recull titular, ús, emplaçament, localitat, ampliació, empresa distribuïdora, característiques de l'edifici i superfície local.
-- Dades de la instal·lació: potència màxima admissible (màxima que pot suportar el conjunt de la instal·lació), potència a instal·lar, intensitat de l'interruptor general, sensibilitat del diferencial, secció de la derivació individual i resistència de terra de protecció.
-- Graella de derivacions amb càrrega simultània (%), potència (kW), intensitat (A), secció per fase (mm²), moment elèctric (kW·m), caiguda de tensió, característiques del conductor, tipus de canalitzacions i aïllament.
-- Observacions sobre el grau de protecció d'aparamenta i receptors en locals especials.
+## Puntos clave
+- Recoge titular, uso, emplazamiento, localidad, ampliación, empresa distribuidora, características del edificio y superficie del local.
+- Datos de la instalación: potencia máxima admisible (máxima que puede soportar el conjunto de la instalación), potencia a instalar, intensidad del interruptor general, sensibilidad del diferencial, sección de la derivación individual y resistencia de tierra de protección.
+- Cuadrícula de derivaciones con carga simultánea (%), potencia (kW), intensidad (A), sección por fase (mm²), momento eléctrico (kW·m), caída de tensión, características del conductor, tipo de canalizaciones y aislamiento.
+- Observaciones sobre el grado de protección de la aparamenta y receptores en locales especiales.
 
-## Detalls
-S'exigeix per a les instal·lacions que figuren a la llista de classe P1 (vegeu [[classificacio-p1-p2]]). La signatura de l'instal·lador i el segell de l'empresa instal·ladora autoritzada tanquen el document.
+## Detalles
+Se exige para las instalaciones que figuran en la lista de clase P1 (ver [[classificacio-p1-p2]]). La firma del instalador y el sello de la empresa instaladora autorizada cierran el documento.
 
 ## Relacionado
 - [[reglament-electrotecnic-baixa-tensio]]
