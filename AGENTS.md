@@ -112,6 +112,16 @@ Markdown plano, sin frontmatter. El nombre lleva la fecha delante:
 
 Como `output/` queda fuera del grafo, se cita con el nombre del artículo en texto (`ver capability-overhang`), no con `[[enlaces]]`.
 
+## Memoria (Engram): higiene de sesiones
+
+Guardar memoria es parte del trabajo, pero falla cerrado cuando hay ambigüedad de sesión. Protocolo:
+
+1. **Resolver el proyecto primero**: `mem_current_project` con el directorio del vault. Usa el `project` devuelto tal cual (`llm-wiki`). Nunca inventes un nombre de proyecto ni un `session_id`.
+2. **Si `mem_save` o `mem_session_summary` falla** con `multiple active runtime sessions match the current project and directory`: no reintentes a ciegas. Ejecuta `mem_doctor`, lee el finding `ambiguous_active_runtime_sessions` y cierra **solo** los IDs confirmados como obsoletos con `mem_session_end` (cada uno con un resumen de cierre).
+3. **Después de cualquier tanda de subagentes en paralelo**, ejecuta `mem_doctor`: cada subagente abre su propia sesión de runtime y la deja abierta al terminar. Cierra las huérfanas antes de intentar guardar el resumen del padre.
+4. **Los subagentes cierran su sesión** con `mem_session_end` antes de devolver el resultado, o el padre las cierra al recibir la tanda.
+5. Si el guardado sigue bloqueado, deja el trabajo hecho y reporta la limitación de memoria; no inventes una sesión para forzar la escritura.
+
 ## Comandos disponibles
 
 - `/ingest <url o ruta>`: guarda una fuente nueva en `raw/` con su frontmatter.
