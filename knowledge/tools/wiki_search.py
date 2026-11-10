@@ -4,6 +4,10 @@
 Uso:
     python knowledge/tools/wiki_search.py index
     python knowledge/tools/wiki_search.py search "capability overhang" [-n 10]
+
+`search` reconstruye el índice por su cuenta si no existe o si algún artículo
+cambió desde la última indexación. Los archivos que no sean UTF-8 se omiten con
+un aviso en lugar de abortar la indexación completa.
 """
 import argparse
 import re
@@ -16,11 +20,17 @@ WIKI = ROOT / "wiki"
 DB = ROOT / "tools" / "wiki_index.sqlite"
 
 
+def articles():
+    """Artículos indexables de la wiki, en orden estable."""
+    return sorted(p for p in WIKI.rglob("*.md") if p.name != "_index.md")
+
+
 def parse(path: Path):
-    text = path.read_text(encoding="utf-8")
+    # utf-8-sig tolera BOM; el regex tolera CRLF y ausencia de salto final.
+    text = path.read_text(encoding="utf-8-sig")
     title = path.stem
     body = text
-    m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
+    m = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n?(.*)$", text, re.S)
     if m:
         front, body = m.group(1), m.group(2)
         t = re.search(r"^title:\s*(.+)$", front, re.M)
@@ -38,10 +48,13 @@ def build_index():
         "CREATE VIRTUAL TABLE docs USING fts5(path, title, body, tokenize='unicode61 remove_diacritics 2')"
     )
     n = 0
-    for p in sorted(WIKI.rglob("*.md")):
-        if p.name == "_index.md":
+    skipped = []
+    for p in articles():
+        try:
+            title, body = parse(p)
+        except (UnicodeDecodeError, OSError) as exc:
+            skipped.append(f"{p.relative_to(ROOT)} ({exc.__class__.__name__})")
             continue
-        title, body = parse(p)
         con.execute(
             "INSERT INTO docs(path, title, body) VALUES (?, ?, ?)",
             (str(p.relative_to(ROOT)), title, body),
@@ -49,11 +62,23 @@ def build_index():
         n += 1
     con.commit()
     con.close()
+    if skipped:
+        print("Aviso: se omitieron archivos ilegibles (guardalos como UTF-8):")
+        for s in skipped:
+            print(f"  - {s}")
     print(f"Indexados {n} artículos en {DB.name}")
 
 
-def search(query: str, limit: int):
+def stale() -> bool:
+    """True si falta el índice o si algún artículo es más nuevo que el índice."""
     if not DB.exists():
+        return True
+    db_mtime = DB.stat().st_mtime
+    return any(p.stat().st_mtime > db_mtime for p in articles())
+
+
+def search(query: str, limit: int):
+    if stale():
         build_index()
     con = sqlite3.connect(DB)
     # Cada palabra entre comillas para evitar errores de sintaxis FTS

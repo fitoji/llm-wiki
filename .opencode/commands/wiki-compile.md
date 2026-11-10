@@ -6,10 +6,11 @@ Sigue estos pasos EN ORDEN. Las reglas completas están en AGENTS.md.
 
 ## 1. Encontrar fuentes pendientes
 
-Busca los archivos de `knowledge/raw/` (recursivamente) cuyo frontmatter contenga `compiled: false`:
+Busca los archivos de `knowledge/raw/` (recursivamente) cuyo frontmatter contenga `compiled: false`, con tu herramienta de búsqueda de archivos (en este equipo no hay `grep` ni `rg` en el PATH: no invoques un comando de shell):
 
 ```
-grep -rl "compiled: false" knowledge/raw
+patrón: compiled: false
+ruta:   knowledge/raw/
 ```
 
 Si no hay ninguno, responde "No hay fuentes pendientes" y termina.
@@ -28,7 +29,7 @@ b. Extrae:
 c. Lee `knowledge/wiki/_index.md` para ver qué ya existe.
 
 d. Para cada elemento extraído:
-   - Si YA existe un artículo: léelo y actualízalo añadiendo la información nueva, la fuente en `sources`, y la fecha en `updated`. No borres información previa.
+   - Si YA existe un artículo: léelo y actualízalo añadiendo la información nueva, la fuente en `sources` y la fecha en `updated`. No borres información previa: si la fuente contradice lo que ya está escrito, anota ambas versiones con su fuente y su fecha y deja la contradicción marcada como pendiente (regla 10 de AGENTS.md).
    - Si NO existe: créalo con el formato de AGENTS.md.
 
 e. Añade enlaces `[[...]]` hacia otros artículos relacionados, tanto nuevos como existentes. Si un artículo existente es relevante para el nuevo, edita también el existente para enlazar de vuelta (backlink).

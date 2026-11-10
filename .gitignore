@@ -1,0 +1,15 @@
+# Índice de búsqueda generado por knowledge/tools/wiki_search.py
+knowledge/tools/wiki_index.sqlite
+
+# Caché y artefactos locales de herramientas
+.atl/
+
+# Material sin digerir (PDFs, capturas, descargas). Son binarios: no van al repo.
+knowledge/inbox/
+
+# Bóveda Obsidian de ejemplo que quedó dentro de knowledge/ (no es contenido de la wiki)
+knowledge/llm-wiki-rebt/
+
+# Estado local de Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json

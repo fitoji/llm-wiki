@@ -14,12 +14,13 @@ Guarda la fuente indicada en `knowledge/raw/` con su frontmatter. Fuente: $ARGUM
 2. Obtén el contenido:
    - URL de artículo: descarga la página y conviértela a markdown limpio (sin menús ni publicidad).
    - URL de YouTube: obtén la transcripción. Si hay `yt-dlp` instalado, usa
-     `yt-dlp --skip-download --write-auto-subs --sub-langs "es,en" --convert-subs srt -o "/tmp/%(id)s" URL`
-     y limpia los tiempos y duplicados del subtítulo para dejar texto continuo.
+     `yt-dlp --skip-download --write-auto-subs --sub-langs "es,en" --convert-subs srt -o "<carpeta-temporal>/%(id)s" URL`
+     con `<carpeta-temporal>` = `$env:TEMP` en Windows o `/tmp` en Linux, y limpia los tiempos y duplicados del subtítulo para dejar texto continuo.
+     Si `yt-dlp` no está instalado, no lo instales por tu cuenta: pide al usuario la transcripción o el texto.
    - Ruta de archivo local: léelo y conviértelo a markdown.
    Si no puedes obtener el contenido, dilo claramente y pide al usuario que lo pegue o lo guarde manualmente. No inventes contenido.
 
-3. Guarda el archivo con nombre `AAAA-MM-DD-titulo-corto.md` (minúsculas, guiones, sin acentos), con este frontmatter:
+3. Guarda el archivo con nombre `YYYY-MM-DD-titulo-corto.md` (minúsculas, guiones, sin acentos), con este frontmatter:
 
 ```
 ---

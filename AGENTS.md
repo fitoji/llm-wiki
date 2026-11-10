@@ -11,6 +11,7 @@ knowledge/
     articles/
     transcripts/
     papers/
+  inbox/            <- material sin digerir (PDFs, capturas). Binarios, ignorados por git
   wiki/             <- tú escribes aquí
     concepts/       <- ideas, técnicas, marcos de trabajo
     people/         <- personas
@@ -21,22 +22,28 @@ knowledge/
     wiki_search.py  <- búsqueda de texto completo (SQLite FTS5)
 ```
 
+`knowledge/tools/wiki_index.sqlite` se genera solo al indexar y está ignorado por git. No lo edites ni lo borres a mano: `search` reconstruye el índice si detecta cambios.
+
 ## Reglas generales
 
 1. Nunca modifiques el contenido de `knowledge/raw/`. Lo único que puedes cambiar es `compiled: false` -> `compiled: true` en el frontmatter.
 2. Escribe los artículos de la wiki en español, aunque la fuente esté en otro idioma. Mantén en el idioma original los nombres propios y términos técnicos.
-3. Antes de crear un artículo nuevo, comprueba si ya existe uno sobre el mismo tema (mira `_index.md` y busca con `grep -ril`). Si existe, ACTUALIZALO en lugar de duplicarlo.
+3. Antes de crear un artículo nuevo, comprueba si ya existe uno sobre el mismo tema (mira `_index.md` y busca con tu herramienta de búsqueda sobre `knowledge/wiki/`; en este equipo no hay `grep` ni `rg` en el PATH, así que no uses un comando de shell). Si existe, ACTUALIZALO en lugar de duplicarlo.
 4. No inventes datos. Todo lo que escribas debe poder apoyarse en una fuente de `raw/`. Si algo no está claro en la fuente, no lo afirmes.
 5. Cada afirmación importante debe poder rastrearse: lista las fuentes en el frontmatter (`sources`).
 6. Los nombres de archivo van en minúsculas, con guiones y sin acentos: `capability-overhang.md`, `amol-avasari.md`.
 7. Enlaza con la sintaxis de Obsidian: `[[nombre-del-archivo]]` (sin extensión).
+8. Cada vez que crees, renombres o borres un artículo, actualiza `knowledge/wiki/_index.md` en el mismo paso. Un artículo que no está en el índice está incompleto.
+9. Al modificar un artículo existente, actualiza `updated` con la fecha del día.
+10. Si una fuente contradice algo que ya está en un artículo, no borres lo anterior: anota ambas versiones con su fecha y su fuente, y marca la contradicción como pendiente de resolver.
+11. `knowledge/output/` no es wiki: no lleva enlaces `[[...]]`, no entra en `_index.md` y no se indexa en la búsqueda.
 
 ## Formato de un artículo de la wiki
 
 ```markdown
 ---
 title: Título legible
-type: concept | person | tool
+type: concept
 tags: [etiqueta1, etiqueta2]
 sources: [articles/archivo-fuente.md]
 created: YYYY-MM-DD
@@ -59,6 +66,9 @@ Explicación más extensa, con enlaces a otros artículos: [[otro-concepto]].
 - [[articulo-2]]
 ```
 
+- `type` lleva **un solo valor**: `concept`, `person` o `tool`. No escribas el enum completo.
+- `sources` son rutas **relativas a `knowledge/raw/`** (`articles/archivo-fuente.md`), sin el prefijo `knowledge/raw/`. Puede haber varias en la lista.
+
 ## Formato de una fuente en raw/
 
 ```markdown
@@ -74,9 +84,11 @@ compiled: false
 (contenido original)
 ```
 
+`compiled` es el único campo editable de una fuente: `false` hasta que `/wiki-compile` la procese, `true` después. El resto del archivo es intocable.
+
 ## Formato de `_index.md`
 
-Una lista agrupada por tipo, un artículo por línea:
+Una lista agrupada por tipo, un artículo por línea, en orden alfabético dentro de cada sección. El ejemplo muestra las tres secciones: en la práctica solo aparecen las que tienen artículos. Se actualiza en el mismo paso que el artículo (regla 8):
 
 ```markdown
 # Índice de la wiki
@@ -91,12 +103,21 @@ Una lista agrupada por tipo, un artículo por línea:
 - [[nombre]] — descripción de una línea
 ```
 
+## Formato de un archivo en output/
+
+Markdown plano, sin frontmatter. El nombre lleva la fecha delante:
+
+- Respuesta guardada: `YYYY-MM-DD-tema.md`
+- Informe de `/wiki-lint`: `lint-YYYY-MM-DD.md`
+
+Como `output/` queda fuera del grafo, se cita con el nombre del artículo en texto (`ver capability-overhang`), no con `[[enlaces]]`.
+
 ## Comandos disponibles
 
 - `/ingest <url o ruta>`: guarda una fuente nueva en `raw/` con su frontmatter.
 - `/wiki-compile`: convierte las fuentes con `compiled: false` en artículos de la wiki.
 - `/wiki-lint`: revisa la salud de la wiki y escribe un informe.
-- Búsqueda: `python knowledge/tools/wiki_search.py search "consulta"`.
+- Búsqueda: `python knowledge/tools/wiki_search.py search "consulta"`. Reindexa sola si detectó cambios; `... index` la fuerza.
 
 ## Responder preguntas
 
@@ -104,5 +125,6 @@ Cuando el usuario pregunte algo sobre su conocimiento:
 1. Lee `knowledge/wiki/_index.md`.
 2. Busca con `wiki_search.py` y lee los artículos relevantes.
 3. Responde citando los artículos con `[[enlaces]]`.
-4. Si la respuesta es valiosa, ofrece guardarla en `knowledge/output/` o convertirla en un artículo.
-5. Si la wiki no tiene la información, dilo claramente; no la inventes.
+4. Si la wiki no alcanza pero la información está en una fuente de `knowledge/raw/`, responde desde la fuente, cita su ruta y ofrece compilarla con `/wiki-compile`.
+5. Si no está ni en la wiki ni en `raw/`, dilo claramente; no la inventes.
+6. Si la respuesta es valiosa, ofrece guardarla en `knowledge/output/` (con el formato de arriba) o convertirla en un artículo.

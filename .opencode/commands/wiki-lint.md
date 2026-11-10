@@ -9,7 +9,7 @@ Haz una auditoría de `knowledge/wiki/`. Reglas en AGENTS.md. NO corrijas nada a
 Revisa todos los archivos `.md` de `knowledge/wiki/` (excepto `_index.md` para los puntos b y c):
 
 a. **Enlaces rotos**: enlaces `[[nombre]]` que no corresponden a ningún archivo `nombre.md` en la wiki.
-b. **Frontmatter**: faltan campos obligatorios (`title`, `type`, `sources`, `created`, `updated`).
+b. **Frontmatter**: faltan campos obligatorios (`title`, `type`, `sources`, `created`, `updated`), `type` no es `concept`, `person` o `tool`, o alguna ruta de `sources` no existe en `knowledge/raw/`.
 c. **Huérfanos**: artículos que no aparecen en `_index.md` o a los que no enlaza ningún otro artículo.
 d. **Índice**: entradas de `_index.md` que apuntan a archivos que no existen.
 e. **Duplicados**: artículos que parecen tratar el mismo concepto con nombres distintos.
@@ -19,7 +19,7 @@ h. **Afirmaciones sin respaldo**: artículos con `sources` vacío.
 
 ## 2. Informe
 
-Escribe el informe en `knowledge/output/lint-AAAA-MM-DD.md` (fecha de hoy) con una sección por comprobación y, en cada problema, el archivo afectado y la acción sugerida. Si una comprobación no encuentra nada, pon "OK".
+Escribe el informe en `knowledge/output/lint-YYYY-MM-DD.md` (fecha de hoy) con una sección por comprobación y, en cada problema, el archivo afectado y la acción sugerida. Si una comprobación no encuentra nada, pon "OK".
 
 ## 3. Arreglos seguros
 
