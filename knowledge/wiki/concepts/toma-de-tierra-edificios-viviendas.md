@@ -2,7 +2,7 @@
 title: Toma de tierra en edificios de viviendas (Guía-BT-26)
 type: concept
 tags: [rebt, baixa-tensio, espana, guia-tecnica, itc-bt, toma-de-tierra, edificios]
-sources: [papers/2026-11-10-guia-bt-26-prescripciones-generales.md]
+sources: [papers/2026-11-10-guia-bt-26-prescripciones-generales.md, papers/2026-11-10-rebt-itc-bt-18-instalaciones-de-puesta-a-tierra.md]
 created: 2026-11-10
 updated: 2026-11-10
 ---

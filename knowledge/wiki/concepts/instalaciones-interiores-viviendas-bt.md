@@ -2,7 +2,7 @@
 title: Instalaciones interiores en viviendas: electrificación, circuitos y características (Guía-BT-25)
 type: concept
 tags: [rebt, baixa-tensio, espana, guia-tecnica, itc-bt, viviendas, circuitos]
-sources: [papers/2026-11-10-guia-bt-25-circuitos-caracteristicas.md]
+sources: [papers/2026-11-10-guia-bt-25-circuitos-caracteristicas.md, papers/2026-11-10-rebt-itc-bt-25-instalaciones-interiores-en-viviendas-numero-de-circuitos-y-caracteristicas.md]
 created: 2026-11-10
 updated: 2026-11-10
 ---

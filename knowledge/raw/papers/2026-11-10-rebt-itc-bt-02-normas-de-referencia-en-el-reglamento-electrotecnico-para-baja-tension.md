@@ -4,7 +4,7 @@ source: https://www.boe.es/buscar/act.php?id=BOE-A-2002-18099
 author: "BOE — REBT, RD 842/2002 (BOE-A-2002-18099)"
 date: 2026-11-10
 tags: [rebt, itc-bt, normativa, baja-tension, espana]
-compiled: false
+compiled: true
 ---
 
 ## ITC-BT-02

@@ -2,7 +2,7 @@
 title: Reglament Electrotècnic per a Baixa Tensió (REBT)
 type: concept
 tags: [rebt, baixa-tensio, normativa, espanya]
-sources: [papers/2026-11-10-certificat-installacio-electrica-bt-elc1.md, papers/2026-11-10-butlleti-reconeixement-bt.md]
+sources: [papers/2026-11-10-certificat-installacio-electrica-bt-elc1.md, papers/2026-11-10-butlleti-reconeixement-bt.md, papers/2026-11-10-rebt-reglamento-baixa-tensio-texto-integro.md, papers/2026-11-10-rebt-informacion-relacionada.md]
 created: 2026-11-10
 updated: 2026-11-10
 ---

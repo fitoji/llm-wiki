@@ -2,7 +2,7 @@
 title: Locales con bañera o ducha: volúmenes y protección (Guía-BT-27)
 type: concept
 tags: [rebt, baixa-tensio, espana, guia-tecnica, itc-bt, banos, duchas, ip]
-sources: [papers/2026-11-10-guia-bt-27-locales-banera-ducha.md]
+sources: [papers/2026-11-10-guia-bt-27-locales-banera-ducha.md, papers/2026-11-10-rebt-itc-bt-27-instalaciones-interiores-en-viviendas-locales-que-contienen-una-banera-o-ducha.md]
 created: 2026-11-10
 updated: 2026-11-10
 ---

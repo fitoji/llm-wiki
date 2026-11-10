@@ -2,7 +2,7 @@
 title: Conductores y ejecución de la instalación interior en viviendas (Guía-BT-26)
 type: concept
 tags: [rebt, baixa-tensio, espana, guia-tecnica, itc-bt, conductores, ejecucion]
-sources: [papers/2026-11-10-guia-bt-26-prescripciones-generales.md]
+sources: [papers/2026-11-10-guia-bt-26-prescripciones-generales.md, papers/2026-11-10-rebt-itc-bt-26-instalaciones-interiores-en-viviendas-prescripciones-generales-de-instalacion.md]
 created: 2026-11-10
 updated: 2026-11-10
 ---

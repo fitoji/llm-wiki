@@ -6,9 +6,61 @@
 - [[classificacio-p1-p2]] — llistes P1 i P2 que determinen si cal memòria tècnica
 - [[conductores-y-ejecucion-instalacion-interior]] — conductores, identificación, sistemas de instalación y condiciones generales (Guía-BT-26)
 - [[instalaciones-interiores-viviendas-bt]] — electrificación básica/elevada, circuitos C1–C13 e IGA (Guía-BT-25)
+- [[itc-bt-01-terminologia]] — terminología (ITC-BT-01)
+- [[itc-bt-02-normas-de-referencia-en-el-reglamento-electrotecnico-para-baja-tension]] — normas de Referencia en el Reglamento Electrotécnico para Baja Tensión (ITC-BT-02)
+- [[itc-bt-03-empresas-instaladoras-en-baja-tension]] — empresas Instaladoras en Baja Tensión (ITC-BT-03)
+- [[itc-bt-04-documentacion-y-puesta-en-servicio-de-las-instalaciones]] — documentación y Puesta en Servicio de las Instalaciones (ITC-BT-04)
+- [[itc-bt-05-verificaciones-e-inspecciones]] — verificaciones e Inspecciones (ITC-BT-05)
+- [[itc-bt-06-redes-aereas-para-distribucion-en-baja-tension]] — redes Aéreas para Distribución en Baja Tensión (ITC-BT-06)
+- [[itc-bt-07-redes-subterraneas-para-distribucion-en-baja-tension]] — redes subterráneas para distribución en baja tensión (ITC-BT-07)
+- [[itc-bt-08-sistemas-de-conexion-del-neutro-y-de-las-masas-en-redes-de-distribucion-de-energia-electrica]] — sistemas de Conexión del Neutro y de las Masas en Redes de Distribución de Energía Eléctrica (ITC-BT-08)
+- [[itc-bt-09-instalaciones-de-alumbrado-exterior]] — instalaciones de Alumbrado Exterior (ITC-BT-09)
+- [[itc-bt-10-prevision-de-cargas-para-suministros-en-baja-tension]] — previsión de Cargas para Suministros en Baja Tensión (ITC-BT-10)
+- [[itc-bt-11-redes-de-distribucion-de-energia-electrica-acometidas]] — redes de Distribución de Energía Eléctrica. Acometidas (ITC-BT-11)
+- [[itc-bt-12-instalaciones-de-enlace-esquemas]] — instalaciones de enlace. Esquemas
+- [[itc-bt-13-instalaciones-de-enlace-cajas-generales-de-proteccion]] — instalaciones de enlace. Cajas generales de protección
+- [[itc-bt-14-instalaciones-de-enlace-linea-general-de-alimentacion]] — instalaciones de enlace. Línea general de alimentación
+- [[itc-bt-15-instalaciones-de-enlace-derivaciones-individuales]] — instalaciones de enlace. Derivaciones individuales
+- [[itc-bt-16-instalaciones-de-enlace-contadores-ubicacion-y-sistemas-de-instalacion]] — instalaciones de enlace. Contadores: ubicación y sistemas de instalación
+- [[itc-bt-17-instalaciones-de-enlace-dispositivos-generales-e-individuales-de-mando-y-proteccion-interruptor]] — instalaciones de enlace. Dispositivos generales e individuales de mando y protección. Interruptor de control de potencia
+- [[itc-bt-18-instalaciones-de-puesta-a-tierra]] — instalaciones de puesta a tierra
+- [[itc-bt-19-instalaciones-interiores-o-receptoras-prescripciones-generales]] — instalaciones interiores o receptoras. Prescripciones generales
+- [[itc-bt-20-instalaciones-interiores-o-receptoras-sistemas-de-instalacion]] — instalaciones interiores o receptoras. Sistemas de instalación (ITC-BT-20)
+- [[itc-bt-21-instalaciones-interiores-o-receptoras-tubos-y-canales-protectoras]] — instalaciones interiores o receptoras. Tubos y canales protectoras (ITC-BT-21)
+- [[itc-bt-22-instalaciones-interiores-o-receptoras-proteccion-contra-sobreintensidades]] — instalaciones interiores o receptoras. Protección contra sobreintensidades (ITC-BT-22)
+- [[itc-bt-23-instalaciones-interiores-o-receptoras-proteccion-contra-sobretensiones]] — instalaciones interiores o receptoras. Protección contra sobretensiones (ITC-BT-23)
+- [[itc-bt-24-instalaciones-interiores-o-receptoras-proteccion-contra-los-contactos-directos-e-indirectos]] — instalaciones interiores o receptoras. Protección contra los contactos directos e indirectos (ITC-BT-24)
+- [[itc-bt-25-instalaciones-interiores-en-viviendas-numero-de-circuitos-y-caracteristicas]] — instalaciones interiores en viviendas. Número de circuitos y características (ITC-BT-25)
+- [[itc-bt-26-instalaciones-interiores-en-viviendas-prescripciones-generales-de-instalacion]] — instalaciones interiores en viviendas. Prescripciones generales de instalación (ITC-BT-26)
+- [[itc-bt-27-instalaciones-interiores-en-viviendas-locales-que-contienen-una-banera-o-ducha]] — instalaciones interiores en viviendas. Locales que contienen una bañera o ducha (ITC-BT-27)
+- [[itc-bt-28-instalaciones-en-locales-de-publica-concurrencia]] — instalaciones en locales de pública concurrencia (ITC-BT-28)
+- [[itc-bt-29-prescripciones-particulares-para-las-instalaciones-electricas-de-los-locales-con-riesgo-de-ince]] — prescripciones particulares para las instalaciones eléctricas de los locales con riesgo de incendio o explosión (ITC-BT-29)
+- [[itc-bt-30-instalaciones-en-locales-de-caracteristicas-especiales]] — instalaciones en locales de características especiales (ITC-BT-30)
+- [[itc-bt-31-instalaciones-con-fines-especiales-piscinas-y-fuentes]] — instalaciones con fines especiales. Piscinas y fuentes (ITC-BT-31)
+- [[itc-bt-32-instalaciones-con-fines-especiales-maquinas-de-elevacion-y-transporte]] — instalaciones con fines especiales. Máquinas de elevación y transporte (ITC-BT-32)
+- [[itc-bt-33-instalaciones-con-fines-especiales-instalaciones-provisionales-y-temporales-de-obras]] — instalaciones con fines especiales. Instalaciones provisionales y temporales de obras (ITC-BT-33)
+- [[itc-bt-34-instalaciones-con-fines-especiales-ferias-y-stands]] — instalaciones con fines especiales. Ferias y stands (ITC-BT-34)
+- [[itc-bt-35-instalaciones-con-fines-especiales-establecimientos-agricolas-y-horticolas]] — instalaciones con fines especiales. Establecimientos agrícolas y hortícolas (ITC-BT-35)
+- [[itc-bt-36-instalaciones-a-muy-baja-tension]] — instalaciones a muy baja tensión
+- [[itc-bt-37-instalaciones-a-tensiones-especiales]] — instalaciones a tensiones especiales
+- [[itc-bt-38-instalaciones-con-fines-especiales-requisitos-particulares-para-la-instalacion-electrica-en-qui]] — instalaciones con fines especiales. Requisitos particulares para la instalación eléctrica en quirófanos y salas de intervención
+- [[itc-bt-39-instalaciones-con-fines-especiales-cercas-electricas-para-ganado]] — instalaciones con fines especiales. Cercas eléctricas para ganado
+- [[itc-bt-40-instalaciones-generadoras-de-baja-tension]] — instalaciones generadoras de baja tensión
+- [[itc-bt-41-instalaciones-electricas-en-caravanas-y-parques-de-caravanas]] — instalaciones eléctricas en caravanas y parques de caravanas
+- [[itc-bt-42-instalaciones-electricas-en-puertos-y-marinas-para-barcos-de-recreo]] — instalaciones eléctricas en puertos y marinas para barcos de recreo
+- [[itc-bt-43-instalacion-de-receptores-prescripciones-generales]] — instalación de receptores. Prescripciones generales
+- [[itc-bt-44-instalacion-de-receptores-receptores-para-alumbrado]] — instalación de receptores. Receptores para alumbrado
+- [[itc-bt-45-instalacion-de-receptores-aparatos-de-caldeo]] — instalación de receptores. Aparatos de caldeo (ITC-BT-45)
+- [[itc-bt-46-instalacion-de-receptores-cables-y-folios-radiantes-en-viviendas]] — instalación de receptores. Cables y folios radiantes en viviendas (ITC-BT-46)
+- [[itc-bt-47-instalacion-de-receptores-motores]] — instalación de receptores. Motores (ITC-BT-47)
+- [[itc-bt-48-instalacion-de-receptores-transformadores-y-autotransformadores-reactancias-y-rectificadores-co]] — instalación de receptores. Transformadores y autotransformadores. Reactancias y rectificadores. Condensadores (ITC-BT-48)
+- [[itc-bt-49-instalaciones-electricas-en-muebles]] — instalaciones eléctricas en muebles (ITC-BT-49)
+- [[itc-bt-50-instalaciones-electricas-en-locales-que-contienen-radiadores-para-saunas]] — instalaciones eléctricas en locales que contienen radiadores para saunas (ITC-BT-50)
+- [[itc-bt-51-instalaciones-de-sistemas-de-automatizacion-gestion-tecnica-de-la-energia-y-seguridad-para-vivi]] — instalaciones de sistemas de automatización, gestión técnica de la energía y seguridad para viviendas y edificios (ITC-BT-51)
+- [[itc-bt-52-instalaciones-con-fines-especiales-infraestructura-para-la-recarga-de-vehiculos-electricos]] — instalaciones con fines especiales. Infraestructura para la recarga de vehículos eléctricos (ITC-BT-52)
 - [[locales-banera-ducha-bt]] — volúmenes 0–3, protección y grados IP en baños y duchas (Guía-BT-27)
 - [[memoria-tecnica-baixa-tensio]] — memòria tècnica ELEC-3 per a instal·lacions de classe P1
 - [[puntos-utilizacion-vivienda]] — puntos de utilización mínimos y de confort por estancia (Guía-BT-25)
-- [[reglament-electrotecnic-baixa-tensio]] — REBT, aprovat pel RD 842/2002
+- [[reglament-electrotecnic-baixa-tensio]] — REBT aprovat pel RD 842/2002, amb el text íntegre del BOE
 - [[toma-de-tierra-edificios-viviendas]] — toma de tierra: anillo, picas, bornes y secciones (Guía-BT-26)
 - [[usos-installacio-bt]] — usos d'instal·lació i subclassificacions g/h del certificat ELEC-1
