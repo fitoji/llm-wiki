@@ -2,9 +2,9 @@
 title: ITC-BT-01 — Terminología
 type: concept
 tags: [rebt, baja-tension, itc-bt-01, terminologia, proteccion-electrica]
-sources: [papers/2026-11-10-rebt-itc-bt-01-terminologia.md]
+sources: [papers/2026-11-10-rebt-itc-bt-01-terminologia.md, papers/2026-11-10-itc-bt-01.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-11
 ---
 
 # ITC-BT-01 — Terminología

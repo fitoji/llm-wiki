@@ -5,6 +5,7 @@
 - [[certificat-installacio-electrica-bt]] — certificado ELEC-1: declara la conformidad con el REBT
 - [[classificacio-p1-p2]] — listas P1 y P2 que determinan si hace falta memoria técnica
 - [[conductores-y-ejecucion-instalacion-interior]] — conductores, identificación, sistemas de instalación y condiciones generales (Guía-BT-26)
+- [[esquema-unifilar-bt-elc2]] — formulario ELEC-2: esquema unifilar de la instalación en baja tensión
 - [[guia-bt-03-instaladores-autorizados-en-baja-tension]] — instaladores autorizados en baja tensión (Guía-BT-03)
 - [[guia-bt-04-documentacion-y-puesta-en-servicio-de-las-instalaciones]] — documentación y puesta en servicio de las instalaciones (Guía-BT-04)
 - [[guia-bt-05-verificaciones-e-inspecciones]] — verificaciones e inspecciones (Guía-BT-05)
