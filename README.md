@@ -8,17 +8,18 @@ Una base de conocimiento que **mantiene el agente**. Tú aportas material y hace
 | --- | --- |
 | `AGENTS.md` | El contrato: estructura, reglas y formatos. Es lo primero que lee el agente. |
 | `.opencode/commands/` | Los tres comandos: `/ingest`, `/wiki-compile`, `/wiki-lint`. |
-| `knowledge/raw/` | Material en bruto. Solo lectura para el agente (salvo el campo `compiled`). |
+| `knowledge/raw/` | Material en bruto. Solo lectura para el agente (salvo el campo `compiled`). Incluye `raw/imgs/` (figuras) y `raw/tablas/` (CSV), que las fuentes referencian. |
 | `knowledge/wiki/` | La wiki. Acá escribe el agente. |
 | `knowledge/output/` | Respuestas e informes que vale la pena conservar. |
 | `knowledge/tools/wiki_search.py` | Búsqueda de texto completo (SQLite FTS5, sin dependencias). |
+| `tools/guia_rebt/` | Pipeline que regenera el corpus de Guías Técnicas del REBT desde los PDF oficiales (`indice.json` lleva el `sha256` de cada PDF). |
 
 ## Instalación
 
 1. Copia el contenido de esta carpeta a la raíz de tu vault de Obsidian: `AGENTS.md`, `.opencode/commands/` y `knowledge/`.
 2. Las carpetas vacías ya vienen con un `.gitkeep`; si armas el vault desde cero, crea:
    ```
-   knowledge/raw/{articles,transcripts,papers}
+   knowledge/raw/{articles,transcripts,papers,imgs,tablas}
    knowledge/wiki/{concepts,people,tools}
    knowledge/output
    ```

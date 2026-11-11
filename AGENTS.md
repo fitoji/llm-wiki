@@ -11,6 +11,8 @@ knowledge/
     articles/
     transcripts/
     papers/
+    imgs/           <- figuras extraídas de los PDF (las fuentes las referencian como ../imgs/...)
+    tablas/         <- CSV de cada tabla (las fuentes las referencian como ../tablas/...)
   inbox/            <- material sin digerir (PDFs, capturas). Binarios, ignorados por git
   wiki/             <- tú escribes aquí
     concepts/       <- ideas, técnicas, marcos de trabajo
@@ -23,6 +25,8 @@ knowledge/
 ```
 
 `knowledge/tools/wiki_index.sqlite` se genera solo al indexar y está ignorado por git. No lo edites ni lo borres a mano: `search` reconstruye el índice si detecta cambios.
+
+`tools/guia_rebt/` (en la raíz del repo) es el pipeline que regenera el corpus de Guías Técnicas del REBT: `convert_guia_to_markdown.py` vuelve a bajar los PDF oficiales de industria.gob.es y produce los `.md` con las tablas inline, `indice.json` lleva el `sha256` de cada PDF para detectar si el ministerio publicó otra edición y `auditar_cobertura.py` verifica qué ITC tienen guía publicada.
 
 ## Reglas generales
 
