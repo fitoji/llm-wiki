@@ -1,7 +1,7 @@
 # Compilación de las Guías Técnicas del REBT desde `inbox/guia_rebt`
 
 Objetivo: ingerir el corpus `guia_rebt` (39 md, ~1.3 MB) como fuentes raw y compilar artículos de la wiki por cada guía, comparando cada guía con su ITC-BT y **anotando divergencias en el artículo de la guía** (el REBT tiene siempre la autoridad).
-Branch: master · Entrega: commits directos (convención del vault) · Verificación: revisión estructural (frontmatter, `_index.md`, sección de divergencias presente en cada artículo de guía).
+Branch: main · Entrega: commits directos (convención del vault) · Verificación: revisión estructural (frontmatter, `_index.md`, sección de divergencias presente en cada artículo de guía).
 
 ## Specs
 

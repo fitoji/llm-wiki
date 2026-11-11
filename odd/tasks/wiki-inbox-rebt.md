@@ -1,7 +1,7 @@
 # Compilación del REBT desde `inbox/rebt_salida`
 
 Objetivo: convertir las 54 fuentes raw del REBT (ingesta `2026-11-10-rebt-*`) en artículos de la wiki, uno por ITC-BT (con actualización de artículos existentes que ya cubren ITC-BT-25/26/27).
-Branch: master · Entrega: commits directos (convención del vault) · Verificación: revisión estructural de frontmatter + `_index.md` completo.
+Branch: main · Entrega: commits directos (convención del vault) · Verificación: revisión estructural de frontmatter + `_index.md` completo.
 
 ## Specs
 
