@@ -33,6 +33,7 @@ El alumbrado de seguridad permitirá, en caso de fallo del alumbrado normal, la 
 En cuanto a la aparamenta de mando y seccionamiento, los dispositivos de seccionamiento y de protección de los circuitos de distribución pueden estar incluidos en el cuadro principal o en cuadros distintos del principal. La alimentación de los aparatos de utilización se realiza a partir de cuadros de distribución en los que se integran los dispositivos de protección contra las sobreintensidades, los dispositivos de protección contra los contactos indirectos y las bases de toma de corriente.
 
 ## Relacionado
+- [[guia-bt-33-instalaciones-provisionales-y-temporales-de-obras]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-33)
 
 - [[reglament-electrotecnic-baixa-tensio]]
 - [[itc-bt-20-instalaciones-interiores-o-receptoras-sistemas-de-instalacion]] [[itc-bt-21-instalaciones-interiores-o-receptoras-tubos-y-canales-protectoras]] [[itc-bt-24-instalaciones-interiores-o-receptoras-proteccion-contra-los-contactos-directos-e-indirectos]]

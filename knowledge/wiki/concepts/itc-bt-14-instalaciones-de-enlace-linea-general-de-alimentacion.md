@@ -50,6 +50,7 @@ Tabla 1. Sección de fase y neutro frente al diámetro exterior de los tubos:
 | 240 | 120 | 200 |
 
 ## Relacionado
+- [[guia-bt-14-linea-general-de-alimentacion]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-14)
 - [[itc-bt-14-instalaciones-de-enlace-linea-general-de-alimentacion]]
 - [[itc-bt-21-instalaciones-interiores-o-receptoras-tubos-y-canales-protectoras]]
 - [[itc-bt-07-redes-subterraneas-para-distribucion-en-baja-tension]]

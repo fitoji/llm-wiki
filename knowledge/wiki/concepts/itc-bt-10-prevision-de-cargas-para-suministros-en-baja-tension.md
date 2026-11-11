@@ -48,6 +48,7 @@ La carga de un conjunto de viviendas se obtiene multiplicando la media aritméti
 La instrucción quedó modificada, con efectos del 30 de junio de 2015, por la disposición final 4 del Real Decreto 1053/2014, de 12 de diciembre (BOE-A-2014-13681).
 
 ## Relacionado
+- [[guia-bt-10-prevision-de-cargas-para-suministros-en-baja-tension]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-10)
 
 - [[itc-bt-25-instalaciones-interiores-en-viviendas-numero-de-circuitos-y-caracteristicas]]
 - [[itc-bt-52-instalaciones-con-fines-especiales-infraestructura-para-la-recarga-de-vehiculos-electricos]]

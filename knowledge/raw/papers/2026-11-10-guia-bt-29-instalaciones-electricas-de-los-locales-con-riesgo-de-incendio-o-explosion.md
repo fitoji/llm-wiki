@@ -4,7 +4,7 @@ source: https://industria.gob.es/Calidad-Industrial/seguridadindustrial/instalac
 author: "Ministerio de Industria y Turismo — Guías Técnicas de Aplicación del REBT"
 date: 2026-11-10
 tags: [rebt, guia-tecnica, baja-tension, espana, itc-bt]
-compiled: false
+compiled: true
 ---
 
 # BT-29. Instalaciones eléctricas de los locales con riesgo de incendio o explosión

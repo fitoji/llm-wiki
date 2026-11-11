@@ -39,6 +39,7 @@ Los locales con baterías de acumuladores con posibilidad de desprendimiento de 
 Para locales con circunstancias especiales no especificadas en estas Instrucciones, la selección e instalación de los equipos se hará en función de las influencias externas definidas en la norma UNE 20.460-3. Cuando un equipo no posea por su construcción las características del local puede utilizarse si se le proporciona una protección complementaria adecuada durante la realización de la instalación, sin perjudicar su funcionamiento. Cuando se produzcan simultáneamente diferentes influencias externas, sus efectos pueden ser independientes o influirse mutuamente, y los grados de protección se seleccionarán en consecuencia; la norma UNE 20.460-3 establece la clasificación y codificación de estas influencias, que no está prevista para el marcado de los equipos.
 
 ## Relacionado
+- [[guia-bt-30-instalaciones-en-locales-de-caracteristicas-especiales]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-30)
 
 - [[reglament-electrotecnic-baixa-tensio]]
 - [[locales-banera-ducha-bt]]

@@ -34,6 +34,7 @@ Siempre que sea posible, con niveles de iluminación decrecientes en las horas d
 **Contactos y tierra.** Luminarias de Clase I o II, con partes metálicas accesibles de los soportes a tierra; bajo 3 m se accede al interior solo con útiles especiales, y las partes metálicas de kioscos, marquesinas o cabinas a menos de 2 m y tocables simultáneamente van a tierra. Las de Clase I, conectadas con cable 450/750 V verde-amarillo de 2,5 mm² en cobre. La resistencia de tierra garantiza tensiones de contacto ≤ 24 V; la red de tierra es común a todas las líneas del mismo cuadro, con electrodo al menos cada 5 soportes y en el primero y último. Conductores de tierra: desnudos de cobre de 35 mm² mínimo, o aislados verde-amarillo de 16 mm² mínimo en subterráneas e igual a la fase en posadas; el de protección de cada soporte, 450/750 V aislado, 16 mm² mínimo en cobre.
 
 ## Relacionado
+- [[guia-bt-09-instalaciones-de-alumbrado-exterior]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-09)
 
 - [[itc-bt-06-redes-aereas-para-distribucion-en-baja-tension]]
 - [[itc-bt-07-redes-subterraneas-para-distribucion-en-baja-tension]]

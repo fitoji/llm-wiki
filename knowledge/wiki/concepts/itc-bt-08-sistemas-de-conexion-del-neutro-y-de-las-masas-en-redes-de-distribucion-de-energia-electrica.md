@@ -36,6 +36,7 @@ Define los esquemas de distribución TN, TT e IT según las conexiones a tierra 
 **Prescripciones para aplicar TN.** La sección del neutro, en todo su recorrido, debe ser como mínimo la indicada según la sección de fase (con 50 mm² de fase, 50 mm² en redes aéreas y 25 mm² en subterráneas; con 240 mm², 120 mm² en ambas). Además: el neutro de las líneas aéreas se tiende con las mismas precauciones que los conductores de fase; los neutros de líneas principales y derivaciones se ponen a tierra también en sus extremos cuando su longitud supera los 200 m; y en el esquema TN-C las masas se conectan al conductor neutro mediante conductores de protección.
 
 ## Relacionado
+- [[guia-bt-08-sistema-de-conexion-del-neutro-y-de-las-masas-en-redes-de-distribucion-de-energi]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-08)
 
 - [[itc-bt-06-redes-aereas-para-distribucion-en-baja-tension]]
 - [[itc-bt-07-redes-subterraneas-para-distribucion-en-baja-tension]]

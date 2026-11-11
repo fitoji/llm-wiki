@@ -43,6 +43,7 @@ Los tubos y canales protectoras deben cumplir unas características mínimas (ta
 Son ejemplos de emplazamientos peligrosos de Clase I los garajes y talleres de reparación de vehículos (se excluyen los garajes privados de 5 vehículos o menos), cabinas de pintura con pulverización y disolventes, secaderos con disolventes, salas de gasógenos o salas de bombas de líquidos y gases inflamables. De Clase II: zonas de la industria alimentaria que maneja granos, pulverización de carbón, plantas de azufre, polvos metálicos ligeros (Al, Mg), tratamiento de textiles y carpinterías. En el proyecto se incluirán la clasificación de emplazamientos con plano representativo, la adecuación de categorías a zonas, las instrucciones de instalación y las condiciones especiales de utilización; el propietario conservará copia del proyecto, manuales, declaraciones CE de conformidad y los documentos descriptivos de los sistemas de seguridad intrínseca.
 
 ## Relacionado
+- [[guia-bt-29-instalaciones-electricas-de-los-locales-con-riesgo-de-incendio-o-explosion]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-29)
 
 - [[reglament-electrotecnic-baixa-tensio]]
 - [[itc-bt-21-instalaciones-interiores-o-receptoras-tubos-y-canales-protectoras]]

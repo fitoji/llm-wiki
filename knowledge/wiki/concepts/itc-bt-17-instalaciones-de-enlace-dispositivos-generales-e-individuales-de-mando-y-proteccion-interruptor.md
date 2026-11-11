@@ -29,6 +29,7 @@ El cuadro debe prever, según la tarifa a aplicar, los mecanismos de control nec
 Los dispositivos de protección contra sobrecargas y cortocircuitos de los circuitos interiores serán de corte omnipolar, con los polos protegidos correspondientes al número de fases del circuito que protegen, y sus características de interrupción estarán de acuerdo con las corrientes admisibles de los conductores del circuito que protegen.
 
 ## Relacionado
+- [[guia-bt-17-dispositivos-generales-e-individuales-de-mando-y-proteccion]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-17)
 - [[itc-bt-17-instalaciones-de-enlace-dispositivos-generales-e-individuales-de-mando-y-proteccion-interruptor]]
 - [[itc-bt-23-instalaciones-interiores-o-receptoras-proteccion-contra-sobretensiones]]
 - [[itc-bt-24-instalaciones-interiores-o-receptoras-proteccion-contra-los-contactos-directos-e-indirectos]]

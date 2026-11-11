@@ -55,6 +55,7 @@ Tabla 5. Fórmulas orientativas: placa enterrada, R = 0,8 ρ/P (P, perímetro en
 En instalaciones de utilización con centro de transformación, las masas y sus conductores de protección no se unen a la toma de tierra de las masas del centro de transformación; puede considerarse independencia cuando no exista canalización metálica que una ambas zonas, la distancia entre tomas sea al menos de 15 metros para terrenos de resistividad baja (<100 Ω·m) —calculándose por la fórmula reglamentaria con la resistividad y la corriente de defecto en terrenos muy mal conductores, con U = 1200 V para redes TT si el defecto en alta tensión se elimina en ≤5 s y 250 V en caso contrario— y el centro de transformación esté aislado o eléctricamente separado de los locales de utilización. La unión de ambas puestas a tierra sólo se permite si la resistencia de la toma única hace que la tensión de defecto (Vd = Id·Rt) sea menor que la tensión de contacto máxima admisible.
 
 ## Relacionado
+- [[guia-bt-18-instalaciones-de-puesta-a-tierra]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-18)
 - [[itc-bt-18-instalaciones-de-puesta-a-tierra]]
 - [[itc-bt-24-instalaciones-interiores-o-receptoras-proteccion-contra-los-contactos-directos-e-indirectos]]
 - [[toma-de-tierra-edificios-viviendas]]

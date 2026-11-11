@@ -29,6 +29,7 @@ El conductor de neutro admite excepciones bajo condiciones estrictas. En el esqu
 Otras notas de la tabla: el corte y la conexión del neutro deben realizarse de modo que el neutro no se corte antes que las fases y se conecte al mismo tiempo o antes que estas; en esquema TT con neutro no distribuido puede omitirse la detección sobre una fase si existe aguas arriba una protección diferencial que corte todos los conductores de fase y no haya distribución del neutro a partir de un punto neutro artificial aguas abajo; y en esquemas con protección diferencial se salvan ciertas detecciones siempre que, en el caso del neutro, exista aguas arriba una protección diferencial cuya corriente diferencial-residual nominal sea como máximo 0,15 veces la corriente admisible del neutro, dispositivo que debe cortar todos los conductores activos del circuito, incluido el neutro.
 
 ## Relacionado
+- [[guia-bt-22-proteccion-contra-sobreintensidades]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-22)
 
 - [[reglament-electrotecnic-baixa-tensio]]
 - [[instalaciones-interiores-viviendas-bt]]

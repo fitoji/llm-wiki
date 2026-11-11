@@ -29,6 +29,7 @@ Las concentraciones de contadores albergan las unidades funcionales de medida, m
 La propiedad del edificio o el usuario responden del quebranto de precintos y de la alteración de los elementos bajo su custodia. Para homogeneizar las instalaciones, la empresa suministradora elige, de común acuerdo con la propiedad, entre las soluciones propuestas; en caso de discrepancia resuelve el Organismo Competente de la Administración. Se admiten otras soluciones, como contadores individuales en viviendas o locales con nuevas técnicas de telegestión. Los apartados 1 y 3 fueron modificados, con efectos de 30 de junio de 2015, por la disposición final quinta del Real Decreto 1053/2014.
 
 ## Relacionado
+- [[guia-bt-16-contadores-ubicacion-y-sistemas-de-instalacion]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-16)
 - [[itc-bt-16-instalaciones-de-enlace-contadores-ubicacion-y-sistemas-de-instalacion]]
 - [[itc-bt-13-instalaciones-de-enlace-cajas-generales-de-proteccion]]
 - [[itc-bt-15-instalaciones-de-enlace-derivaciones-individuales]]

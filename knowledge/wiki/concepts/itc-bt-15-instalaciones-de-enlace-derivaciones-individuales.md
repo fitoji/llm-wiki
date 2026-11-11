@@ -45,6 +45,7 @@ Tabla 1. Dimensiones mínimas de la canaladura o conducto de obra de fábrica:
 Para más derivaciones individuales se dispondrá el número de conductos o canaladuras necesario.
 
 ## Relacionado
+- [[guia-bt-15-derivaciones-individuales]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-15)
 - [[itc-bt-15-instalaciones-de-enlace-derivaciones-individuales]]
 - [[itc-bt-21-instalaciones-interiores-o-receptoras-tubos-y-canales-protectoras]]
 - [[itc-bt-07-redes-subterraneas-para-distribucion-en-baja-tension]]

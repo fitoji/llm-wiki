@@ -58,6 +58,7 @@ Tabla 1. Potencias instaladas normalizadas en un circuito de recarga para una vi
 **Historial normativo.** Los apartados 3.2 y 5.4 fueron modificados por el RD 1053/2014 (añadido con efectos de 30 de junio de 2015), en redacción dada por el RD 542/2020 y por la disposición final 1.2 y 3 del RD 450/2022.
 
 ## Relacionado
+- [[guia-bt-52-infraestructuras-para-la-recarga-de-vehiculos-electricos]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-52)
 
 - [[reglament-electrotecnic-baixa-tensio]]
 - [[instalaciones-interiores-viviendas-bt]]

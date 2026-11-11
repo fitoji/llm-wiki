@@ -35,6 +35,7 @@ El montaje fijo en superficie exige interrumpir los tubos rígidos en cruces con
 Las canales con grado IP4X o superior y tapa que solo se abre con herramientas admiten conductor aislado de 450/750 V, mecanismos interiores (interruptores, tomas de corriente, dispositivos de mando y control según instrucciones del fabricante) y empalmes interiores; con grado inferior a IP4X o tapa abrible sin herramientas solo cabe conductor aislado bajo cubierta estanca de 300/500 V. En instalaciones superficiales ordinarias, el lado mayor de la sección transversal de la canal (≤ 16 mm o > 16 mm) determina el grado de resistencia al impacto y a la penetración de objetos sólidos.
 
 ## Relacionado
+- [[guia-bt-21-tubos-y-canales-protectoras]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-21)
 
 - [[itc-bt-20-instalaciones-interiores-o-receptoras-sistemas-de-instalacion]]
 - [[itc-bt-01-terminologia]]

@@ -43,6 +43,7 @@ Las molduras admiten solo locales secos, temporalmente húmedos o polvorientos, 
 Al atravesar muros, tabiques y techos, la protección contra deterioros mecánicos, acciones químicas y humedad es continua. Cuando el elemento separa locales de humedades diferentes, se impide la entrada de agua al local menos húmedo (curvando el extremo hacia el local más húmedo) y si el paso desemboca al exterior se instala pipa de porcelana, vidrio o material aislante con paso de conductores ascendente. La protección mecánica en el paso usa tubos normales si la longitud no excede 20 cm y tubos de la tabla 3 de la ITC-BT-21 si la excede; los extremos metálicos llevan boquillas aislantes o bordes redondeados, y los cables armados o con aislamiento mineral no precisan protección suplementaria si su cubierta no es atacada. Si el paso se hace por techo con tubo, este se obtura con cierre estanco y su extremidad superior sale sobre el suelo una altura igual a la de los rodapiés o, en otro caso, 10 cm.
 
 ## Relacionado
+- [[guia-bt-20-instalaciones-interiores-o-receptoras-sistemas-de-instalacion]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-20)
 
 - [[itc-bt-21-instalaciones-interiores-o-receptoras-tubos-y-canales-protectoras]]
 - [[itc-bt-24-instalaciones-interiores-o-receptoras-proteccion-contra-los-contactos-directos-e-indirectos]]

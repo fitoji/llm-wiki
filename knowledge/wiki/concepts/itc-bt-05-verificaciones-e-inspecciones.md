@@ -40,6 +40,7 @@ Un defecto leve no supone peligro para personas o bienes, no perturba el funcion
 El apartado 4.1 quedó modificado, con efectos del 30 de junio de 2015, por la disposición final 3 del Real Decreto 1053/2014 (BOE-A-2014-13681).
 
 ## Relacionado
+- [[guia-bt-05-verificaciones-e-inspecciones]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-05)
 
 - [[reglament-electrotecnic-baixa-tensio]]
 - [[certificat-installacio-electrica-bt]]

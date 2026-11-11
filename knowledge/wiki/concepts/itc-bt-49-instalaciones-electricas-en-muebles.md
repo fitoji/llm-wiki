@@ -36,6 +36,7 @@ El apartado de muebles no destinados a cuartos de baño incluye mesas, camas, ar
 Para los cuartos de baño y locales con bañera o ducha la instrucción no crea un régimen autónomo: remite a los volúmenes y prescripciones de la ITC-BT-27 y añade requisitos de instalación que garantizan que la conexión a la instalación fija sea duradera y no manipulable sin herramientas, con la tierra identificada y ligada a la tierra del edificio.
 
 ## Relacionado
+- [[guia-bt-49-instalaciones-electricas-en-muebles]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-49)
 - [[itc-bt-49-instalaciones-electricas-en-muebles]]
 - [[locales-banera-ducha-bt]]
 - [[itc-bt-27-instalaciones-interiores-en-viviendas-locales-que-contienen-una-banera-o-ducha]]

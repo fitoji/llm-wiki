@@ -20,6 +20,12 @@ El REBT es el reglamento que regula las instalaciones eléctricas de baja tensi�
 La normativa se cita como base de la certificación en el modelo ELEC-1 y en el boletín de reconocimiento. Las ITC-BT concretan requisitos para tipos de instalación específicos (ver [[classificacio-p1-p2]] y [[usos-installacio-bt]]). Las guías técnicas de aplicación complementan estas ITC para instalaciones interiores en viviendas: Guía-BT-25 (número de circuitos y características), Guía-BT-26 (prescripciones generales) y Guía-BT-27 (locales con bañera o ducha).
 
 ## Relacionado
+- [[guia-rebt-introduccion]]
+- [[guia-rebt-anexo-1-significado-y-explicacion-de-los-codigos-ip-ik]]
+- [[guia-rebt-anexo-2-calculos-de-caidas-de-tension]]
+- [[guia-rebt-anexo-3-calculo-de-corrientes-de-cortocircuito]]
+- [[guia-rebt-anexo-4-verificacion-de-las-instalaciones-electricas]]
+- [[nota-interpretacion-separacion-galvanica]]
 - [[certificat-installacio-electrica-bt]]
 - [[butlleti-reconeixement-baixa-tensio]]
 - [[memoria-tecnica-baixa-tensio]]

@@ -33,6 +33,7 @@ El Apéndice I exige, como mínimo humano, una persona instaladora en baja tensi
 Se recuerdan las notas históricas: se sustituyó el término "instaladores autorizados" por "empresas instaladoras" (RD 560/2010); los apartados 3, 4, 5 y los Apéndices se modificaron por el RD 298/2021 y el apartado 1 del Apéndice I por el RD 770/2025.
 
 ## Relacionado
+- [[guia-bt-03-instaladores-autorizados-en-baja-tension]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-03)
 - [[itc-bt-04-documentacion-y-puesta-en-servicio-de-las-instalaciones]]
 - [[itc-bt-02-normas-de-referencia-en-el-reglamento-electrotecnico-para-baja-tension]]
 - [[classificacio-p1-p2]]

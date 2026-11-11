@@ -35,6 +35,7 @@ Prescripciones generales: cuadro general junto a la entrada de la acometida, cua
 En locales de espectáculos: líneas distribuidoras independientes para sala de público, vestíbulo y accesos, escenario con sus anexos y cabinas de proyección, con cuadro secundario propio por grupo en local independiente o recinto de material no combustible; en escenarios y cabinas, automáticos magnetotérmicos y receptores portátiles de clase II; corte omnipolar de camerinos, almacenes, talleres y del equipo escénico; resistencias de efectos de luz lejos de telones y decorado; alumbrado de evacuación funcionando permanentemente durante el espectáculo; e iluminación de balizamiento en cada peldaño o rampa con inclinación superior al 8 % (pilotos a razón de 1 por metro lineal de anchura), pasando a emergencia cuando la tensión baje del 70 % de la nominal. En locales de reunión y trabajo: líneas por grupos para salas de venta o reunión por planta, escaparates, almacenes, talleres y pasillos, escaleras y vestíbulos.
 
 ## Relacionado
+- [[guia-bt-28-instalaciones-en-locales-de-publica-concurrencia]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-28)
 - [[itc-bt-38-instalaciones-con-fines-especiales-requisitos-particulares-para-la-instalacion-electrica-en-qui]]
 - [[itc-bt-19-instalaciones-interiores-o-receptoras-prescripciones-generales]]
 - [[itc-bt-20-instalaciones-interiores-o-receptoras-sistemas-de-instalacion]]

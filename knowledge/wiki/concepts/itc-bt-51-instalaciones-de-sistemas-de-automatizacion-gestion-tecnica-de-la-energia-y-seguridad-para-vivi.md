@@ -31,6 +31,7 @@ La definición nuclear de sistema domótico es la de un conjunto centralizado o 
 Toda instalación nueva, modificada o ampliada de un sistema de este tipo debe realizarse conforme a la presente instrucción y a lo especificado en las instrucciones del fabricante, que actúan como parte integrante del proyecto o memoria técnica de diseño: el exigir que cada componente documente sus condiciones de cableado, aislamiento, apantallamiento y filtrado traslada al diseño la responsabilidad de garantizar la seguridad y la compatibilidad electromagnética de todo el sistema.
 
 ## Relacionado
+- [[guia-bt-51-instalaciones-de-sistemas-de-automatizacion-gestion-tecnica-de-la-energia-y-segu]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-51)
 - [[itc-bt-51-instalaciones-de-sistemas-de-automatizacion-gestion-tecnica-de-la-energia-y-seguridad-para-vivi]]
 - [[itc-bt-04-documentacion-y-puesta-en-servicio-de-las-instalaciones]]
 - [[itc-bt-36-instalaciones-a-muy-baja-tension]]

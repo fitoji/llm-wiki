@@ -36,6 +36,7 @@ La existencia de una situación natural no excluye instalar dispositivos de prot
 Aparte de la protección contra sobretensiones atmosféricas, los equipos y materiales deben escogerse con tensión soportada a impulsos no inferior a la prescrita para su categoría. Los equipos con tensión soportada inferior a la indicada pueden utilizarse en situación natural cuando el riesgo sea aceptable, o en situación controlada si la protección contra las sobretensiones es adecuada.
 
 ## Relacionado
+- [[guia-bt-23-proteccion-contra-sobretensiones]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-23)
 
 - [[reglament-electrotecnic-baixa-tensio]]
 - [[toma-de-tierra-edificios-viviendas]]

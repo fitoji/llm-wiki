@@ -45,6 +45,7 @@ La protección por equipos de clase II admite aislamiento doble o reforzado, apa
 La conexión equipotencial local no conectada a tierra debe unir todas las masas y elementos conductores simultáneamente accesibles, sin conexión a tierra directa ni a través de otras masas. La separación eléctrica exige fuente de separación (transformador de aislamiento o equivalente); con un solo aparato las masas no se conectan a conductor de protección; con varios, equipotencialidad aislada no a tierra, bases con contacto de tierra conectado a ella, conductor de protección en cables flexibles de equipos no clase II usado como equipotencialidad, y dispositivo que corte ante dos fallos francos en el tiempo de la tabla 1.
 
 ## Relacionado
+- [[guia-bt-24-proteccion-contra-los-contactos-directos-e-indirectos]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-24)
 - [[instalaciones-interiores-viviendas-bt]]
 - [[itc-bt-08-sistemas-de-conexion-del-neutro-y-de-las-masas-en-redes-de-distribucion-de-energia-electrica]]
 - [[itc-bt-09-instalaciones-de-alumbrado-exterior]]

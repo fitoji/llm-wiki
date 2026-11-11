@@ -46,3 +46,6 @@ Toda instalación del ámbito del REBT debe ejecutarse por empresas instaladoras
 Tras las verificaciones e inspección inicial (ITC-BT-05), la empresa emite el Certificado de Instalación, suscrito por un instalador en baja tensión, con las características principales, la potencia prevista, la referencia del certificado del Organismo de Control (si procede), la identificación de empresa e instalador y la declaración expresa de conformidad con el Reglamento y con el proyecto o la MTD: ver [[certificat-installacio-electrica-bt]]. Se presenta por quintuplicado (o una sola copia si es por medios electrónicos) con el anexo de información al usuario, junto con proyecto o MTD, certificado de dirección de obra y, si procede, el certificado de inspección inicial: ver [[memoria-tecnica-baixa-tensio]].
 
 Para el suministro, el titular entrega un ejemplar del certificado a la empresa suministradora, que puede realizar verificaciones propias; si los valores de aislamiento o corrientes de fuga no cumplen la ITC-BT-19 no puede conectar la instalación, levanta acta firmada por el titular y la traslada al órgano competente.
+
+## Relacionado
+- [[guia-bt-04-documentacion-y-puesta-en-servicio-de-las-instalaciones]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-04)

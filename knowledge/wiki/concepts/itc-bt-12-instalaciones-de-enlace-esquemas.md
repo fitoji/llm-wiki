@@ -30,6 +30,7 @@ En el esquema para un solo usuario la simplificación es directa: al coincidir l
 Este esquema 2.2.3 es también de aplicación a la centralización de contadores de forma distribuida mediante canalizaciones eléctricas prefabricadas, que deben cumplir lo establecido en la norma UNE-EN 60.439-2.
 
 ## Relacionado
+- [[guia-bt-12-esquemas]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-12)
 - [[itc-bt-12-instalaciones-de-enlace-esquemas]]
 - [[reglament-electrotecnic-baixa-tensio]]
 - [[instalaciones-interiores-viviendas-bt]]

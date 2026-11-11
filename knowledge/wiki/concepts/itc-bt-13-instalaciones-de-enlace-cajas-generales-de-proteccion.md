@@ -31,6 +31,7 @@ Para suministros de un único usuario o de dos usuarios alimentados desde el mis
 Es aplicable el emplazamiento del apartado 1.1, salvo que no se admite el montaje superficial y los dispositivos de lectura del equipo de medida deben instalarse a una altura entre 0,7 m y 1,80 m. Deben cumplir la UNE-EN 60.439-1 y la UNE-EN 60.439-3 (inflamabilidad), con grado de protección IP43 e IK09 una vez instaladas, ser precintables, disponer de ventilación interna que garantice la no formación de condensaciones y llevar material transparente de lectura resistente a los rayos ultravioleta.
 
 ## Relacionado
+- [[guia-bt-13-cajas-generales-de-proteccion]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-13)
 - [[itc-bt-13-instalaciones-de-enlace-cajas-generales-de-proteccion]]
 - [[itc-bt-12-instalaciones-de-enlace-esquemas]]
 - [[itc-bt-21-instalaciones-interiores-o-receptoras-tubos-y-canales-protectoras]]

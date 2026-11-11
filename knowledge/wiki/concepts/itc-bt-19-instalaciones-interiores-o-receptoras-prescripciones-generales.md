@@ -48,6 +48,7 @@ La ITC-BT-19 fija las prescripciones generales de las instalaciones interiores o
 Los circuitos pueden exceptuarse de la desconexión en carga los destinados a relojes, rectificadores telefónicos de hasta 500 VA y de mando o control cuando su desconexión impida una función importante para la seguridad, siempre que dispongan de dispositivos independientes del general. En la instalación de los conductores de protección se distinguen los sistemas de protecciones próximas, se evita su uso común para tensiones diferentes y, cuando los activos van en envolvente común, se recomienda incluir el conductor de protección dentro con el mismo aislamiento; en conductos ferromagnéticos o cables con armadura metálica el conductor de protección irá en los mismos tubos o cables que los conductores activos. Las caídas de tensión permitidas se aplican considerando todos los aparatos simultáneos y el valor total ajustado según el tipo de esquema utilizado entre instalación interior y derivación individual.
 
 ## Relacionado
+- [[guia-bt-19-instalaciones-interiores-o-receptoras-prescripciones-generales]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-19)
 - [[itc-bt-19-instalaciones-interiores-o-receptoras-prescripciones-generales]]
 - [[itc-bt-20-instalaciones-interiores-o-receptoras-sistemas-de-instalacion]]
 - [[itc-bt-21-instalaciones-interiores-o-receptoras-tubos-y-canales-protectoras]]

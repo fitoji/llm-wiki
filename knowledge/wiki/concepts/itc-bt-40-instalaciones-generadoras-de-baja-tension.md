@@ -42,6 +42,7 @@ La tasa se define como la relación, en %, entre el valor eficaz del armónico d
 El anexo I distingue instalaciones con medida de intercambio de energía con la red y con medida de consumo: en el primer caso la potencia en el punto de conexión a red debe mantenerse con saldo consumidor siempre que exista un consumo interno superior al valor de tolerancia del sistema de medida (suma de clases de exactitud del equipo de medida y de los transformadores o sondas); en el segundo, la potencia medida en el punto de consumo debe superar siempre a la generada por encima de la misma tolerancia. Los ensayos comprenden tolerancia en régimen permanente, respuesta ante desconexiones de carga y ante incrementos de potencia de generación (reajuste en menos de 2 segundos), actuación ante pérdida de comunicaciones (parada en menos de 2 segundos) y determinación del número máximo de generadores a partir de los tiempos de respuesta con uno y dos generadores.
 
 ## Relacionado
+- [[guia-bt-40-instalaciones-generadoras-de-baja-tension]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-40)
 
 - [[reglament-electrotecnic-baixa-tensio]]
 - [[itc-bt-08-sistemas-de-conexion-del-neutro-y-de-las-masas-en-redes-de-distribucion-de-energia-electrica]]
