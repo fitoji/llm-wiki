@@ -32,7 +32,7 @@ knowledge/
 
 1. Nunca modifiques el contenido de `knowledge/raw/`. Lo único que puedes cambiar es `compiled: false` -> `compiled: true` en el frontmatter.
 2. Escribe los artículos de la wiki en español SIEMPRE, aunque la fuente esté en otro idioma (catalán incluido): traduce al español todo contenido en catalán antes de escribirlo o actualizarlo. Mantén en el idioma original solo los nombres propios y términos técnicos sin equivalente corriente.
-3. Antes de crear un artículo nuevo, comprueba si ya existe uno sobre el mismo tema (mira `_index.md` y busca con tu herramienta de búsqueda sobre `knowledge/wiki/`; en este equipo no hay `grep` ni `rg` en el PATH, así que no uses un comando de shell). Si existe, ACTUALIZALO en lugar de duplicarlo.
+3. Antes de crear un artículo nuevo, comprueba si ya existe uno sobre el mismo tema (mira `_index.md` y busca con tu herramienta de búsqueda sobre `knowledge/wiki/`; ver "Herramientas de búsqueda"). Si existe, ACTUALIZALO en lugar de duplicarlo.
 4. No inventes datos. Todo lo que escribas debe poder apoyarse en una fuente de `raw/`. Si algo no está claro en la fuente, no lo afirmes.
 5. Cada afirmación importante debe poder rastrearse: lista las fuentes en el frontmatter (`sources`).
 6. Los nombres de archivo van en minúsculas, con guiones y sin acentos: `capability-overhang.md`, `amol-avasari.md`.
@@ -41,6 +41,20 @@ knowledge/
 9. Al modificar un artículo existente, actualiza `updated` con la fecha del día.
 10. Si una fuente contradice algo que ya está en un artículo, no borres lo anterior: anota ambas versiones con su fecha y su fuente, y marca la contradicción como pendiente de resolver.
 11. `knowledge/output/` no es wiki: no lleva enlaces `[[...]]`, no entra en `_index.md` y no se indexa en la búsqueda.
+
+## Herramientas de búsqueda
+
+Este vault es prosa, no código. Elegí la herramienta según qué estás buscando:
+
+| Qué buscás | Herramienta |
+|---|---|
+| Artículos de la wiki | `python knowledge/tools/wiki_search.py search "consulta" [-n N]` — índice SQLite FTS5, reindexa solo si algo cambió |
+| Fuentes de `raw/` (no indexado) o cualquier archivo | tu herramienta de búsqueda nativa (ripgrep) |
+| Símbolos, funciones y flujo de código | CodeGraph, solo si el vault tiene código (hoy: `knowledge/tools/wiki_search.py` y `tools/guia_rebt/*.py`) |
+
+- **Nunca uses CodeGraph para buscar contenido de artículos**: indexa símbolos y prosa de código, no texto de markdown.
+- Indexar CodeGraph es decisión del usuario (`codegraph init`), nunca del agente.
+- No dependas de que `grep` o `rg` estén en el PATH: preferí siempre tu herramienta de búsqueda nativa, que es portable entre equipos.
 
 ## Formato de un artículo de la wiki
 

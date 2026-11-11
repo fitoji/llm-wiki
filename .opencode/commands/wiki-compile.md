@@ -6,7 +6,7 @@ Sigue estos pasos EN ORDEN. Las reglas completas están en AGENTS.md.
 
 ## 1. Encontrar fuentes pendientes
 
-Busca los archivos de `knowledge/raw/` (recursivamente) cuyo frontmatter contenga `compiled: false`, con tu herramienta de búsqueda de archivos (en este equipo no hay `grep` ni `rg` en el PATH: no invoques un comando de shell):
+Busca los archivos de `knowledge/raw/` (recursivamente) cuyo frontmatter contenga `compiled: false`, con tu herramienta de búsqueda de archivos (no dependas de que `grep` o `rg` estén en el PATH; ver "Herramientas de búsqueda" en AGENTS.md):
 
 ```
 patrón: compiled: false

@@ -116,7 +116,7 @@ Los ids exactos salen de `opencode models`. Para cambiarlo en toda la sesión, u
 
 - **"Sin resultados" y hay artículos.** Ejecuta `index` a mano. Si el problema se repite, revisa que los archivos estén en UTF-8.
 - **"Aviso: se omitieron archivos ilegibles".** Alguno está guardado en ANSI (pasa con el Bloc de notas y con `Set-Content` de PowerShell). Vuelve a guardarlo como UTF-8.
-- **El agente intenta usar `grep`.** En este equipo no hay `grep` ni `rg` en el PATH: usa su herramienta de búsqueda de archivos.
+- **El agente intenta usar `grep` o `rg`.** Hoy ambos están en el PATH, pero no dependas de eso: usá tu herramienta de búsqueda nativa, que es portable entre equipos. Para los artículos, `wiki_search.py` (índice FTS5) es lo más rápido.
 - **`knowledge/tools/wiki_index.sqlite` aparece como cambio.** No debería: está en `.gitignore`. Si lo ves, revisa que el `.gitignore` haya viajado con el kit.
 
 ## Consejos con modelos chicos
