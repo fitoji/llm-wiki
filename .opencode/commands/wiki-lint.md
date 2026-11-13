@@ -16,6 +16,7 @@ e. **Duplicados**: artículos que parecen tratar el mismo concepto con nombres d
 f. **Desactualizados**: artículos cuyo `updated` tiene más de 90 días mientras existen fuentes más recientes sobre el mismo tema.
 g. **Fuentes sin compilar**: archivos de `knowledge/raw/` con `compiled: false`.
 h. **Afirmaciones sin respaldo**: artículos con `sources` vacío.
+i. **Tipos de divergencia**: cada viñeta de divergencia (el mapa y los artículos con sección `## Divergencias`) empieza por un tipo válido: `[conflicto]`, `[ampliacion]`, `[omision]` o `[desactualizacion]` (ver "Divergencias: taxonomía obligatoria" en AGENTS.md). Reportá las viñetas sin tipo, con tipo desconocido o con tipo que no corresponde a la relación descrita.
 
 ## 2. Informe
 

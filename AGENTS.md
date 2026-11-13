@@ -41,6 +41,34 @@ knowledge/
 9. Al modificar un artículo existente, actualiza `updated` con la fecha del día.
 10. Si una fuente contradice algo que ya está en un artículo, no borres lo anterior: anota ambas versiones con su fecha y su fuente, y marca la contradicción como pendiente de resolver.
 11. `knowledge/output/` no es wiki: no lleva enlaces `[[...]]`, no entra en `_index.md` y no se indexa en la búsqueda.
+12. Cada divergencia registrada lleva su tipo (`[conflicto]`, `[ampliacion]`, `[omision]` o `[desactualizacion]`) al inicio de la viñeta. Ver "Divergencias: taxonomía obligatoria".
+
+## Divergencias: taxonomía obligatoria
+
+Cada divergencia entre una Guía Técnica del REBT y el texto consolidado de su ITC-BT lleva un **tipo** al inicio de su viñeta. El tipo describe la relación entre la guía y el reglamento, no su tema. Cuatro valores, en ASCII y sin acentos:
+
+| Tipo | Significado |
+|---|---|
+| `[conflicto]` | La guía y la ITC-BT fijan valores o requisitos incompatibles, sin desfase normativo de por medio. Prevalece el valor de la ITC-BT. |
+| `[ampliacion]` | La guía desarrolla criterios, valores, tablas o recomendaciones que la ITC-BT no recoge; la ITC no se pronuncia. |
+| `[omision]` | La ITC-BT exige o recoge algo que la guía no menciona. |
+| `[desactualizacion]` | Desfase normativo o temporal: la guía (o el propio texto consolidado) cita una norma, requisito o terminología que la otra parte o un RD posterior ya superó o derogó. |
+
+Regla de clasificación, en este orden:
+
+1. ¿Una de las dos partes cita algo que la otra o un RD posterior superó o derogó? → `[desactualizacion]`.
+2. ¿La ITC-BT exige algo que la guía no menciona? → `[omision]`.
+3. ¿La guía y la ITC-BT fijan lo mismo con valores incompatibles? → `[conflicto]`.
+4. ¿Solo la guía desarrolla algo que la ITC-BT no recoge? → `[ampliacion]`.
+
+Formato: el tag abre la viñeta, antes del título en negrita si lo hay.
+
+```markdown
+- [ampliacion] **Sección mínima del conductor de tierra.** La Guía-BT-26 ...
+- [omision] La guía (3.1) omite el circuito C13 ...
+```
+
+Estos cuatro tipos son los "Patrones comunes" del mapa de divergencias convertidos de prosa a etiqueta. Si una divergencia nueva no encaja en ninguno, no la etiquetes: planteá el caso en el mapa y en `odd/tasks/`.
 
 ## Herramientas de búsqueda
 
