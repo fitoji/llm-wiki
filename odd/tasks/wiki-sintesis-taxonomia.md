@@ -1,7 +1,7 @@
 # Síntesis transversal y taxonomía de divergencias del REBT
 
-Objetivo: precisión y síntesis del conocimiento del vault. (A) Clasificar las 223 divergencias guía↔ITC-BT con una taxonomía de 4 tipos y aplicarla al mapa y a los 37 artículos de guía. (B) Crear 3 artículos transversales que integran varias fuentes.
-Branch: feat/wiki-sintesis-taxonomia · Entrega: commits por unidad de trabajo · Verificación: revisión estructural (frontmatter, `_index.md`, formato de tags, recuento 223) + `wiki_search.py`.
+Objetivo: precisión y síntesis del conocimiento del vault. (A) Clasificar las divergencias guía↔ITC-BT con una taxonomía de 4 tipos y aplicarla al mapa y a los 37 artículos de guía. (B) Crear 3 artículos transversales que integran varias fuentes.
+Branch: feat/wiki-sintesis-taxonomia · Entrega: commits por unidad de trabajo · Verificación: revisión estructural (frontmatter, `_index.md`, formato de tags, recuento) + `wiki_search.py`.
 
 ## Specs
 
@@ -13,7 +13,7 @@ Branch: feat/wiki-sintesis-taxonomia · Entrega: commits por unidad de trabajo �
   - `desactualizacion` — desfase normativo o temporal: la guía (o el propio texto consolidado) cita una norma, requisito o terminología que la otra parte o un RD posterior ya superó o derogó.
 - S3: Regla de clasificación, en este orden: (1) ¿una de las dos partes cita algo que la otra o un RD posterior superó/derogó? → `desactualizacion`; (2) ¿la ITC-BT exige algo que la guía no menciona? → `omision`; (3) ¿la guía y la ITC-BT fijan lo mismo con valores incompatibles? → `conflicto`; (4) ¿solo la guía desarrolla algo que la ITC-BT no recoge? → `ampliacion`.
 - S4: Formato: cada ítem de divergencia lleva el tag al inicio de su viñeta, en ASCII y sin acentos: `[conflicto]`, `[ampliacion]`, `[omision]`, `[desactualizacion]`. Ej.: `- [ampliacion] **Sección mínima del conductor de tierra.** La Guía-BT-26 ...`.
-- S5: El mapa `divergencias-guias-tecnicas-rebt-vs-itc-bt.md` queda completo con los 223 ítems etiquetados y reporta la distribución por tipo, que debe sumar 223.
+- S5: El mapa `divergencias-guias-tecnicas-rebt-vs-itc-bt.md` queda completo con los 221 ítems etiquetados (223 menos 2 duplicados quitados en L10) y reporta la distribución por tipo, que debe sumar 221.
 - S6: Los 37 artículos con sección `## Divergencias` etiquetan sus viñetas con el mismo formato y la misma taxonomía. Un ítem que tenga homólogo en el mapa debe recibir el mismo tipo.
 - S7: `AGENTS.md` define la taxonomía y la obligatoriedad del tag; `.opencode/commands/wiki-lint.md` añade la comprobación de que toda viñeta de divergencia lleva un tipo válido.
 - S8: Cuatro artículos transversales nuevos, cada uno integrando varias fuentes de `knowledge/raw/` y enlazando con los artículos existentes:
@@ -27,7 +27,7 @@ Branch: feat/wiki-sintesis-taxonomia · Entrega: commits por unidad de trabajo �
 
 - T1 (S1): crear este documento y su espejo Engram. [inline] — ✅
 - T2 (S2,S3,S4,S7): taxonomía en `AGENTS.md` + comprobación en `wiki-lint.md`. [inline] — ✅ commit `1da0288`
-- T3 (S5): etiquetar las 223 viñetas del mapa + distribución por tipo. [delegado → inline por caída del worker] — ✅ commit `41a86f0`
+- T3 (S5): etiquetar las viñetas del mapa + distribución por tipo. [delegado → inline por caída del worker] — ✅ commit `41a86f0`
 - T4 (S6): etiquetar las viñetas de los 37 artículos con sección de divergencias, en olas de 3. [delegado] — ✅ commit `2b65217`
 - T5 (S8): escribir los 4 artículos transversales. [delegado + inline] — ✅ commit `68dad6e`
 - T6 (S9): `_index.md`, enlaces recíprocos, reindexado y verificación estructural. [inline] — ✅ commit `68dad6e`
@@ -43,3 +43,4 @@ Branch: feat/wiki-sintesis-taxonomia · Entrega: commits por unidad de trabajo �
 - L7: RDD: `1da0288` medium/under_budget; `41a86f0` y `68dad6e` passive. Sin review nativo.
 - L8: T4 cerrado: 223/223 viñetas etiquetadas en 35 artículos con divergencias (2 tienen la sección sin ítems: BT-08 y Anexo 3) y 0 sin etiquetar; coincide con el mapa. Seis lotes en olas de 3; `updated` unificado a 2026-11-14 (incluido el mapa). Commit `2b65217`, RDD `passive`.
 - L9: Hallazgo fuera de alcance, candidato a limpieza futura: el mapa tiene ítems casi duplicados — BT-25 ítems 8/10 (diferencial C13 vs fila C13 de la tabla 1) y BT-26 ítems 2/14 (criterios de diferenciales vs protección contra contactos indirectos). Inflan el total de 223; no afectan al etiquetado por ítem.
+- L10: Limpieza de duplicados: quité del mapa y de sus artículos el BT-25 ítem 10 («Fila C13 de la tabla 1 de características eléctricas») y el BT-26 ítem 14 («Protección contra contactos indirectos»), que repetían ítems ya presentes. Total 223 → 221: 50 `conflicto`, 124 `ampliacion`, 14 `omision`, 33 `desactualizacion`. Actualizados el mapa (encabezados, tabla resumen, distribución), `_index.md` y `README.md` (102 artículos, 221 divergencias).

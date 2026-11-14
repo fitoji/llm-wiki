@@ -53,4 +53,4 @@ La ITC-BT-24 fija los tiempos máximos de interrupción según el esquema de con
 - [[itc-bt-52-instalaciones-con-fines-especiales-infraestructura-para-la-recarga-de-vehiculos-electricos]] — diferencial en la recarga de vehículo eléctrico
 - [[instalaciones-interiores-viviendas-bt]] — circuitos C1–C13 y diferencial general
 - [[criterios-puesta-a-tierra]] — toma de tierra y resistencia de defecto
-- [[divergencias-guias-tecnicas-rebt-vs-itc-bt]] — mapa de las 223 divergencias y sus tipos
+- [[divergencias-guias-tecnicas-rebt-vs-itc-bt]] — mapa de las 221 divergencias y sus tipos

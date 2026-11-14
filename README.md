@@ -2,7 +2,7 @@
 
 Vault de conocimiento sobre el **Reglamento Electrotécnico para Baja Tensión** (REBT, RD 842/2002) que mantiene el agente: vos aportás material y hacés preguntas; el agente escribe, ordena y enlaza los artículos según el contrato de `AGENTS.md`.
 
-Hoy contiene **100 fuentes** en bruto, **98 artículos** y **223 divergencias** documentadas entre el reglamento y sus 27 Guías Técnicas de Aplicación.
+Hoy contiene **100 fuentes** en bruto, **102 artículos** y **221 divergencias** documentadas entre el reglamento y sus 27 Guías Técnicas de Aplicación.
 
 ## Camino rápido
 
@@ -40,16 +40,16 @@ python knowledge/tools/wiki_search.py index          # solo si querés forzar la
 | Qué | Cuánto | Nota |
 | --- | --- | --- |
 | Fuentes en `raw/` | 100 | Con figuras (`knowledge/raw/imgs/`) y CSV de tablas (`knowledge/raw/tablas/`) que las fuentes referencian |
-| Artículos | 98 | 52 de las ITC-BT, 33 de las guías técnicas, 13 de formularios y normativa |
-| Entradas en `_index.md` | 98 | Sin links rotos y sin artículos fuera del índice |
-| Divergencias guía ↔ ITC-BT | 223 | Cada una con el cierre «Prevalece la ITC-BT-XX» |
+| Artículos | 102 | 52 de las ITC-BT, 33 de las guías técnicas, 13 de formularios y normativa y 4 transversales |
+| Entradas en `_index.md` | 102 | Sin links rotos y sin artículos fuera del índice |
+| Divergencias guía ↔ ITC-BT | 221 | Cada una con el cierre «Prevalece la ITC-BT-XX» |
 | Guías técnicas del REBT | 27 | De las 30 publicadas por el ministerio: 22 ITC con guía + las 4 que no la tienen, más la guía del RD y los anexos |
 
 ## El REBT en este vault
 
 - **52 artículos de ITC-BT** (ITC-BT-01 a 52) con el texto consolidado del BOE.
 - **33 artículos de guía técnica**: las 27 Guías Técnicas de Aplicación, la guía del RD 842/2002, los cuatro anexos (códigos IP/IK, caídas de tensión, cortocircuito, verificación) y la Nota de Interpretación sobre separación galvánica.
-- **Un mapa con las 223 divergencias**, agrupadas por instrucción, con la tabla resumen y el detalle de cada una.
+- **Un mapa con las 221 divergencias**, agrupadas por instrucción, con la tabla resumen y el detalle de cada una.
 - **`tools/guia_rebt/`**: el pipeline que regenera el corpus desde los PDF oficiales del ministerio. `indice.json` lleva el `sha256` de cada PDF, así que avisa cuando se publica una edición nueva de una guía.
 
 ## Qué hay acá

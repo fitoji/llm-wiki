@@ -61,4 +61,4 @@ En edificios de viviendas la Guía-BT-26 concreta el anillo de cimentación, las
 - [[esquemas-conexion-neutro-masas]] — TT, TN e IT y las resistencias de tierra asociadas
 - [[proteccion-diferencial-selectividad]] — protección contra contactos indirectos
 - [[guia-rebt-anexo-4-verificacion-de-las-instalaciones-electricas]] — comprobación de la puesta a tierra
-- [[divergencias-guias-tecnicas-rebt-vs-itc-bt]] — mapa de las 223 divergencias y sus tipos
+- [[divergencias-guias-tecnicas-rebt-vs-itc-bt]] — mapa de las 221 divergencias y sus tipos

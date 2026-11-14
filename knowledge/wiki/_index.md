@@ -7,7 +7,7 @@
 - [[classificacio-p1-p2]] — listas P1 y P2 que determinan si hace falta memoria técnica
 - [[conductores-y-ejecucion-instalacion-interior]] — conductores, identificación, sistemas de instalación y condiciones generales (Guía-BT-26)
 - [[criterios-puesta-a-tierra]] — electrodos, secciones, medición y revisión de la puesta a tierra
-- [[divergencias-guias-tecnicas-rebt-vs-itc-bt]] — mapa de las 223 divergencias guía↔ITC-BT detectadas; prevalece la ITC
+- [[divergencias-guias-tecnicas-rebt-vs-itc-bt]] — mapa de las 221 divergencias guía↔ITC-BT detectadas; prevalece la ITC
 - [[esquema-unifilar-bt-elc2]] — formulario ELEC-2: esquema unifilar de la instalación en baja tensión
 - [[esquemas-conexion-neutro-masas]] — TT, TN e IT: nomenclatura y condiciones de protección
 - [[guia-bt-03-instaladores-autorizados-en-baja-tension]] — instaladores autorizados en baja tensión (Guía-BT-03)

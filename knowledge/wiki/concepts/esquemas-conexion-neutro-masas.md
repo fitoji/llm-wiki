@@ -55,4 +55,4 @@ La ITC-BT-08 exige, para el esquema TN, una resistencia de tierra del neutro no 
 - [[itc-bt-08-sistemas-de-conexion-del-neutro-y-de-las-masas-en-redes-de-distribucion-de-energia-electrica]] — texto consolidado de la instrucción
 - [[guia-bt-08-sistema-de-conexion-del-neutro-y-de-las-masas-en-redes-de-distribucion-de-energi]] — criterio de la guía (sin divergencias)
 - [[itc-bt-24-instalaciones-interiores-o-receptoras-proteccion-contra-los-contactos-directos-e-indirectos]] — condiciones de protección por esquema
-- [[divergencias-guias-tecnicas-rebt-vs-itc-bt]] — mapa de las 223 divergencias y sus tipos
+- [[divergencias-guias-tecnicas-rebt-vs-itc-bt]] — mapa de las 221 divergencias y sus tipos
