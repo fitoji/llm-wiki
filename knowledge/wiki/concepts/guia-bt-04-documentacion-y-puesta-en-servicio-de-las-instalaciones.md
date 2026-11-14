@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-04, documentacion, proyectos]
 sources: [papers/2026-11-10-guia-bt-04-documentacion-y-puesta-en-servicio-de-las-instalaciones.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-04 — Documentación y puesta en servicio de las instalaciones
@@ -39,12 +39,12 @@ Guía técnica de aplicación del REBT (edición de septiembre de 2003, revisió
 El modelo de MTD (cuatro páginas) recoge datos administrativos, previsión de cargas (demanda máxima por vivienda y coeficiente de simultaneidad según la MIBT010), esquema unifilar y planos, croquis con alumbrado de emergencia y rutas de evacuación, y cuadro de cálculo de circuitos. En la puesta en servicio (6) el titular entrega un ejemplar del certificado a la empresa suministradora; si el aislamiento o las fugas no cumplen la ITC-BT-19 no conecta, levanta acta firmada y la traslada al órgano competente.
 
 ## Divergencias con la ITC-BT-04
-- Grupo z: la guía (3.1) omite las instalaciones de recarga de vehículo eléctrico (P > 50 kW; en exterior P > 10 kW; modo de carga 4 sin límite) que la ITC-BT-04 exige con proyecto desde el RD 1053/2014. Prevalece la ITC-BT-04.
-- Órgano competente: la guía (3.1.o) designa al "Ministerio de Ciencia y Tecnología"; la ITC-BT-04 al "Ministerio con competencias en materia de seguridad industrial". Prevalece la ITC-BT-04.
-- Firma del certificado: la guía (5.4) no exige la firma de un instalador en baja tensión de la empresa; la ITC-BT-04 (5.4) sí, e identifica además a empresa e instalador. Prevalece la ITC-BT-04.
-- Número de copias: la guía (5.5) exige el quintuplicado; la ITC-BT-04 (5.5) admite una sola copia por medios electrónicos (RD 542/2020). Prevalece la ITC-BT-04.
-- Remisión al artículo 18.3 del REBT: la guía advierte que debería ser el 18.4; la ITC-BT-04 (5.5) mantiene el 18.3. Prevalece la ITC-BT-04.
-- Modelo de certificado: la guía exige el número del DCE y el del carné de instalador autorizado; la ITC-BT-03 (5.4) asigna de oficio un número de identificación para el Registro Integrado Industrial, sin carné. Prevalece la ITC-BT-04.
+- [omision] Grupo z: la guía (3.1) omite las instalaciones de recarga de vehículo eléctrico (P > 50 kW; en exterior P > 10 kW; modo de carga 4 sin límite) que la ITC-BT-04 exige con proyecto desde el RD 1053/2014. Prevalece la ITC-BT-04.
+- [desactualizacion] Órgano competente: la guía (3.1.o) designa al "Ministerio de Ciencia y Tecnología"; la ITC-BT-04 al "Ministerio con competencias en materia de seguridad industrial". Prevalece la ITC-BT-04.
+- [omision] Firma del certificado: la guía (5.4) no exige la firma de un instalador en baja tensión de la empresa; la ITC-BT-04 (5.4) sí, e identifica además a empresa e instalador. Prevalece la ITC-BT-04.
+- [desactualizacion] Número de copias: la guía (5.5) exige el quintuplicado; la ITC-BT-04 (5.5) admite una sola copia por medios electrónicos (RD 542/2020). Prevalece la ITC-BT-04.
+- [ampliacion] Remisión al artículo 18.3 del REBT: la guía advierte que debería ser el 18.4; la ITC-BT-04 (5.5) mantiene el 18.3. Prevalece la ITC-BT-04.
+- [desactualizacion] Modelo de certificado: la guía exige el número del DCE y el del carné de instalador autorizado; la ITC-BT-03 (5.4) asigna de oficio un número de identificación para el Registro Integrado Industrial, sin carné. Prevalece la ITC-BT-04.
 
 ## Relacionado
 - [[itc-bt-04-documentacion-y-puesta-en-servicio-de-las-instalaciones]]

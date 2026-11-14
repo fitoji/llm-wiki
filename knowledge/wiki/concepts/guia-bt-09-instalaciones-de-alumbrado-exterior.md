@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-09, alumbrado-exterior, proteccion]
 sources: [papers/2026-11-10-guia-bt-09-instalaciones-de-alumbrado-exterior.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-09 — Instalaciones de alumbrado exterior
@@ -42,16 +42,16 @@ En redes y soportes desarrolla los tipos de conductor, los sistemas de instalaci
 
 ## Divergencias con la ITC-BT-09
 
-- **Ámbito de aplicación.** La guía (1) añade dos exclusiones: viviendas unifamiliares con menos de 5 puntos de luz (ITC-BT-25) y temporales de ferias (ITC-BT-34). La ITC-BT-09 (1) solo excluye fuentes, piscinas, semáforos y balizas autónomos. Prevalece la ITC-BT-09.
-- **Conductores de aluminio.** La guía (5.1) admite conductores de aluminio porque la ITC-BT-07 y la ITC-BT-06 los permiten; la ITC-BT-09 (5.1) exige conductores de cobre. Prevalece la ITC-BT-09.
-- **Profundidad de enterramiento.** La guía (5.2.1) recomienda medir 0,4 m desde la parte superior del tubo y 0,5 m en cruzamientos de calzada; la ITC-BT-09 (5.2.1) fija 0,4 m mínimos desde la cota inferior del tubo. Prevalece la ITC-BT-09.
-- **Agrupamiento de circuitos.** La guía (5.2.1) aplica un factor 0,8 y fija que «no se agruparán varios circuitos en el interior del mismo tubo»; la ITC-BT-09 no impone esa restricción. Prevalece la ITC-BT-09.
-- **Normativa de los soportes de acero.** La guía (6.1) remite la conformidad a la UNE-EN 40-5:2003 y deja el RD 2642/85, RD 401/89 y OM 16/5/89 solo para soportes de acero de más de 20 m (columnas) o 18 m (báculos); la ITC-BT-09 (6.1) los exige sin ese límite. Prevalece la ITC-BT-09.
-- **Coeficiente de seguridad de los soportes.** La guía (6.1) dice que el coeficiente 2,5 «quedaría sustituido» por los factores de carga parciales 1,2 (peso) y 1,4 (viento) de la UNE-EN 40-5; la ITC-BT-09 (6.1) fija 2,5 como mínimo. Prevalece la ITC-BT-09.
-- **Grado de la trampilla del soporte.** La guía (6.1) sostiene que el IP44 e IK10 se refiere al equipo alojado en el soporte y que las puertas solo deben ser IP3X o IP2X e IK08 según EN 40, con envolvente suplementaria; la ITC-BT-09 (6.1) exige IP44 e IK10 en la propia trampilla. Prevalece la ITC-BT-09.
-- **Grados de las luminarias.** La guía (7.1) fija un IP 23 mínimo, recomienda IP66 e IP44 en ambientes corrosivos y añade IK04, IK05 e IK08 (5 J) a menos de 1,5 m del suelo; la ITC-BT-09 (7.1) solo remite a la UNE-EN 60.598-2-3/-2-5. Prevalece la ITC-BT-09.
-- **Conductor de protección aislado.** La guía (10) advierte que los conductores aislados habituales (H07V-U/R/K) tienen sección máxima 10 mm² y solo pueden usarse como CP en redes posadas; la ITC-BT-09 (10) exige CP aislado de cobre de sección mínima 16 mm² en redes subterráneas. Prevalece la ITC-BT-09.
-- **Limitación de los apartados 4 y 9 al esquema TT.** La guía (4) afirma que los apartados 4 y 9 de la ITC-BT-09 «se circunscriben a las redes de alimentación que tengan un esquema tipo TT» y remite el resto a las ITC-BT-24, 22, 23 y 17; la ITC-BT-09 no acota esos apartados. Prevalece la ITC-BT-09.
+- [ampliacion] **Ámbito de aplicación.** La guía (1) añade dos exclusiones: viviendas unifamiliares con menos de 5 puntos de luz (ITC-BT-25) y temporales de ferias (ITC-BT-34). La ITC-BT-09 (1) solo excluye fuentes, piscinas, semáforos y balizas autónomos. Prevalece la ITC-BT-09.
+- [conflicto] **Conductores de aluminio.** La guía (5.1) admite conductores de aluminio porque la ITC-BT-07 y la ITC-BT-06 los permiten; la ITC-BT-09 (5.1) exige conductores de cobre. Prevalece la ITC-BT-09.
+- [conflicto] **Profundidad de enterramiento.** La guía (5.2.1) recomienda medir 0,4 m desde la parte superior del tubo y 0,5 m en cruzamientos de calzada; la ITC-BT-09 (5.2.1) fija 0,4 m mínimos desde la cota inferior del tubo. Prevalece la ITC-BT-09.
+- [ampliacion] **Agrupamiento de circuitos.** La guía (5.2.1) aplica un factor 0,8 y fija que «no se agruparán varios circuitos en el interior del mismo tubo»; la ITC-BT-09 no impone esa restricción. Prevalece la ITC-BT-09.
+- [desactualizacion] **Normativa de los soportes de acero.** La guía (6.1) remite la conformidad a la UNE-EN 40-5:2003 y deja el RD 2642/85, RD 401/89 y OM 16/5/89 solo para soportes de acero de más de 20 m (columnas) o 18 m (báculos); la ITC-BT-09 (6.1) los exige sin ese límite. Prevalece la ITC-BT-09.
+- [desactualizacion] **Coeficiente de seguridad de los soportes.** La guía (6.1) dice que el coeficiente 2,5 «quedaría sustituido» por los factores de carga parciales 1,2 (peso) y 1,4 (viento) de la UNE-EN 40-5; la ITC-BT-09 (6.1) fija 2,5 como mínimo. Prevalece la ITC-BT-09.
+- [conflicto] **Grado de la trampilla del soporte.** La guía (6.1) sostiene que el IP44 e IK10 se refiere al equipo alojado en el soporte y que las puertas solo deben ser IP3X o IP2X e IK08 según EN 40, con envolvente suplementaria; la ITC-BT-09 (6.1) exige IP44 e IK10 en la propia trampilla. Prevalece la ITC-BT-09.
+- [ampliacion] **Grados de las luminarias.** La guía (7.1) fija un IP 23 mínimo, recomienda IP66 e IP44 en ambientes corrosivos y añade IK04, IK05 e IK08 (5 J) a menos de 1,5 m del suelo; la ITC-BT-09 (7.1) solo remite a la UNE-EN 60.598-2-3/-2-5. Prevalece la ITC-BT-09.
+- [conflicto] **Conductor de protección aislado.** La guía (10) advierte que los conductores aislados habituales (H07V-U/R/K) tienen sección máxima 10 mm² y solo pueden usarse como CP en redes posadas; la ITC-BT-09 (10) exige CP aislado de cobre de sección mínima 16 mm² en redes subterráneas. Prevalece la ITC-BT-09.
+- [ampliacion] **Limitación de los apartados 4 y 9 al esquema TT.** La guía (4) afirma que los apartados 4 y 9 de la ITC-BT-09 «se circunscriben a las redes de alimentación que tengan un esquema tipo TT» y remite el resto a las ITC-BT-24, 22, 23 y 17; la ITC-BT-09 no acota esos apartados. Prevalece la ITC-BT-09.
 
 Nota de autoridad: la ITC-BT-09 del RD 842/2002 (consolidado del BOE, actualización de 03/09/2025) tiene la autoridad y prevalece sobre la guía. No se ha modificado desde 2002: las divergencias proceden del criterio interpretativo de la guía (jul 2020, rev 2).
 

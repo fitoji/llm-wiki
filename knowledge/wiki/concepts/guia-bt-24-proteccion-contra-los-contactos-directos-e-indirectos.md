@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-24, contactos-directos, seguridad-electrica]
 sources: [papers/2026-11-10-guia-bt-24-proteccion-contra-los-contactos-directos-e-indirectos.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-24 — Protección contra los contactos directos e indirectos
@@ -34,13 +34,13 @@ El aislamiento doble o reforzado admite canalizaciones de la ITC-BT-20 e ITC-BT-
 
 ## Divergencias con la ITC-BT-24
 
-- Guía 1: la edición de 2019 remite a la UNE-HD 60364-4-41; la ITC-BT-24 del BOE sigue citando la UNE 20.460-4-41. Prevalece la ITC-BT-24.
-- Guía 4.1: la UNE 20.572-1 está anulada y la sustituye la UNE-IEC/TS 60479-1; la ITC-BT-24 la cita como referencia. Prevalece la ITC-BT-24.
-- Guía 2: la UNE-HD 60364-4-41 fija la muy baja tensión en continua en 120 V, frente a los 75 V del REBT ([[itc-bt-36-instalaciones-a-muy-baja-tension]]). Prevalece la ITC-BT-24.
-- Guía 4.1.1: la Tabla 1 se aplica solo a circuitos finales de hasta 63 A con tomas o 32 A con receptores fijos, admitiendo 5 s en distribución; la ITC la exige en general. Prevalece la ITC-BT-24.
-- Guía 4.1.2: añade la Tabla A de desconexión en TT (0,2 / 0,07 / 0,04 s) y el límite de 1 s en distribución, ausentes del BOE. Prevalece la ITC-BT-24.
-- Guía 4.1.3: desde 2010 los tiempos del IT con masas interconectadas son los de la Tabla 1 de TN; la ITC-BT-24 mantiene la Tabla 2 con neutro distribuido. Prevalece la ITC-BT-24.
-- Guía 4.3 a 4.5: limita el emplazamiento no conductor, la equipotencialidad local y la separación eléctrica a instalaciones supervisadas por personas cualificadas o advertidas, condición que la ITC-BT-24 no impone. Prevalece la ITC-BT-24.
+- [desactualizacion] Guía 1: la edición de 2019 remite a la UNE-HD 60364-4-41; la ITC-BT-24 del BOE sigue citando la UNE 20.460-4-41. Prevalece la ITC-BT-24.
+- [desactualizacion] Guía 4.1: la UNE 20.572-1 está anulada y la sustituye la UNE-IEC/TS 60479-1; la ITC-BT-24 la cita como referencia. Prevalece la ITC-BT-24.
+- [conflicto] Guía 2: la UNE-HD 60364-4-41 fija la muy baja tensión en continua en 120 V, frente a los 75 V del REBT ([[itc-bt-36-instalaciones-a-muy-baja-tension]]). Prevalece la ITC-BT-24.
+- [conflicto] Guía 4.1.1: la Tabla 1 se aplica solo a circuitos finales de hasta 63 A con tomas o 32 A con receptores fijos, admitiendo 5 s en distribución; la ITC la exige en general. Prevalece la ITC-BT-24.
+- [ampliacion] Guía 4.1.2: añade la Tabla A de desconexión en TT (0,2 / 0,07 / 0,04 s) y el límite de 1 s en distribución, ausentes del BOE. Prevalece la ITC-BT-24.
+- [conflicto] Guía 4.1.3: desde 2010 los tiempos del IT con masas interconectadas son los de la Tabla 1 de TN; la ITC-BT-24 mantiene la Tabla 2 con neutro distribuido. Prevalece la ITC-BT-24.
+- [ampliacion] Guía 4.3 a 4.5: limita el emplazamiento no conductor, la equipotencialidad local y la separación eléctrica a instalaciones supervisadas por personas cualificadas o advertidas, condición que la ITC-BT-24 no impone. Prevalece la ITC-BT-24.
 
 ## Relacionado
 

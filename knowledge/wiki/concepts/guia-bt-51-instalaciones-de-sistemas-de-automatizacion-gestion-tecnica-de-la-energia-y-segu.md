@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-51, domotica, automatizacion]
 sources: [papers/2026-11-10-guia-bt-51-instalaciones-de-sistemas-de-automatizacion-gestion-tecnica-de-la-energia-y-segu.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-51 — Instalaciones de sistemas de automatización, gestión técnica de la energía y seguridad para viviendas y edificios
@@ -34,12 +34,12 @@ En compatibilidad electromagnética, los nodos, actuadores y dispositivos de ent
 
 ## Divergencias con la ITC-BT-51
 
-- Guía 1: el R.D. 279/1999 de las telecomunicaciones está derogado por el R.D. 401/2003, y la guía reparte competencias entre el instalador BT especialista (ITC-BT-03), el de categoría básica y el de telecomunicaciones; la ITC-BT-51 cita el R.D. 279/1999 y no fija el reparto. Prevalece la ITC-BT-51.
-- Guía 4: la Directiva de Compatibilidad Electromagnética 89/336/CEE fue sustituida por la 2004/108/CE, obligatoria desde julio de 2009; la ITC-BT-51 cita la derogada. Prevalece la ITC-BT-51.
-- Guía 1: identifica la UNE-EN 50090-2-2:1998 como norma armonizada y fija los requisitos de componentes y subsistemas; la ITC-BT-51 no la cita. Prevalece la ITC-BT-51.
-- Guía 4: exige manual de usuario e instalador con contenidos mínimos y su entrega conforme al artículo 19 del REBT; la ITC-BT-51 no impone esa documentación. Prevalece la ITC-BT-51.
-- Guía 5.2: precisa que las normas de cable son la UNE-EN 61196 (serie) y la UNE 212002 (serie); la ITC las cita como «EN 61.196 y CEI 60.189-2». Prevalece la ITC-BT-51.
-- Guía: añade recomendaciones de preinstalación y grados de automatización, no regulatorios; la ITC-BT-51 no contiene esos contenidos. Prevalece la ITC-BT-51.
+- [desactualizacion] Guía 1: el R.D. 279/1999 de las telecomunicaciones está derogado por el R.D. 401/2003, y la guía reparte competencias entre el instalador BT especialista (ITC-BT-03), el de categoría básica y el de telecomunicaciones; la ITC-BT-51 cita el R.D. 279/1999 y no fija el reparto. Prevalece la ITC-BT-51.
+- [desactualizacion] Guía 4: la Directiva de Compatibilidad Electromagnética 89/336/CEE fue sustituida por la 2004/108/CE, obligatoria desde julio de 2009; la ITC-BT-51 cita la derogada. Prevalece la ITC-BT-51.
+- [ampliacion] Guía 1: identifica la UNE-EN 50090-2-2:1998 como norma armonizada y fija los requisitos de componentes y subsistemas; la ITC-BT-51 no la cita. Prevalece la ITC-BT-51.
+- [ampliacion] Guía 4: exige manual de usuario e instalador con contenidos mínimos y su entrega conforme al artículo 19 del REBT; la ITC-BT-51 no impone esa documentación. Prevalece la ITC-BT-51.
+- [conflicto] Guía 5.2: precisa que las normas de cable son la UNE-EN 61196 (serie) y la UNE 212002 (serie); la ITC las cita como «EN 61.196 y CEI 60.189-2». Prevalece la ITC-BT-51.
+- [ampliacion] Guía: añade recomendaciones de preinstalación y grados de automatización, no regulatorios; la ITC-BT-51 no contiene esos contenidos. Prevalece la ITC-BT-51.
 
 ## Relacionado
 

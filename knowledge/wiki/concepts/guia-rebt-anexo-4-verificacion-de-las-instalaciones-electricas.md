@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, verificaciones, mediciones]
 sources: [papers/2026-11-10-guia-rebt-anexo-4-verificacion-de-las-instalaciones-electricas.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía REBT Anexo 4 — Verificación de las instalaciones eléctricas (edición sep 03, rev 1)
@@ -38,9 +38,9 @@ En esquemas TT se cumple R_A·I_a ≤ U_A, con tensión de contacto límite de 5
 
 ## Divergencias con el REBT
 
-- Quién comprueba la puesta a tierra: el anexo (apartado 2.2) indica que debe comprobarla el Director de la Obra o el Instalador Autorizado. La ITC-BT-18 (apartado 12) dice «Director de la Obra o Empresa instaladora», tras el RD 560/2010. Prevalece la ITC-BT-18.
-- Corriente de fuga medida: el anexo (apartado 2.6) exige valores medidos inferiores a la mitad de la sensibilidad del diferencial. La ITC-BT-19 (apartado 2.9) solo fija que no superen la sensibilidad del diferencial instalado. Prevalece la ITC-BT-19.
-- Alcance: el anexo lo sitúa en la ITC-BT-19 y la UNE 20460-6-61, sin mencionar inspecciones. La ITC-BT-05 desarrolla los artículos 18 y 20 del REBT, regula las inspecciones iniciales y periódicas y clasifica los defectos en muy graves, graves y leves. Prevalece la ITC-BT-05.
+- [desactualizacion] Quién comprueba la puesta a tierra: el anexo (apartado 2.2) indica que debe comprobarla el Director de la Obra o el Instalador Autorizado. La ITC-BT-18 (apartado 12) dice «Director de la Obra o Empresa instaladora», tras el RD 560/2010. Prevalece la ITC-BT-18.
+- [conflicto] Corriente de fuga medida: el anexo (apartado 2.6) exige valores medidos inferiores a la mitad de la sensibilidad del diferencial. La ITC-BT-19 (apartado 2.9) solo fija que no superen la sensibilidad del diferencial instalado. Prevalece la ITC-BT-19.
+- [omision] Alcance: el anexo lo sitúa en la ITC-BT-19 y la UNE 20460-6-61, sin mencionar inspecciones. La ITC-BT-05 desarrolla los artículos 18 y 20 del REBT, regula las inspecciones iniciales y periódicas y clasifica los defectos en muy graves, graves y leves. Prevalece la ITC-BT-05.
 
 ## Relacionado
 

@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-22, sobreintensidades, proteccion]
 sources: [papers/2026-11-10-guia-bt-22-proteccion-contra-sobreintensidades.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-22 — Protección contra sobreintensidades
@@ -43,13 +43,13 @@ La tabla 1, tomada de la UNE 20.460-4-473, resume por esquema (TN-C, TN-S, TT e 
 
 ## Divergencias con la ITC-BT-22
 
-- La guía (1.1) fija el ajuste contra sobrecargas y el magnetotérmico exclusivo de los domésticos; la ITC-BT-22 admite fusibles calibrados en toda instalación. Prevalece la ITC-BT-22.
-- La guía (1.1) fija 4500 A como poder de corte mínimo del IGA; la ITC-BT-22 solo exige ajustarlo al cortocircuito del punto de conexión. Prevalece la ITC-BT-22.
-- La guía (1.1) añade los valores k de S = k·√t, basados en la UNE 211003-1 (ausente del listado de referencia del BOE), y la condición I_m > I_cc,mín; la ITC-BT-22 no los contiene. Prevalece la ITC-BT-22.
-- La guía (1.1) recomienda proteger los circuitos secundarios frente a cortocircuitos por continuidad de servicio; la ITC-BT-22 no lo recomienda. Prevalece la ITC-BT-22.
-- La guía (1.2) añade las reglas de posición de los dispositivos, los casos de omisión de sobrecargas y el método gráfico del triángulo; la ITC-BT-22 se limita a la tabla 1. Prevalece la ITC-BT-22.
-- La guía (1.1) añade una tabla de producto y norma que la ITC-BT-22 no recoge; el listado vigente precisa UNE-EN 60898-1/-2 y UNE-HD 60269-2/-3. Prevalece la ITC-BT-22.
-- La guía y la ITC-BT-22 remiten a UNE 20.460-4-43 y -4-473; el listado del BOE ([[itc-bt-02-normas-de-referencia-en-el-reglamento-electrotecnico-para-baja-tension]], Resolución de 20 de marzo de 2025) ya cita UNE-HD 60364-4-43: 2024. Prevalece la ITC-BT-22.
+- [conflicto] La guía (1.1) fija el ajuste contra sobrecargas y el magnetotérmico exclusivo de los domésticos; la ITC-BT-22 admite fusibles calibrados en toda instalación. Prevalece la ITC-BT-22.
+- [ampliacion] La guía (1.1) fija 4500 A como poder de corte mínimo del IGA; la ITC-BT-22 solo exige ajustarlo al cortocircuito del punto de conexión. Prevalece la ITC-BT-22.
+- [ampliacion] La guía (1.1) añade los valores k de S = k·√t, basados en la UNE 211003-1 (ausente del listado de referencia del BOE), y la condición I_m > I_cc,mín; la ITC-BT-22 no los contiene. Prevalece la ITC-BT-22.
+- [ampliacion] La guía (1.1) recomienda proteger los circuitos secundarios frente a cortocircuitos por continuidad de servicio; la ITC-BT-22 no lo recomienda. Prevalece la ITC-BT-22.
+- [ampliacion] La guía (1.2) añade las reglas de posición de los dispositivos, los casos de omisión de sobrecargas y el método gráfico del triángulo; la ITC-BT-22 se limita a la tabla 1. Prevalece la ITC-BT-22.
+- [ampliacion] La guía (1.1) añade una tabla de producto y norma que la ITC-BT-22 no recoge; el listado vigente precisa UNE-EN 60898-1/-2 y UNE-HD 60269-2/-3. Prevalece la ITC-BT-22.
+- [desactualizacion] La guía y la ITC-BT-22 remiten a UNE 20.460-4-43 y -4-473; el listado del BOE ([[itc-bt-02-normas-de-referencia-en-el-reglamento-electrotecnico-para-baja-tension]], Resolución de 20 de marzo de 2025) ya cita UNE-HD 60364-4-43: 2024. Prevalece la ITC-BT-22.
 
 ## Relacionado
 

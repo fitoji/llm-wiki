@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, caidas-de-tension, secciones]
 sources: [papers/2026-11-10-guia-rebt-anexo-2-calculos-de-caidas-de-tension.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía REBT Anexo 2 — Cálculos de caídas de tensión (rev 2)
@@ -42,9 +42,9 @@ Las intensidades admisibles proceden de la tabla 1 de la ITC-BT-19 (modo B) y de
 
 ## Divergencias con el REBT
 
-- Derivación individual de un único usuario: la tabla 6 asigna un 1,5 % sin condición; la ITC-BT-15 lo condiciona a «suministros para un único usuario en que no existe línea general de alimentación». Prevalece la ITC-BT-15.
-- Instalación industrial alimentada en alta tensión: la tabla 6 omite el supuesto de la ITC-BT-19 (2.2.2), con caídas admisibles del 4,5 % en alumbrado y del 6,5 % en los demás usos. Prevalece la ITC-BT-19.
-- Compensación entre tramos: el anexo fija límites aislados para LGA, DI y circuitos interiores, mientras la ITC-BT-19 (2.2.2) y la ITC-BT-25 (apartado 3) admiten compensar la caída entre instalación interior y derivaciones individuales. Prevalece la ITC-BT-19.
+- [conflicto] Derivación individual de un único usuario: la tabla 6 asigna un 1,5 % sin condición; la ITC-BT-15 lo condiciona a «suministros para un único usuario en que no existe línea general de alimentación». Prevalece la ITC-BT-15.
+- [omision] Instalación industrial alimentada en alta tensión: la tabla 6 omite el supuesto de la ITC-BT-19 (2.2.2), con caídas admisibles del 4,5 % en alumbrado y del 6,5 % en los demás usos. Prevalece la ITC-BT-19.
+- [conflicto] Compensación entre tramos: el anexo fija límites aislados para LGA, DI y circuitos interiores, mientras la ITC-BT-19 (2.2.2) y la ITC-BT-25 (apartado 3) admiten compensar la caída entre instalación interior y derivaciones individuales. Prevalece la ITC-BT-19.
 
 La ITC-BT-18 (puesta a tierra) no fija límites de caída de tensión: el anexo los atribuye a las ITC-BT-14, ITC-BT-15 e ITC-BT-19.
 

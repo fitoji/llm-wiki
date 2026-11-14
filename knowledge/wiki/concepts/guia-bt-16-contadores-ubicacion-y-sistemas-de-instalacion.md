@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-16, contadores]
 sources: [papers/2026-11-10-guia-bt-16-contadores-ubicacion-y-sistemas-de-instalacion.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-16 — Contadores: ubicación y sistemas de instalación
@@ -35,10 +35,10 @@ Remitiendo a la [[itc-bt-15-instalaciones-de-enlace-derivaciones-individuales]],
 
 ## Divergencias con la ITC-BT-16
 
-- La guía omite dos añadidos del texto consolidado: las tres unidades funcionales para la recarga del vehículo eléctrico (medida, mando y protección, y SPL), introducidas por el RD 1053/2014 con efectos de 30 de junio de 2015, y la exención del hilo de mando de la (ITC) BT-15 para los contadores inteligentes con telegestión. Prevalece la ITC-BT-16.
-- La guía (1) recomienda 10 mm² para viviendas básicas y 16 mm² para las de elevadas con concentración única; la ITC-BT-16 fija 6 mm² salvo incumplimiento de previsión de cargas o caídas de tensión. Prevalece la ITC-BT-16.
-- La guía (2.2.1) explicita RF 90 para el local (art. 19 NBE-CPI-96) y RF 60 o RF 30 para la puerta (art. 15), que la ITC-BT-16 no determina, y recomienda extintores 21A/113B frente a los 21B que exige. Prevalece la ITC-BT-16.
-- La guía (3) exige IP XXB para la protección aislante del embarrado general y añade recomendaciones no vinculantes (maniobra junto a los bomberos, espacio libre para unidades opcionales, clases M0 a M4) no recogidas en la ITC-BT-16. Prevalece la ITC-BT-16.
+- [omision] La guía omite dos añadidos del texto consolidado: las tres unidades funcionales para la recarga del vehículo eléctrico (medida, mando y protección, y SPL), introducidas por el RD 1053/2014 con efectos de 30 de junio de 2015, y la exención del hilo de mando de la (ITC) BT-15 para los contadores inteligentes con telegestión. Prevalece la ITC-BT-16.
+- [conflicto] La guía (1) recomienda 10 mm² para viviendas básicas y 16 mm² para las de elevadas con concentración única; la ITC-BT-16 fija 6 mm² salvo incumplimiento de previsión de cargas o caídas de tensión. Prevalece la ITC-BT-16.
+- [conflicto] La guía (2.2.1) explicita RF 90 para el local (art. 19 NBE-CPI-96) y RF 60 o RF 30 para la puerta (art. 15), que la ITC-BT-16 no determina, y recomienda extintores 21A/113B frente a los 21B que exige. Prevalece la ITC-BT-16.
+- [ampliacion] La guía (3) exige IP XXB para la protección aislante del embarrado general y añade recomendaciones no vinculantes (maniobra junto a los bomberos, espacio libre para unidades opcionales, clases M0 a M4) no recogidas en la ITC-BT-16. Prevalece la ITC-BT-16.
 
 ## Relacionado
 

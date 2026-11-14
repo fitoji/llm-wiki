@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-20, canalizaciones, sistemas-de-instalacion]
 sources: [papers/2026-11-10-guia-bt-20-instalaciones-interiores-o-receptoras-sistemas-de-instalacion.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-20 — Instalaciones interiores o receptoras: sistemas de instalación
@@ -40,13 +40,13 @@ Las bandejas no efectúan función de protección, por lo que se recomienda cabl
 
 ## Divergencias con la ITC-BT-20
 
-- La guía abre con un apartado 00 que compara el REBT 2002 con el de 1973 ausente de la ITC-BT-20. Prevalece la ITC-BT-20.
-- La guía (2.1) remite a la ITC-BT-51 y a la ITC-BT-36 para automatización y muy baja tensión; la ITC-BT-20 no contiene esa remisión. Prevalece la ITC-BT-20.
-- La guía (2.2.1, 2.2.3, 2.2.6, 2.2.7, 2.2.9 y 2.2.10) añade tablas de producto y norma que la ITC-BT-20 no recoge; el listado de la [[itc-bt-02-normas-de-referencia-en-el-reglamento-electrotecnico-para-baja-tension]] del BOE (Resolución de 20 de marzo de 2025) ya remite a la serie UNE-EN IEC 61386 en lugar de la UNE-EN 50086-2-x. Prevalece la ITC-BT-20.
-- La guía (2.2.2) añade que la serie UNE 21 123 define los cables de 0,6/1 kV y que los de aislamiento mineral a esa tensión no están normalizados. Prevalece la ITC-BT-20.
-- La guía (2.2.3) añade que bajo tubo enterrado no se instalará más de un circuito por tubo; la ITC-BT-20 no lo establece. Prevalece la ITC-BT-20.
-- La guía (2.2.6) añade que los cables instalados directamente en los huecos deben llevar aislamiento y cubierta y ser de 0,6/1 kV; la ITC-BT-20 fija 450/750 V. Prevalece la ITC-BT-20.
-- La guía (2.2.9) añade el cometido de las bandejas, la recomendación de 0,6/1 kV y su conexión a la red de tierra; la ITC-BT-20 solo exige conductores aislados con cubierta. Prevalece la ITC-BT-20.
+- [ampliacion] La guía abre con un apartado 00 que compara el REBT 2002 con el de 1973 ausente de la ITC-BT-20. Prevalece la ITC-BT-20.
+- [ampliacion] La guía (2.1) remite a la ITC-BT-51 y a la ITC-BT-36 para automatización y muy baja tensión; la ITC-BT-20 no contiene esa remisión. Prevalece la ITC-BT-20.
+- [ampliacion] La guía (2.2.1, 2.2.3, 2.2.6, 2.2.7, 2.2.9 y 2.2.10) añade tablas de producto y norma que la ITC-BT-20 no recoge; el listado de la [[itc-bt-02-normas-de-referencia-en-el-reglamento-electrotecnico-para-baja-tension]] del BOE (Resolución de 20 de marzo de 2025) ya remite a la serie UNE-EN IEC 61386 en lugar de la UNE-EN 50086-2-x. Prevalece la ITC-BT-20.
+- [ampliacion] La guía (2.2.2) añade que la serie UNE 21 123 define los cables de 0,6/1 kV y que los de aislamiento mineral a esa tensión no están normalizados. Prevalece la ITC-BT-20.
+- [ampliacion] La guía (2.2.3) añade que bajo tubo enterrado no se instalará más de un circuito por tubo; la ITC-BT-20 no lo establece. Prevalece la ITC-BT-20.
+- [conflicto] La guía (2.2.6) añade que los cables instalados directamente en los huecos deben llevar aislamiento y cubierta y ser de 0,6/1 kV; la ITC-BT-20 fija 450/750 V. Prevalece la ITC-BT-20.
+- [ampliacion] La guía (2.2.9) añade el cometido de las bandejas, la recomendación de 0,6/1 kV y su conexión a la red de tierra; la ITC-BT-20 solo exige conductores aislados con cubierta. Prevalece la ITC-BT-20.
 
 ## Relacionado
 

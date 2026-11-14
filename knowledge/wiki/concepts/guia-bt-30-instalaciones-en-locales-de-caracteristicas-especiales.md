@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-30, locales-caracteristicas-especiales]
 sources: [papers/2026-11-10-guia-bt-30-instalaciones-en-locales-de-caracteristicas-especiales.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-30 — Instalaciones en locales de características especiales
@@ -31,12 +31,12 @@ Reproduce el articulado y añade: la puesta a tierra con 24 V, las designaciones
 
 ## Divergencias con la ITC-BT-30
 
-- La guía (1 y 2) exige en húmedos y mojados conectar masas a la puesta a tierra y garantizar 24 V de tensión de contacto (ITC-BT-18); la ITC-BT-30 no lo exige. Prevalece la ITC-BT-30.
-- La guía (1) añade que, si el agua se condensa en las canalizaciones, deben tomarse disposiciones para asegurar su evacuación; la ITC-BT-30 no lo dice. Prevalece la ITC-BT-30.
-- La guía (1.1 a 2.1) remite a la UNE-EN 50086 y a la UNE-EN 61386, que la sustituye, para la corrosión de los tubos, considera los no metálicos resistentes e identifica los cables habituales (con el renombramiento de ES07Z1-K a H07Z1-K); la ITC-BT-30 solo fija los grados 3 y 4, sin norma ni cables. Prevalece la ITC-BT-30.
-- La guía (otros sistemas de 1 y 2) desarrolla bandejas portacables y canales metálicas con clases de corrosión, alturas de 2,5 m y 4 m y cajas IPX4/IP44, sistemas ausentes de la ITC-BT-30. Prevalece la ITC-BT-30.
-- La guía (3, 4, 5 y 6) añade complementos no exigidos por la ITC-BT-30: cintas, pinturas o grasas frente a los gases, precauciones por polvo en emplazamientos AE 4 y los cables H07V2-K y H07G-K. Prevalece la ITC-BT-30.
-- La guía (2 y 9.1) condiciona en la intemperie la elección de aparamenta y sistema a las ITC-BT específicas y remite a las UNE 20460-3, -5-51 y -5-52; la ITC-BT-30 solo cita la UNE 20.460-3. Prevalece la ITC-BT-30.
+- [ampliacion] La guía (1 y 2) exige en húmedos y mojados conectar masas a la puesta a tierra y garantizar 24 V de tensión de contacto (ITC-BT-18); la ITC-BT-30 no lo exige. Prevalece la ITC-BT-30.
+- [ampliacion] La guía (1) añade que, si el agua se condensa en las canalizaciones, deben tomarse disposiciones para asegurar su evacuación; la ITC-BT-30 no lo dice. Prevalece la ITC-BT-30.
+- [ampliacion] La guía (1.1 a 2.1) remite a la UNE-EN 50086 y a la UNE-EN 61386, que la sustituye, para la corrosión de los tubos, considera los no metálicos resistentes e identifica los cables habituales (con el renombramiento de ES07Z1-K a H07Z1-K); la ITC-BT-30 solo fija los grados 3 y 4, sin norma ni cables. Prevalece la ITC-BT-30.
+- [ampliacion] La guía (otros sistemas de 1 y 2) desarrolla bandejas portacables y canales metálicas con clases de corrosión, alturas de 2,5 m y 4 m y cajas IPX4/IP44, sistemas ausentes de la ITC-BT-30. Prevalece la ITC-BT-30.
+- [ampliacion] La guía (3, 4, 5 y 6) añade complementos no exigidos por la ITC-BT-30: cintas, pinturas o grasas frente a los gases, precauciones por polvo en emplazamientos AE 4 y los cables H07V2-K y H07G-K. Prevalece la ITC-BT-30.
+- [ampliacion] La guía (2 y 9.1) condiciona en la intemperie la elección de aparamenta y sistema a las ITC-BT específicas y remite a las UNE 20460-3, -5-51 y -5-52; la ITC-BT-30 solo cita la UNE 20.460-3. Prevalece la ITC-BT-30.
 
 ## Relacionado
 

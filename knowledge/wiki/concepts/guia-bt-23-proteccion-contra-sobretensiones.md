@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-23, sobretensiones]
 sources: [papers/2026-11-10-guia-bt-23-proteccion-contra-sobretensiones.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-23 — Protección contra sobretensiones
@@ -34,12 +34,12 @@ La guía conecta los descargadores según el régimen de neutro (en TT e IT entr
 
 ## Divergencias con la ITC-BT-23
 
-- La guía (1) amplía el alcance con el artículo 16.1 del Reglamento: incluye las instalaciones receptoras de fines especiales (caravanas, marinas, ferias, obra, agrícolas, eólicas) y el criterio de 50 m de proximidad; la ITC-BT-23 no lo recoge. Prevalece la ITC-BT-23.
-- La guía (1) aclara que no se tratan las sobretensiones temporales y que las de maniobra son inferiores a las atmosféricas; la ITC-BT-23 no lo dice. Prevalece la ITC-BT-23.
-- La guía (3) remite al CTE (SUA 8 y anejo B) para el sistema externo de protección contra el rayo, que la ITC-BT-23 no menciona. Prevalece la ITC-BT-23.
-- La guía (3.2) enumera las situaciones controladas que obligan a protección según la UNE EN 62305-2 (vida humana, animales, servicios públicos, locales de la ITC-BT-28, actividad industrial no interrumpible) y añade el criterio de días de tormenta y la nueva ITC-BT-52; la ITC-BT-23 no las enumera. Prevalece la ITC-BT-23.
-- La guía (3.2) exige tipo 1 en edificios con pararrayos (CTE SUA 8), lo recomienda en 50 m alrededor de un pararrayos, fija las reglas de instalación en TT (aguas arriba del diferencial o aguas abajo con tipo S) y un segundo tipo 2 cada 10 m (UNE-CLC TS 61643-12); la ITC-BT-23 no lo contiene. Prevalece la ITC-BT-23.
-- La guía (3.2 y 4) añade las tablas A y B de situaciones obligatorias y recomendadas y los apartados A a D sobre tipos de dispositivo, límites de In e Iimp y secciones de tierra; la ITC-BT-23 solo regula la selección de materiales. Prevalece la ITC-BT-23.
+- [ampliacion] La guía (1) amplía el alcance con el artículo 16.1 del Reglamento: incluye las instalaciones receptoras de fines especiales (caravanas, marinas, ferias, obra, agrícolas, eólicas) y el criterio de 50 m de proximidad; la ITC-BT-23 no lo recoge. Prevalece la ITC-BT-23.
+- [ampliacion] La guía (1) aclara que no se tratan las sobretensiones temporales y que las de maniobra son inferiores a las atmosféricas; la ITC-BT-23 no lo dice. Prevalece la ITC-BT-23.
+- [ampliacion] La guía (3) remite al CTE (SUA 8 y anejo B) para el sistema externo de protección contra el rayo, que la ITC-BT-23 no menciona. Prevalece la ITC-BT-23.
+- [ampliacion] La guía (3.2) enumera las situaciones controladas que obligan a protección según la UNE EN 62305-2 (vida humana, animales, servicios públicos, locales de la ITC-BT-28, actividad industrial no interrumpible) y añade el criterio de días de tormenta y la nueva ITC-BT-52; la ITC-BT-23 no las enumera. Prevalece la ITC-BT-23.
+- [ampliacion] La guía (3.2) exige tipo 1 en edificios con pararrayos (CTE SUA 8), lo recomienda en 50 m alrededor de un pararrayos, fija las reglas de instalación en TT (aguas arriba del diferencial o aguas abajo con tipo S) y un segundo tipo 2 cada 10 m (UNE-CLC TS 61643-12); la ITC-BT-23 no lo contiene. Prevalece la ITC-BT-23.
+- [ampliacion] La guía (3.2 y 4) añade las tablas A y B de situaciones obligatorias y recomendadas y los apartados A a D sobre tipos de dispositivo, límites de In e Iimp y secciones de tierra; la ITC-BT-23 solo regula la selección de materiales. Prevalece la ITC-BT-23.
 
 ## Relacionado
 

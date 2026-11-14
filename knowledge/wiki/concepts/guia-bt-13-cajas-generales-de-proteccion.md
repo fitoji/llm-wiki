@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-13, cajas-generales-de-proteccion]
 sources: [papers/2026-11-10-guia-bt-13-cajas-generales-de-proteccion.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-13 — Cajas generales de protección
@@ -34,11 +34,11 @@ El apartado 1.2 fija los tipos: la CGP corresponde a un tipo aprobado por la Adm
 
 ## Divergencias con la ITC-BT-13
 
-- Grados IK: la guía fija IK 09 para la CGP en la tabla del apartado 00 e IK08 para la CPM en la nota 2 de su tabla, mientras el texto consolidado exige IK 08 (1.2) e IK09 (2.2). Prevalece la ITC-BT-13.
-- La guía (1.1) añade que una misma protección por fusibles no puede servir para más de una LGA; la ITC-BT-13 sólo limita a dos CGP por nicho, una por LGA. Prevalece la ITC-BT-13.
-- La guía (1.1) incorpora la protección adicional con tubo o canal rígido de los tramos de acometida sobre fachada a 2,5 m o menos, remitiendo a la ITC-BT-11; la ITC-BT-13 no la contiene. Prevalece la ITC-BT-13.
-- La guía recomienda que las CGP sean de Clase II (1.2) y exige que las CPM lo sean (2.2); la ITC-BT-13 no fija ese requisito. Prevalece la ITC-BT-13.
-- La guía añade las tablas de normas de producto y los criterios de inflamabilidad (960 ± 10 ºC para partes activas y 650 ± 10 ºC para las demás, UNE-EN 50298), ausentes del texto consolidado. Prevalece la ITC-BT-13.
+- [conflicto] Grados IK: la guía fija IK 09 para la CGP en la tabla del apartado 00 e IK08 para la CPM en la nota 2 de su tabla, mientras el texto consolidado exige IK 08 (1.2) e IK09 (2.2). Prevalece la ITC-BT-13.
+- [ampliacion] La guía (1.1) añade que una misma protección por fusibles no puede servir para más de una LGA; la ITC-BT-13 sólo limita a dos CGP por nicho, una por LGA. Prevalece la ITC-BT-13.
+- [ampliacion] La guía (1.1) incorpora la protección adicional con tubo o canal rígido de los tramos de acometida sobre fachada a 2,5 m o menos, remitiendo a la ITC-BT-11; la ITC-BT-13 no la contiene. Prevalece la ITC-BT-13.
+- [ampliacion] La guía recomienda que las CGP sean de Clase II (1.2) y exige que las CPM lo sean (2.2); la ITC-BT-13 no fija ese requisito. Prevalece la ITC-BT-13.
+- [ampliacion] La guía añade las tablas de normas de producto y los criterios de inflamabilidad (960 ± 10 ºC para partes activas y 650 ± 10 ºC para las demás, UNE-EN 50298), ausentes del texto consolidado. Prevalece la ITC-BT-13.
 
 ## Relacionado
 

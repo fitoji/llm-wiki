@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-19, instalaciones-interiores, conductores]
 sources: [papers/2026-11-10-guia-bt-19-instalaciones-interiores-o-receptoras-prescripciones-generales.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-19 — Instalaciones interiores o receptoras. Prescripciones generales
@@ -36,14 +36,14 @@ En la subdivisión, la guía recuerda que la ITC-BT-22 permite un único disposi
 
 ## Divergencias con la ITC-BT-19
 
-- Guía 2.3 (tabla 2): S < 16, 16 < S < 35 y S > 35; la ITC-BT-19 usa S ≤ 16 y 16 < S ≤ 35, y solo la guía deja S = 16 y 35 sin asignar. Prevalece la ITC-BT-19.
-- Guía 2.4: circuitos distintos por uso, diferencial aguas arriba 3 veces el de aguas abajo y tipo S; la ITC-BT-19 no fija esa relación. Prevalece la ITC-BT-19.
-- Guía 2.6 y 2.7: la EN 60669-2-4 pasa de 3 a 4 mm (la ITC-BT-19 exige más de 3 mm), separa el neutro con fusibles, exige bloquear el mantenimiento y admite interruptores con accionamiento manual y contactores con pulsador, no enumerados en la ITC-BT-19. Prevalece la ITC-BT-19.
-- Guía 2.9: desconectar protectores de sobretensiones en la prueba de rigidez dieléctrica y fugas muy por debajo del 50 % de la IΔn; la ITC-BT-19 solo las limita a la sensibilidad de los diferenciales. Prevalece la ITC-BT-19.
-- Guía 2.10: admite la ESB 32a (32 A) con 7 360 W en el circuito C3 y prohíbe en nuevas instalaciones las bases de clase 0 de reposición; la ITC-BT-19 solo admite C2a, C3a y ESB 25-5a. Prevalece la ITC-BT-19.
-- Guía 2.11: terminales engastados sobre 6 mm², conexiones accesibles y empalmes en canales IP4X; la ITC-BT-19 solo exige terminales adecuados. Prevalece la ITC-BT-19.
-- Guía 2.2.3: recomienda la UNE 20460-5-523:2004, con diferencias de hasta el 10 % sobre su Tabla 1 de 1994, y calcula hasta 630 mm²; la ITC-BT-19 remite a la norma y a su anexo nacional. Prevalece la ITC-BT-19.
-- Guía 2.2.4: admite gris en fases monofásicas si el proyecto lo especifica y marca en azul el conductor de protección y neutro de TN-C y TN-C-S; la ITC-BT-19 reserva el gris para tres fases. Prevalece la ITC-BT-19.
+- [conflicto] Guía 2.3 (tabla 2): S < 16, 16 < S < 35 y S > 35; la ITC-BT-19 usa S ≤ 16 y 16 < S ≤ 35, y solo la guía deja S = 16 y 35 sin asignar. Prevalece la ITC-BT-19.
+- [ampliacion] Guía 2.4: circuitos distintos por uso, diferencial aguas arriba 3 veces el de aguas abajo y tipo S; la ITC-BT-19 no fija esa relación. Prevalece la ITC-BT-19.
+- [ampliacion] Guía 2.6 y 2.7: la EN 60669-2-4 pasa de 3 a 4 mm (la ITC-BT-19 exige más de 3 mm), separa el neutro con fusibles, exige bloquear el mantenimiento y admite interruptores con accionamiento manual y contactores con pulsador, no enumerados en la ITC-BT-19. Prevalece la ITC-BT-19.
+- [conflicto] Guía 2.9: desconectar protectores de sobretensiones en la prueba de rigidez dieléctrica y fugas muy por debajo del 50 % de la IΔn; la ITC-BT-19 solo las limita a la sensibilidad de los diferenciales. Prevalece la ITC-BT-19.
+- [conflicto] Guía 2.10: admite la ESB 32a (32 A) con 7 360 W en el circuito C3 y prohíbe en nuevas instalaciones las bases de clase 0 de reposición; la ITC-BT-19 solo admite C2a, C3a y ESB 25-5a. Prevalece la ITC-BT-19.
+- [ampliacion] Guía 2.11: terminales engastados sobre 6 mm², conexiones accesibles y empalmes en canales IP4X; la ITC-BT-19 solo exige terminales adecuados. Prevalece la ITC-BT-19.
+- [desactualizacion] Guía 2.2.3: recomienda la UNE 20460-5-523:2004, con diferencias de hasta el 10 % sobre su Tabla 1 de 1994, y calcula hasta 630 mm²; la ITC-BT-19 remite a la norma y a su anexo nacional. Prevalece la ITC-BT-19.
+- [conflicto] Guía 2.2.4: admite gris en fases monofásicas si el proyecto lo especifica y marca en azul el conductor de protección y neutro de TN-C y TN-C-S; la ITC-BT-19 reserva el gris para tres fases. Prevalece la ITC-BT-19.
 
 ## Relacionado
 

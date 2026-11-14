@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-15, derivaciones-individuales]
 sources: [papers/2026-11-10-guia-bt-15-derivaciones-individuales.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-15 — Derivaciones individuales
@@ -37,12 +37,12 @@ El apartado 3 y su anexo desarrollan el cálculo de la sección: caída de tensi
 
 ## Divergencias con la ITC-BT-15
 
-- La guía (1) añade que la DI incluye el equipo de medida y sus fusibles según la [[itc-bt-16-instalaciones-de-enlace-contadores-ubicacion-y-sistemas-de-instalacion]]; la ITC-BT-15 no lo recoge. Prevalece la ITC-BT-15.
-- La guía (1) interpreta que los cables multiconductores de 0,6/1 kV en conductos de obra no necesitan tubo o canal protector; la ITC-BT-15 exige el cumplimiento de la [[itc-bt-21-instalaciones-interiores-o-receptoras-tubos-y-canales-protectoras]] en todos los casos. Prevalece la ITC-BT-15.
-- La guía (2) prescinde del conducto de obra en edificios ya construidos y en tramos verticales que no comuniquen plantas; la ITC-BT-15 lo exige con paredes RF 120 y tapas RF 30. Prevalece la ITC-BT-15.
-- La guía (2) añade los criterios de la NBE-CPI-96 para clasificar escaleras protegidas y la interpretación del conducto de uso exclusivo; la ITC-BT-15 sólo cita la NBE-CPI-96. Prevalece la ITC-BT-15.
-- La guía (2 y 3) añade las tablas de calidad de canalización y de cables, las de intensidades admisibles y el anexo de cálculo; la ITC-BT-15 no las recoge. Prevalece la ITC-BT-15.
-- La guía (3) fija el neutro en la misma sección que las fases salvo justificación de desequilibrios o armónicos; la ITC-BT-15 no determina la sección del neutro. Prevalece la ITC-BT-15.
+- [ampliacion] La guía (1) añade que la DI incluye el equipo de medida y sus fusibles según la [[itc-bt-16-instalaciones-de-enlace-contadores-ubicacion-y-sistemas-de-instalacion]]; la ITC-BT-15 no lo recoge. Prevalece la ITC-BT-15.
+- [conflicto] La guía (1) interpreta que los cables multiconductores de 0,6/1 kV en conductos de obra no necesitan tubo o canal protector; la ITC-BT-15 exige el cumplimiento de la [[itc-bt-21-instalaciones-interiores-o-receptoras-tubos-y-canales-protectoras]] en todos los casos. Prevalece la ITC-BT-15.
+- [conflicto] La guía (2) prescinde del conducto de obra en edificios ya construidos y en tramos verticales que no comuniquen plantas; la ITC-BT-15 lo exige con paredes RF 120 y tapas RF 30. Prevalece la ITC-BT-15.
+- [ampliacion] La guía (2) añade los criterios de la NBE-CPI-96 para clasificar escaleras protegidas y la interpretación del conducto de uso exclusivo; la ITC-BT-15 sólo cita la NBE-CPI-96. Prevalece la ITC-BT-15.
+- [ampliacion] La guía (2 y 3) añade las tablas de calidad de canalización y de cables, las de intensidades admisibles y el anexo de cálculo; la ITC-BT-15 no las recoge. Prevalece la ITC-BT-15.
+- [ampliacion] La guía (3) fija el neutro en la misma sección que las fases salvo justificación de desequilibrios o armónicos; la ITC-BT-15 no determina la sección del neutro. Prevalece la ITC-BT-15.
 
 ## Relacionado
 

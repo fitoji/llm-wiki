@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-21, canalizaciones, tubos]
 sources: [papers/2026-11-10-guia-bt-21-tubos-y-canales-protectoras.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-21 — Tubos y canales protectoras
@@ -34,13 +34,13 @@ La instalación (2.1 a 2.4) exige uniones que aseguren la continuidad de la prot
 
 ## Divergencias con la ITC-BT-21
 
-- La guía abre con un apartado 00 de comparación con el REBT de 1973 ausente en la ITC-BT-21. Prevalece la ITC-BT-21.
-- La guía (1.2) añade las tablas A, B y C (compresión 320/750/1250/4000 N, impacto 0,5/1/2/6/20 J) y los códigos 4321 y 3322; la ITC-BT-21 solo da los códigos. Prevalece la ITC-BT-21.
-- La guía (1.2.4) añade profundidades (0,45 y 0,60 m), recubrimientos y la obligatoriedad de 750 N en vías férreas; la ITC-BT-21 no los fija. Prevalece la ITC-BT-21.
-- La guía (2.1) exige que los circuitos sin receptor terminen en un dispositivo que evite el contacto; la ITC-BT-21 no lo establece. Prevalece la ITC-BT-21.
-- La guía (2.3) advierte que la remisión a la «tabla 8» es una errata (son las tablas 3 y 4); la ITC-BT-21 la mantiene literal. Prevalece la ITC-BT-21.
-- La guía añade un apartado de bandejas (UNE-EN 61537, 0,6/1 kV, conexión a tierra) ausente en la ITC-BT-21, que remite a la [[itc-bt-20-instalaciones-interiores-o-receptoras-sistemas-de-instalacion]]. Prevalece la ITC-BT-21.
-- La guía remite a UNE-EN 50086-2-1 a 2-4 y UNE 20.460-5-52; el listado vigente del BOE ([[itc-bt-02-normas-de-referencia-en-el-reglamento-electrotecnico-para-baja-tension]], Resolución de 20 de marzo de 2025) ya cita UNE-EN IEC 61386-21/22/23, UNE-EN 50626-1 y UNE-HD 60364-5-52: 2022. Prevalece la ITC-BT-21.
+- [ampliacion] La guía abre con un apartado 00 de comparación con el REBT de 1973 ausente en la ITC-BT-21. Prevalece la ITC-BT-21.
+- [ampliacion] La guía (1.2) añade las tablas A, B y C (compresión 320/750/1250/4000 N, impacto 0,5/1/2/6/20 J) y los códigos 4321 y 3322; la ITC-BT-21 solo da los códigos. Prevalece la ITC-BT-21.
+- [ampliacion] La guía (1.2.4) añade profundidades (0,45 y 0,60 m), recubrimientos y la obligatoriedad de 750 N en vías férreas; la ITC-BT-21 no los fija. Prevalece la ITC-BT-21.
+- [ampliacion] La guía (2.1) exige que los circuitos sin receptor terminen en un dispositivo que evite el contacto; la ITC-BT-21 no lo establece. Prevalece la ITC-BT-21.
+- [conflicto] La guía (2.3) advierte que la remisión a la «tabla 8» es una errata (son las tablas 3 y 4); la ITC-BT-21 la mantiene literal. Prevalece la ITC-BT-21.
+- [ampliacion] La guía añade un apartado de bandejas (UNE-EN 61537, 0,6/1 kV, conexión a tierra) ausente en la ITC-BT-21, que remite a la [[itc-bt-20-instalaciones-interiores-o-receptoras-sistemas-de-instalacion]]. Prevalece la ITC-BT-21.
+- [desactualizacion] La guía remite a UNE-EN 50086-2-1 a 2-4 y UNE 20.460-5-52; el listado vigente del BOE ([[itc-bt-02-normas-de-referencia-en-el-reglamento-electrotecnico-para-baja-tension]], Resolución de 20 de marzo de 2025) ya cita UNE-EN IEC 61386-21/22/23, UNE-EN 50626-1 y UNE-HD 60364-5-52: 2022. Prevalece la ITC-BT-21.
 
 ## Relacionado
 

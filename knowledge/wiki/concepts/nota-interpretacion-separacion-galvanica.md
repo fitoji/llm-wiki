@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, generacion, separacion-galvanica]
 sources: [papers/2026-11-10-guia-nota-interpretacion-separacion-galvanica.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Nota de Interpretación Técnica — Equivalencia de la Separación Galvánica
@@ -43,9 +43,9 @@ Las condiciones de aislamiento se aplican por separado a cada parte de la instal
 
 ## Divergencias con el REBT
 
-- La nota parte de que la ITC-BT-40 establece la necesidad de separación galvánica. El texto consolidado de esa instrucción en el BOE no la contiene: clasifica las instalaciones en aisladas, asistidas e interconectadas y, en su apartado 4.3, exige dispositivos que limiten la inyección de corriente continua y la generación de sobretensiones e impidan el funcionamiento en isla. Prevalece la ITC-BT-40.
-- La nota fija el límite de inyección de corriente continua en el 0,5 % de la corriente nominal y un ensayo de cuatro pasos. El apartado 4.3 de la ITC-BT-40 solo exige dispositivos que limiten esa inyección, sin fijar valor ni procedimiento. Prevalece la ITC-BT-40.
-- La nota introduce el tipo c2), con punto de conexión en alta tensión mediante transformador elevador. La clasificación del apartado 2 de la ITC-BT-40 se limita a aisladas, asistidas e interconectadas, sin ese desglose; la propia nota lo reconoce y remite a la reglamentación de alta tensión. Prevalece la ITC-BT-40.
+- [ampliacion] La nota parte de que la ITC-BT-40 establece la necesidad de separación galvánica. El texto consolidado de esa instrucción en el BOE no la contiene: clasifica las instalaciones en aisladas, asistidas e interconectadas y, en su apartado 4.3, exige dispositivos que limiten la inyección de corriente continua y la generación de sobretensiones e impidan el funcionamiento en isla. Prevalece la ITC-BT-40.
+- [ampliacion] La nota fija el límite de inyección de corriente continua en el 0,5 % de la corriente nominal y un ensayo de cuatro pasos. El apartado 4.3 de la ITC-BT-40 solo exige dispositivos que limiten esa inyección, sin fijar valor ni procedimiento. Prevalece la ITC-BT-40.
+- [ampliacion] La nota introduce el tipo c2), con punto de conexión en alta tensión mediante transformador elevador. La clasificación del apartado 2 de la ITC-BT-40 se limita a aisladas, asistidas e interconectadas, sin ese desglose; la propia nota lo reconoce y remite a la reglamentación de alta tensión. Prevalece la ITC-BT-40.
 
 ## Relacionado
 

@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-33, instalaciones-de-obras]
 sources: [papers/2026-11-10-guia-bt-33-instalaciones-provisionales-y-temporales-de-obras.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-33 — Instalaciones provisionales y temporales de obras
@@ -32,13 +32,13 @@ La guía define el «conjunto de aparamenta de baja tensión para obras» con la
 
 ## Divergencias con la ITC-BT-33
 
-- La guía (1) sujeta los locales de servicios de la obra al REBT y a las ITC-BT-18 a 23, y exige proteger la maquinaria alcanzada por rayos; la ITC-BT-33 no lo dice. Prevalece la ITC-BT-33.
-- La guía (1) define el conjunto de aparamenta de obra (UNE-EN 61439-4, Informe Técnico UNE 201008 IN) y sus tipos transportable y móvil; la ITC-BT-33 no lo hace. Prevalece la ITC-BT-33.
-- La guía (2.1) exige documentar y dejar accesibles los datos de la alimentación y fija los dispositivos de interconexión (UNE EN 60947-2 y -3); la ITC-BT-33 solo exige identificar la fuente. Prevalece la ITC-BT-33.
-- La guía (3 y 3.1) desarrolla las medidas contra bajadas de tensión y fija el corte breve de 0,5 s del alumbrado de seguridad; la ITC-BT-33 no fija tiempo de corte. Prevalece la ITC-BT-33.
-- La guía (4.1) excluye obstáculos y puesta fuera de alcance (UNE-HD 60364-7-704:2009, 704.410.3.5) y limita el diferencial de 30 mA a complemento; la ITC-BT-33 solo enumera las medidas preferentes. Prevalece la ITC-BT-33.
-- La guía (4.2) protege con 300 mA las salidas en bloques de conexión y los circuitos de grúas o elevación (RD 806/2003); la ITC-BT-33 solo fija 30 mA para las bases. Prevalece la ITC-BT-33.
-- La guía (5.1, 5.3 y 6.1) actualiza la normativa (UNE-EN 61439-4 y UNE-EN 50525) y añade protecciones contra sobretensiones a los cuadros; la ITC-BT-33 cita las normas antiguas y solo enumera sobreintensidades, contactos indirectos y bases. Prevalece la ITC-BT-33.
+- [ampliacion] La guía (1) sujeta los locales de servicios de la obra al REBT y a las ITC-BT-18 a 23, y exige proteger la maquinaria alcanzada por rayos; la ITC-BT-33 no lo dice. Prevalece la ITC-BT-33.
+- [ampliacion] La guía (1) define el conjunto de aparamenta de obra (UNE-EN 61439-4, Informe Técnico UNE 201008 IN) y sus tipos transportable y móvil; la ITC-BT-33 no lo hace. Prevalece la ITC-BT-33.
+- [ampliacion] La guía (2.1) exige documentar y dejar accesibles los datos de la alimentación y fija los dispositivos de interconexión (UNE EN 60947-2 y -3); la ITC-BT-33 solo exige identificar la fuente. Prevalece la ITC-BT-33.
+- [ampliacion] La guía (3 y 3.1) desarrolla las medidas contra bajadas de tensión y fija el corte breve de 0,5 s del alumbrado de seguridad; la ITC-BT-33 no fija tiempo de corte. Prevalece la ITC-BT-33.
+- [ampliacion] La guía (4.1) excluye obstáculos y puesta fuera de alcance (UNE-HD 60364-7-704:2009, 704.410.3.5) y limita el diferencial de 30 mA a complemento; la ITC-BT-33 solo enumera las medidas preferentes. Prevalece la ITC-BT-33.
+- [conflicto] La guía (4.2) protege con 300 mA las salidas en bloques de conexión y los circuitos de grúas o elevación (RD 806/2003); la ITC-BT-33 solo fija 30 mA para las bases. Prevalece la ITC-BT-33.
+- [desactualizacion] La guía (5.1, 5.3 y 6.1) actualiza la normativa (UNE-EN 61439-4 y UNE-EN 50525) y añade protecciones contra sobretensiones a los cuadros; la ITC-BT-33 cita las normas antiguas y solo enumera sobreintensidades, contactos indirectos y bases. Prevalece la ITC-BT-33.
 
 ## Relacionado
 

@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, ip, ik]
 sources: [papers/2026-11-10-guia-rebt-anexo-1-significado-y-explicacion-de-los-codigos-ip-ik.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía REBT Anexo 1 — Significado y explicación de los códigos IP, IK (edición sep 03, rev 1)
@@ -83,7 +83,7 @@ Los procedimientos de limpieza especializados no están cubiertos por los grados
 
 ## Divergencias con el REBT
 
-- El anexo define el código IP por la UNE 20324 y el código IK por la UNE-EN 50102. La ITC-BT-02, en el listado consolidado del BOE, relaciona el código IP con la UNE-EN 60529 (ediciones 2018) y el código IK con la UNE-EN 62262 (2002; 2002/A1: 2022), que sustituye a la UNE-EN 50102:1996 y sus correcciones; la propia nota al pie 7 recuerda que «la referencia original en el texto reglamentario es UNE 20324». Prevalece la ITC-BT-02.
+- [desactualizacion] El anexo define el código IP por la UNE 20324 y el código IK por la UNE-EN 50102. La ITC-BT-02, en el listado consolidado del BOE, relaciona el código IP con la UNE-EN 60529 (ediciones 2018) y el código IK con la UNE-EN 62262 (2002; 2002/A1: 2022), que sustituye a la UNE-EN 50102:1996 y sus correcciones; la propia nota al pie 7 recuerda que «la referencia original en el texto reglamentario es UNE 20324». Prevalece la ITC-BT-02.
 
 ## Relacionado
 

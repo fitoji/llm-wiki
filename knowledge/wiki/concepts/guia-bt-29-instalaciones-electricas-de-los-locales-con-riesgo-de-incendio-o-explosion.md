@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-29, atex, zonas-riesgo]
 sources: [papers/2026-11-10-guia-bt-29-instalaciones-electricas-de-los-locales-con-riesgo-de-incendio-o-explosion.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-29 — Instalaciones eléctricas de los locales con riesgo de incendio o explosión
@@ -54,16 +54,16 @@ Los conductos mantienen las tablas 3, 4 y 5 de la ITC, y la guía precisa entrad
 
 ## Divergencias con la ITC-BT-29
 
-- Equipos: la guía (5) remite al R.D. 144/2016, obligatorio desde el 20 de abril de 2016, y admite equipos anteriores justificando su seguridad en la documentación técnica; la ITC-BT-29 (5) exige solo el R.D. 400/1996. Prevalece la ITC-BT-29.
-- Terminología: la guía (2) añade a las categorías 1, 2 y 3 los modos UNE-EN 60079-x y la "declaración UE de conformidad"; la ITC-BT-29 (2) solo define las categorías y la "declaración CE". Prevalece la ITC-BT-29.
-- Zonas: la guía (4.1.1 y 4.1.2) remite a UNE-EN 60079-10-1 y 60079-10-2 y sustituye la CEI 61241-3; la ITC-BT-29 cita UNE-EN 60079-10 y CEI 61241-3. Prevalece la ITC-BT-29.
-- Normas: la guía (7.1, 8.1, 8.3, 9.1, 9.2, 9.3) sustituye EN 50281-1-2 por UNE-EN 60079-14, UNE-EN 50039 por UNE-EN 60079-25 y UNE-EN 50086 por UNE-EN 61386; la ITC-BT-29 cita las sustituidas, aunque el listado del BOE (Resolución de 20 de marzo de 2025) ya lo hace. Prevalece la ITC-BT-29.
-- Inspección: la guía (6.1 y 6.3) declara los procedimientos de UNE-EN 60079-17 y 60079-19 orientativos para la propiedad y mantiene la obligación legal en las inspecciones administrativas de la [[itc-bt-05-verificaciones-e-inspecciones]] por organismo ENAC; la ITC-BT-29 (6.1) obliga a inspeccionar según UNE-EN 60079-17. Prevalece la ITC-BT-29.
-- Seguridad intrínseca: la guía (9.1) limita el uso en zonas 0 y 20 a circuitos de categoría 1, degrada a categoría 2 el resultado global con más de dos aparatos de categoría 1 y excluye del apartado 9 a las instalaciones de seguridad intrínseca; la ITC-BT-29 (9.1) solo remite a UNE-EN 60079-14 y 50039. Prevalece la ITC-BT-29.
-- Reacción al fuego: la guía (9.2 a)) fija la clase mínima C-s1b,d1,a1 ca y añade la tabla A de canalización en superficie; la ITC-BT-29 (9.2 a)) solo remite a UNE 20432-3. Prevalece la ITC-BT-29.
-- Cables portátiles y móviles: la guía (9.2 b)) limita los 30 m a herramientas no instaladas, sustituye UNE 21027-4 por UNE-EN 50525-2-21 y añade 1,0 mm² con 250 V y 6 A; la ITC-BT-29 (9.2 b)) fija 1,5 mm² y 30 m sin excepción. Prevalece la ITC-BT-29.
-- Documentación: la guía (4 y 6.2) exige además el documento de protección contra explosiones del artículo 8 del R.D. 681/2003, la relación de sustancias y fuentes de escape y el plano de áreas peligrosas; la ITC-BT-29 solo pide clasificación con plano, categorías, instrucciones y condiciones especiales. Prevalece la ITC-BT-29.
-- Desclasificación de garajes: la guía (Anexo III) fija un método de desclasificación por ventilación (f = 5, k = 0,25 o 0,5) y concluye que los garajes que cumplen el CTE HS3 son desclasificados; la ITC-BT-29 no prevé vía de desclasificación y mantiene los garajes entre los emplazamientos peligrosos. Prevalece la ITC-BT-29.
+- [desactualizacion] Equipos: la guía (5) remite al R.D. 144/2016, obligatorio desde el 20 de abril de 2016, y admite equipos anteriores justificando su seguridad en la documentación técnica; la ITC-BT-29 (5) exige solo el R.D. 400/1996. Prevalece la ITC-BT-29.
+- [desactualizacion] Terminología: la guía (2) añade a las categorías 1, 2 y 3 los modos UNE-EN 60079-x y la "declaración UE de conformidad"; la ITC-BT-29 (2) solo define las categorías y la "declaración CE". Prevalece la ITC-BT-29.
+- [desactualizacion] Zonas: la guía (4.1.1 y 4.1.2) remite a UNE-EN 60079-10-1 y 60079-10-2 y sustituye la CEI 61241-3; la ITC-BT-29 cita UNE-EN 60079-10 y CEI 61241-3. Prevalece la ITC-BT-29.
+- [desactualizacion] Normas: la guía (7.1, 8.1, 8.3, 9.1, 9.2, 9.3) sustituye EN 50281-1-2 por UNE-EN 60079-14, UNE-EN 50039 por UNE-EN 60079-25 y UNE-EN 50086 por UNE-EN 61386; la ITC-BT-29 cita las sustituidas, aunque el listado del BOE (Resolución de 20 de marzo de 2025) ya lo hace. Prevalece la ITC-BT-29.
+- [conflicto] Inspección: la guía (6.1 y 6.3) declara los procedimientos de UNE-EN 60079-17 y 60079-19 orientativos para la propiedad y mantiene la obligación legal en las inspecciones administrativas de la [[itc-bt-05-verificaciones-e-inspecciones]] por organismo ENAC; la ITC-BT-29 (6.1) obliga a inspeccionar según UNE-EN 60079-17. Prevalece la ITC-BT-29.
+- [ampliacion] Seguridad intrínseca: la guía (9.1) limita el uso en zonas 0 y 20 a circuitos de categoría 1, degrada a categoría 2 el resultado global con más de dos aparatos de categoría 1 y excluye del apartado 9 a las instalaciones de seguridad intrínseca; la ITC-BT-29 (9.1) solo remite a UNE-EN 60079-14 y 50039. Prevalece la ITC-BT-29.
+- [ampliacion] Reacción al fuego: la guía (9.2 a)) fija la clase mínima C-s1b,d1,a1 ca y añade la tabla A de canalización en superficie; la ITC-BT-29 (9.2 a)) solo remite a UNE 20432-3. Prevalece la ITC-BT-29.
+- [conflicto] Cables portátiles y móviles: la guía (9.2 b)) limita los 30 m a herramientas no instaladas, sustituye UNE 21027-4 por UNE-EN 50525-2-21 y añade 1,0 mm² con 250 V y 6 A; la ITC-BT-29 (9.2 b)) fija 1,5 mm² y 30 m sin excepción. Prevalece la ITC-BT-29.
+- [ampliacion] Documentación: la guía (4 y 6.2) exige además el documento de protección contra explosiones del artículo 8 del R.D. 681/2003, la relación de sustancias y fuentes de escape y el plano de áreas peligrosas; la ITC-BT-29 solo pide clasificación con plano, categorías, instrucciones y condiciones especiales. Prevalece la ITC-BT-29.
+- [ampliacion] Desclasificación de garajes: la guía (Anexo III) fija un método de desclasificación por ventilación (f = 5, k = 0,25 o 0,5) y concluye que los garajes que cumplen el CTE HS3 son desclasificados; la ITC-BT-29 no prevé vía de desclasificación y mantiene los garajes entre los emplazamientos peligrosos. Prevalece la ITC-BT-29.
 
 ## Relacionado
 

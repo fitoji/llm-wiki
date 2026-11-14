@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-49, mobiliario]
 sources: [papers/2026-11-10-guia-bt-49-instalaciones-electricas-en-muebles.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-49 — Instalaciones eléctricas en muebles
@@ -37,11 +37,11 @@ El apartado 2.5 relaciona las tomas de corriente con la UNE 20315, los bornes co
 
 ## Divergencias con la ITC-BT-49
 
-- La guía (2.1) explica el símbolo F, define las superficies normalmente inflamables y enumera las circunstancias de funcionamiento consideradas; la ITC-BT-49 sólo exige la marca F conforme a UNE EN 60598-1. Prevalece la ITC-BT-49.
-- La guía (2.2) añade las tablas de calidades de canalización (2221, 4321 y UNE-EN 50085-1) y de cables con sus normas y temperaturas de servicio; la ITC-BT-49 no las recoge. Prevalece la ITC-BT-49.
-- La guía (2.2) admite conductores unipolares aislados tipo H07V, rígido o flexible, en tubos y canales; la ITC-BT-49 sólo enumera los dos tipos de cable flexible. Prevalece la ITC-BT-49.
-- La guía (2.3) sólo permite conductores rígidos de clase 1 o 2 cuando están alojados en tubos o canales protectores; la ITC-BT-49 los admite en los casos de 1,5 mm² y 2,5 mm² sin esa condición. Prevalece la ITC-BT-49.
-- La guía (2.5) añade la tabla de normas de producto (UNE 20315, UNE-EN 60998, UNE 20451); la ITC-BT-49 no fija las normas aplicables. Prevalece la ITC-BT-49.
+- [ampliacion] La guía (2.1) explica el símbolo F, define las superficies normalmente inflamables y enumera las circunstancias de funcionamiento consideradas; la ITC-BT-49 sólo exige la marca F conforme a UNE EN 60598-1. Prevalece la ITC-BT-49.
+- [ampliacion] La guía (2.2) añade las tablas de calidades de canalización (2221, 4321 y UNE-EN 50085-1) y de cables con sus normas y temperaturas de servicio; la ITC-BT-49 no las recoge. Prevalece la ITC-BT-49.
+- [conflicto] La guía (2.2) admite conductores unipolares aislados tipo H07V, rígido o flexible, en tubos y canales; la ITC-BT-49 sólo enumera los dos tipos de cable flexible. Prevalece la ITC-BT-49.
+- [conflicto] La guía (2.3) sólo permite conductores rígidos de clase 1 o 2 cuando están alojados en tubos o canales protectores; la ITC-BT-49 los admite en los casos de 1,5 mm² y 2,5 mm² sin esa condición. Prevalece la ITC-BT-49.
+- [ampliacion] La guía (2.5) añade la tabla de normas de producto (UNE 20315, UNE-EN 60998, UNE 20451); la ITC-BT-49 no fija las normas aplicables. Prevalece la ITC-BT-49.
 
 ## Relacionado
 

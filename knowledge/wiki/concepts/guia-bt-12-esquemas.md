@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-12, instalaciones-de-enlace]
 sources: [papers/2026-11-10-guia-bt-12-esquemas.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-12 — Esquemas de las instalaciones de enlace
@@ -36,9 +36,9 @@ El interruptor general de maniobra es un interruptor-seccionador que deja fuera 
 
 ## Divergencias con la ITC-BT-12
 
-- La guía (1.1 y 1.2) añade que la acometida no forma parte de las instalaciones de enlace y que su responsabilidad corresponde a la empresa suministradora, y un régimen de uso del ICP (hasta 63 A; por encima, interruptores regulables o maxímetros sin caja para ICP) ausente del texto consolidado. Prevalece la ITC-BT-12.
-- La guía (tabla de diferencias y 2.2.2) atribuye a los apartados 2.2.2 y 2.2.3 de la ITC-BT-12 la obligatoriedad del interruptor general de maniobra con más de dos contadores; el texto consolidado no lo fija y lo hace la ITC-BT-16, apartado 3. Prevalece la ITC-BT-12.
-- La guía (2.1 y 2.2.1) añade criterios constructivos de la colocación individual y la denominación de CPM remitida a la ITC-BT-13, apartado 2, ausentes del texto consolidado. Prevalece la ITC-BT-12.
+- [ampliacion] La guía (1.1 y 1.2) añade que la acometida no forma parte de las instalaciones de enlace y que su responsabilidad corresponde a la empresa suministradora, y un régimen de uso del ICP (hasta 63 A; por encima, interruptores regulables o maxímetros sin caja para ICP) ausente del texto consolidado. Prevalece la ITC-BT-12.
+- [ampliacion] La guía (tabla de diferencias y 2.2.2) atribuye a los apartados 2.2.2 y 2.2.3 de la ITC-BT-12 la obligatoriedad del interruptor general de maniobra con más de dos contadores; el texto consolidado no lo fija y lo hace la ITC-BT-16, apartado 3. Prevalece la ITC-BT-12.
+- [ampliacion] La guía (2.1 y 2.2.1) añade criterios constructivos de la colocación individual y la denominación de CPM remitida a la ITC-BT-13, apartado 2, ausentes del texto consolidado. Prevalece la ITC-BT-12.
 
 ## Relacionado
 

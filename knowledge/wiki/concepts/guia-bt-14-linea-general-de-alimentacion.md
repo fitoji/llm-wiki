@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-14, linea-general-de-alimentacion]
 sources: [papers/2026-11-10-guia-bt-14-linea-general-de-alimentacion.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-14 — Línea general de alimentación
@@ -35,12 +35,12 @@ El apartado de instalación recuerda los criterios de la NBE-CPI-96 (artículos 
 
 ## Divergencias con la ITC-BT-14
 
-- La guía (1) añade que en los esquemas 2.1 y 2.2.1 de la ITC-BT-12 no existe LGA y que en los conductos de obra no hace falta alojar los conductores en tubos o canales; la ITC-BT-14 no lo recoge. Prevalece la ITC-BT-14.
-- La guía (1) añade que en el esquema 2.2.3 la LGA incluye obligatoriamente el conductor de protección junto a los conductores activos; la ITC-BT-14 sólo dice que las canalizaciones lo incluyen. Prevalece la ITC-BT-14.
-- La guía (2) permite montaje superficial o empotrado en edificios ya construidos y prescinde del conducto de obra si el tramo no comunica plantas; la ITC-BT-14 exige conducto de 30 × 30 cm, registrable, precintable, con cortafuegos y RF 120. Prevalece la ITC-BT-14.
-- La guía (2) añade los criterios de la NBE-CPI-96 para identificar las escaleras protegidas y la inaccesibilidad de las tapas de registro; la ITC-BT-14 no los fija. Prevalece la ITC-BT-14.
-- La guía (3) añade tipos de cable concretos, la tabla de calidad mínima de canalización y las tablas A y B de intensidades; la ITC-BT-14 sólo fija 0,6/1 kV, el carácter no propagador, la sección uniforme y los mínimos de 10 mm² y 16 mm². Prevalece la ITC-BT-14.
-- La guía (3) afirma que el neutro debe ser de igual sección que las fases salvo justificación; la ITC-BT-14 lo fija en torno al 50 % de la fase con los mínimos de su tabla 1. Prevalece la ITC-BT-14.
+- [ampliacion] La guía (1) añade que en los esquemas 2.1 y 2.2.1 de la ITC-BT-12 no existe LGA y que en los conductos de obra no hace falta alojar los conductores en tubos o canales; la ITC-BT-14 no lo recoge. Prevalece la ITC-BT-14.
+- [ampliacion] La guía (1) añade que en el esquema 2.2.3 la LGA incluye obligatoriamente el conductor de protección junto a los conductores activos; la ITC-BT-14 sólo dice que las canalizaciones lo incluyen. Prevalece la ITC-BT-14.
+- [conflicto] La guía (2) permite montaje superficial o empotrado en edificios ya construidos y prescinde del conducto de obra si el tramo no comunica plantas; la ITC-BT-14 exige conducto de 30 × 30 cm, registrable, precintable, con cortafuegos y RF 120. Prevalece la ITC-BT-14.
+- [ampliacion] La guía (2) añade los criterios de la NBE-CPI-96 para identificar las escaleras protegidas y la inaccesibilidad de las tapas de registro; la ITC-BT-14 no los fija. Prevalece la ITC-BT-14.
+- [ampliacion] La guía (3) añade tipos de cable concretos, la tabla de calidad mínima de canalización y las tablas A y B de intensidades; la ITC-BT-14 sólo fija 0,6/1 kV, el carácter no propagador, la sección uniforme y los mínimos de 10 mm² y 16 mm². Prevalece la ITC-BT-14.
+- [conflicto] La guía (3) afirma que el neutro debe ser de igual sección que las fases salvo justificación; la ITC-BT-14 lo fija en torno al 50 % de la fase con los mínimos de su tabla 1. Prevalece la ITC-BT-14.
 
 ## Relacionado
 

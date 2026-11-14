@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-03, instaladores-autorizados, cualificacion-profesional]
 sources: [papers/2026-11-10-guia-bt-03-instaladores-autorizados-en-baja-tension.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-03 — Instaladores autorizados en baja tensión
@@ -22,16 +22,16 @@ Guía técnica de aplicación del REBT (edición de septiembre de 2003, revisió
 Cada modalidad de especialista se asocia a una ITC: automatización y gestión técnica de la energía, a la ITC-BT-51; líneas aéreas o subterráneas, a las ITC-BT-6, 7 y 11; riesgo de incendio o explosión, a la ITC-BT-29; quirófanos, a la ITC-BT-38; lámparas de descarga y rótulos, a la ITC-BT-44; generadoras, a la ITC-BT-40. Los rótulos que superen 1.000 V exigen instalador especialista; con conexiones exteriores solo en baja tensión (ITC-BT-44, 3.2) las conecta un instalador de categoría básica.
 
 ## Divergencias con la ITC-BT-03
-- Habilitación: la guía (5.1-5.2) exige certificado de la comunidad, carnets, alta en IAE, censo de obligaciones tributarias y Seguridad Social; la ITC-BT-03 (5) exige declaración responsable. Prevalece la ITC-BT-03.
-- Cualificación: la guía (4.2-4.3) exige certificado individual con cursos y examen; la ITC-BT-03 (4) admite cinco vías (título, FP, RD 1224/2009, RD 581/2017, ENAC). Prevalece la ITC-BT-03.
-- Entidades de formación: la guía las regula para cursos de 40 a 100 h; la ITC-BT-03 (4.e) solo admite certificación por entidad acreditada (UNE-EN ISO/IEC 17024). Prevalece la ITC-BT-03.
-- Validez: la guía (5.2.2) fija 5 años con renovación y silencio positivo; la ITC-BT-03 (5.5) habilita por tiempo indefinido. Prevalece la ITC-BT-03.
-- Seguro de responsabilidad civil: la guía (5.1.b) actualiza las cuantías por el IPC anual; la ITC-BT-03 (5.8.c) por orden ministerial. Prevalece la ITC-BT-03.
-- Medios humanos: la guía (apéndice 1) limita a 10 operarios por persona con cualificación individual; la ITC-BT-03 (apéndice I) no fija ese ratio. Prevalece la ITC-BT-03.
-- Local: la guía (apéndice 2.1.1) exige local de 25 m² en categoría básica; la ITC-BT-03 (apéndice I) lo suprime. Prevalece la ITC-BT-03.
-- Generadoras: la guía (3.2) reserva a la especialidad toda instalación generadora; la ITC-BT-03 (3.2 y apéndice II) la limita a potencia ≥ 10 kW. Prevalece la ITC-BT-03.
-- Ámbito territorial: la guía (6) exige comunicar a cada comunidad autónoma antes de actuar en ella; la ITC-BT-03 suprime el apartado. Prevalece la ITC-BT-03.
-- Transitorias: la guía reproduce la primera y segunda disposición transitoria del RD 842/2002; el consolidado remite a la única del RD 298/2021. Prevalece la ITC-BT-03.
+- [desactualizacion] Habilitación: la guía (5.1-5.2) exige certificado de la comunidad, carnets, alta en IAE, censo de obligaciones tributarias y Seguridad Social; la ITC-BT-03 (5) exige declaración responsable. Prevalece la ITC-BT-03.
+- [desactualizacion] Cualificación: la guía (4.2-4.3) exige certificado individual con cursos y examen; la ITC-BT-03 (4) admite cinco vías (título, FP, RD 1224/2009, RD 581/2017, ENAC). Prevalece la ITC-BT-03.
+- [desactualizacion] Entidades de formación: la guía las regula para cursos de 40 a 100 h; la ITC-BT-03 (4.e) solo admite certificación por entidad acreditada (UNE-EN ISO/IEC 17024). Prevalece la ITC-BT-03.
+- [desactualizacion] Validez: la guía (5.2.2) fija 5 años con renovación y silencio positivo; la ITC-BT-03 (5.5) habilita por tiempo indefinido. Prevalece la ITC-BT-03.
+- [conflicto] Seguro de responsabilidad civil: la guía (5.1.b) actualiza las cuantías por el IPC anual; la ITC-BT-03 (5.8.c) por orden ministerial. Prevalece la ITC-BT-03.
+- [desactualizacion] Medios humanos: la guía (apéndice 1) limita a 10 operarios por persona con cualificación individual; la ITC-BT-03 (apéndice I) no fija ese ratio. Prevalece la ITC-BT-03.
+- [desactualizacion] Local: la guía (apéndice 2.1.1) exige local de 25 m² en categoría básica; la ITC-BT-03 (apéndice I) lo suprime. Prevalece la ITC-BT-03.
+- [conflicto] Generadoras: la guía (3.2) reserva a la especialidad toda instalación generadora; la ITC-BT-03 (3.2 y apéndice II) la limita a potencia ≥ 10 kW. Prevalece la ITC-BT-03.
+- [desactualizacion] Ámbito territorial: la guía (6) exige comunicar a cada comunidad autónoma antes de actuar en ella; la ITC-BT-03 suprime el apartado. Prevalece la ITC-BT-03.
+- [desactualizacion] Transitorias: la guía reproduce la primera y segunda disposición transitoria del RD 842/2002; el consolidado remite a la única del RD 298/2021. Prevalece la ITC-BT-03.
 
 ## Relacionado
 - [[itc-bt-03-empresas-instaladoras-en-baja-tension]]

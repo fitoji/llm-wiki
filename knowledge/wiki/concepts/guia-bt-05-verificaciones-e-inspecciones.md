@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-05, inspecciones, verificaciones]
 sources: [papers/2026-11-10-guia-bt-05-verificaciones-e-inspecciones.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-05 — Verificaciones e inspecciones
@@ -43,8 +43,8 @@ Guía técnica de aplicación del REBT (edición de septiembre de 2003, revisió
 El instalador que ejecutó la obra verifica, con la supervisión del director de obra cuando existe, y responde de la correcta ejecución y de la seguridad de la instalación, como un fabricante de su producto; toda ampliación o modificación debe ejecutarla un instalador y verificarse. El Organismo de Control inspecciona sobre las prescripciones del Reglamento y la documentación técnica, y el instalador puede asistir; entre los defectos graves, de forma no exhaustiva, figuran la falta de conexiones equipotenciales, la ausencia de medidas contra contactos indirectos, la falta de aislamiento o de protección contra cortocircuitos, los conductores de protección deficientes, la resistencia de tierra elevada y las ampliaciones no tramitadas según la ITC-BT-04.
 
 ## Divergencias con la ITC-BT-05
-- Recarga de vehículo eléctrico: la guía (4.1) enumera las instalaciones sujetas a inspección inicial sin incluir las estaciones de recarga para vehículo eléctrico que requieran proyecto; la ITC-BT-05 (4.1.h) sí las incluye. Prevalece la ITC-BT-05.
-- Excepción de los garajes: la guía (4.1.c) exceptúa "garajes de menos de 25 plazas"; la ITC-BT-05 (4.1.c), tras el RD 1053/2014, exceptúa "aparcamientos o estacionamientos de menos de 25 plazas". Prevalece la ITC-BT-05.
+- [omision] Recarga de vehículo eléctrico: la guía (4.1) enumera las instalaciones sujetas a inspección inicial sin incluir las estaciones de recarga para vehículo eléctrico que requieran proyecto; la ITC-BT-05 (4.1.h) sí las incluye. Prevalece la ITC-BT-05.
+- [desactualizacion] Excepción de los garajes: la guía (4.1.c) exceptúa "garajes de menos de 25 plazas"; la ITC-BT-05 (4.1.c), tras el RD 1053/2014, exceptúa "aparcamientos o estacionamientos de menos de 25 plazas". Prevalece la ITC-BT-05.
 
 ## Relacionado
 - [[itc-bt-05-verificaciones-e-inspecciones]]

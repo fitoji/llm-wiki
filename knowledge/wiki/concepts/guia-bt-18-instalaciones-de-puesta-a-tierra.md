@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-18, toma-de-tierra, electrodos]
 sources: [papers/2026-11-10-guia-bt-18-instalaciones-de-puesta-a-tierra.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-18 — Instalaciones de puesta a tierra
@@ -42,13 +42,13 @@ En el esquema TN las funciones de protección y neutro pueden combinarse en un c
 
 ## Divergencias con la ITC-BT-18
 
-- La guía (12) designa a «Director de la Obra o Instalador Autorizado»; la ITC-BT-18 exige «Director de la Obra o Empresa instaladora» (art. 7.1 del RD 560/2010). Prevalece la ITC-BT-18.
-- La guía (3.2) recomienda 35 mm² de cobre enterrado y desnudo; la ITC-BT-18 fija 16 mm² o 25 mm² para el cobre. Prevalece la ITC-BT-18.
-- La guía (3.4) añade las constantes k y la condición de tiempo de corte no superior a 5 s; la ITC-BT-18 solo remite a la UNE 20.460-5-54, apartado 543.1.1. Prevalece la ITC-BT-18.
-- La guía (3.1) recomienda 0,8 m con heladas y fija dimensiones mínimas de electrodo con las UNE 21056 y 202006; la ITC-BT-18 solo fija 0,50 m y remite a la UNE 21.022, sustituida por la UNE-EN 60228. Prevalece la ITC-BT-18.
-- La guía (3.3) exige que el puente seccionador tenga la sección del conductor de tierra; la ITC-BT-18 no la determina. Prevalece la ITC-BT-18.
-- La guía (10 y 11) añade el procedimiento con electrodos auxiliares, R = 1,6 ρ/P, el coeficiente 0,5–0,6 de la UNE 207003 y los coeficientes k y n; la ITC-BT-18 fija 50 V, 15 m y D = 2 ρ I_d / U. Prevalece la ITC-BT-18.
-- La guía incorpora un anexo 1 con las topologías de redes de tierras para equipos de tecnología de la información ausente de la ITC-BT-18. Prevalece la ITC-BT-18.
+- [desactualizacion] La guía (12) designa a «Director de la Obra o Instalador Autorizado»; la ITC-BT-18 exige «Director de la Obra o Empresa instaladora» (art. 7.1 del RD 560/2010). Prevalece la ITC-BT-18.
+- [conflicto] La guía (3.2) recomienda 35 mm² de cobre enterrado y desnudo; la ITC-BT-18 fija 16 mm² o 25 mm² para el cobre. Prevalece la ITC-BT-18.
+- [ampliacion] La guía (3.4) añade las constantes k y la condición de tiempo de corte no superior a 5 s; la ITC-BT-18 solo remite a la UNE 20.460-5-54, apartado 543.1.1. Prevalece la ITC-BT-18.
+- [conflicto] La guía (3.1) recomienda 0,8 m con heladas y fija dimensiones mínimas de electrodo con las UNE 21056 y 202006; la ITC-BT-18 solo fija 0,50 m y remite a la UNE 21.022, sustituida por la UNE-EN 60228. Prevalece la ITC-BT-18.
+- [ampliacion] La guía (3.3) exige que el puente seccionador tenga la sección del conductor de tierra; la ITC-BT-18 no la determina. Prevalece la ITC-BT-18.
+- [ampliacion] La guía (10 y 11) añade el procedimiento con electrodos auxiliares, R = 1,6 ρ/P, el coeficiente 0,5–0,6 de la UNE 207003 y los coeficientes k y n; la ITC-BT-18 fija 50 V, 15 m y D = 2 ρ I_d / U. Prevalece la ITC-BT-18.
+- [ampliacion] La guía incorpora un anexo 1 con las topologías de redes de tierras para equipos de tecnología de la información ausente de la ITC-BT-18. Prevalece la ITC-BT-18.
 
 ## Relacionado
 

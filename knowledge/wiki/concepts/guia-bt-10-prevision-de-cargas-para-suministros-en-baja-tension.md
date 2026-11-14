@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-10, prevision-cargas]
 sources: [papers/2026-11-10-guia-bt-10-prevision-de-cargas-para-suministros-en-baja-tension.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-10 — Previsión de cargas para suministros en baja tensión
@@ -40,11 +40,11 @@ Para servicios generales ofrece la tabla A de elevadores según la norma ITE-ITA
 
 ## Divergencias con la ITC-BT-10
 
-- La guía (2.1.2) omite la recarga de vehículo eléctrico en unifamiliares como condición de electrificación elevada, que sí consta en la ITC-BT-10, y añade criterios no enumerados en ella: automatización, secandra, número de puntos de utilización y remisión a la ITC-BT-25. Prevalece la ITC-BT-10.
-- La guía omite el capítulo 5 de la ITC-BT-10 (recarga de vehículo eléctrico: 3 680 W por el 10 % de las plazas) y remite a los capítulos 2, 3 y 4, frente a los 2, 3, 4 y 5 consolidados. Prevalece la ITC-BT-10.
-- La guía no recoge la modificación por la disposición final 4 del RD 1053/2014 (BOE-A-2014-13681), con efectos de 30 de junio de 2015, que sí consta en el texto consolidado. Prevalece la ITC-BT-10.
-- La guía añade una tabla de escalones de potencia prevista y calibre del IGA que la ITC-BT-10 no contiene. Prevalece la ITC-BT-10.
-- La guía añade criterios de cálculo ausentes de la ITC-BT-10 (elevadores, alumbrado de servicios generales, normativa contra incendios en garajes) y generaliza el uso de la demanda real, que la ITC-BT-10 limita a edificios comerciales o industriales. Prevalece la ITC-BT-10.
+- [omision] La guía (2.1.2) omite la recarga de vehículo eléctrico en unifamiliares como condición de electrificación elevada, que sí consta en la ITC-BT-10, y añade criterios no enumerados en ella: automatización, secandra, número de puntos de utilización y remisión a la ITC-BT-25. Prevalece la ITC-BT-10.
+- [omision] La guía omite el capítulo 5 de la ITC-BT-10 (recarga de vehículo eléctrico: 3 680 W por el 10 % de las plazas) y remite a los capítulos 2, 3 y 4, frente a los 2, 3, 4 y 5 consolidados. Prevalece la ITC-BT-10.
+- [omision] La guía no recoge la modificación por la disposición final 4 del RD 1053/2014 (BOE-A-2014-13681), con efectos de 30 de junio de 2015, que sí consta en el texto consolidado. Prevalece la ITC-BT-10.
+- [ampliacion] La guía añade una tabla de escalones de potencia prevista y calibre del IGA que la ITC-BT-10 no contiene. Prevalece la ITC-BT-10.
+- [ampliacion] La guía añade criterios de cálculo ausentes de la ITC-BT-10 (elevadores, alumbrado de servicios generales, normativa contra incendios en garajes) y generaliza el uso de la demanda real, que la ITC-BT-10 limita a edificios comerciales o industriales. Prevalece la ITC-BT-10.
 
 ## Relacionado
 

@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-17, mando-y-proteccion]
 sources: [papers/2026-11-10-guia-bt-17-dispositivos-generales-e-individuales-de-mando-y-proteccion.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-14
 ---
 
 # Guía-BT-17 — Dispositivos generales e individuales de mando y protección
@@ -37,14 +37,14 @@ El apartado 1.3 fija la selectividad entre diferenciales en serie (tiempo de no 
 
 ## Divergencias con la ITC-BT-17
 
-- La guía (1.2) exime de la caja del ICP a las instalaciones con contador inteligente con ICP incorporado (artículo 9.6 del RD 1110/2007); la ITC-BT-17 la exige siempre. Prevalece la ITC-BT-17.
-- La guía (1.2) admite la posición horizontal de servicio en instalaciones industriales si el fabricante la prevé; la ITC-BT-17 fija posición vertical. Prevalece la ITC-BT-17.
-- La guía (1.2) remite a las UNE-EN 60670-1, UNE-EN 61439-3 y UNE-EN 60529, que sustituyen a las normas de la ITC-BT-17 (UNE 20.451, UNE-EN 60.439-3 y UNE 20.324). Prevalece la ITC-BT-17.
-- La guía (1.2) añade la tabla de normas de producto y los grados de inflamabilidad (850/650 ºC doméstico, 960/650 ºC industrial); la ITC-BT-17 no los fija. Prevalece la ITC-BT-17.
-- La guía (1.2) fija el límite de 63 A del ICP, los dispositivos alternativos por encima y que el ICP no es elemento de protección ni de desconexión; la ITC-BT-17 no lo precisa. Prevalece la ITC-BT-17.
-- La guía (1.2) concreta las condiciones de selectividad total entre diferenciales en serie; la ITC-BT-17 sólo exige que exista selectividad. Prevalece la ITC-BT-17.
-- La guía (1.2) añade reglas de posición del dispositivo de sobretensiones respecto al diferencial y la protección aguas arriba del limitador; la ITC-BT-17 sólo lo menciona «si fuese necesario». Prevalece la ITC-BT-17.
-- La guía (1.3) exige proteger el neutro en circuitos trifásicos con armónicos, con la [[itc-bt-22-instalaciones-interiores-o-receptoras-proteccion-contra-sobreintensidades]] y la UNE-HD 60364-4-43; la ITC-BT-17 sólo fija los polos protegidos. Prevalece la ITC-BT-17.
+- [desactualizacion] La guía (1.2) exime de la caja del ICP a las instalaciones con contador inteligente con ICP incorporado (artículo 9.6 del RD 1110/2007); la ITC-BT-17 la exige siempre. Prevalece la ITC-BT-17.
+- [conflicto] La guía (1.2) admite la posición horizontal de servicio en instalaciones industriales si el fabricante la prevé; la ITC-BT-17 fija posición vertical. Prevalece la ITC-BT-17.
+- [desactualizacion] La guía (1.2) remite a las UNE-EN 60670-1, UNE-EN 61439-3 y UNE-EN 60529, que sustituyen a las normas de la ITC-BT-17 (UNE 20.451, UNE-EN 60.439-3 y UNE 20.324). Prevalece la ITC-BT-17.
+- [ampliacion] La guía (1.2) añade la tabla de normas de producto y los grados de inflamabilidad (850/650 ºC doméstico, 960/650 ºC industrial); la ITC-BT-17 no los fija. Prevalece la ITC-BT-17.
+- [ampliacion] La guía (1.2) fija el límite de 63 A del ICP, los dispositivos alternativos por encima y que el ICP no es elemento de protección ni de desconexión; la ITC-BT-17 no lo precisa. Prevalece la ITC-BT-17.
+- [ampliacion] La guía (1.2) concreta las condiciones de selectividad total entre diferenciales en serie; la ITC-BT-17 sólo exige que exista selectividad. Prevalece la ITC-BT-17.
+- [ampliacion] La guía (1.2) añade reglas de posición del dispositivo de sobretensiones respecto al diferencial y la protección aguas arriba del limitador; la ITC-BT-17 sólo lo menciona «si fuese necesario». Prevalece la ITC-BT-17.
+- [ampliacion] La guía (1.3) exige proteger el neutro en circuitos trifásicos con armónicos, con la [[itc-bt-22-instalaciones-interiores-o-receptoras-proteccion-contra-sobreintensidades]] y la UNE-HD 60364-4-43; la ITC-BT-17 sólo fija los polos protegidos. Prevalece la ITC-BT-17.
 
 ## Relacionado
 
