@@ -57,3 +57,5 @@ Los circuitos pueden exceptuarse de la desconexión en carga los destinados a re
 - [[itc-bt-36-instalaciones-a-muy-baja-tension]]
 - [[conductores-y-ejecucion-instalacion-interior]]
 - [[instalaciones-interiores-viviendas-bt]]
+- [[caida-de-tension]] — síntesis transversal de la caída de tensión
+- [[proteccion-diferencial-selectividad]] — síntesis transversal del diferencial y la selectividad

@@ -81,4 +81,3 @@ Documento del Ministerio de Industria que desarrolla la aplicación práctica de
 - [[itc-bt-25-instalaciones-interiores-en-viviendas-numero-de-circuitos-y-caracteristicas]] (circuito C13)
 - [[classificacio-p1-p2]]
 - [[reglament-electrotecnic-baixa-tensio]]
-- [[ITC-BT-YY]]

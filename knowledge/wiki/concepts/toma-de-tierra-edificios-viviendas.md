@@ -40,3 +40,4 @@ Comparación de la Guía-BT-26 (edición sep 03, revisión 1) con el texto conso
 - [[instalaciones-interiores-viviendas-bt]]
 - [[itc-bt-26-instalaciones-interiores-en-viviendas-prescripciones-generales-de-instalacion]]
 - [[reglament-electrotecnic-baixa-tensio]]
+- [[criterios-puesta-a-tierra]] — criterios generales de la ITC-BT-18

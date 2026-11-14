@@ -41,3 +41,4 @@ Define los esquemas de distribución TN, TT e IT según las conexiones a tierra 
 - [[itc-bt-06-redes-aereas-para-distribucion-en-baja-tension]]
 - [[itc-bt-07-redes-subterraneas-para-distribucion-en-baja-tension]]
 - [[toma-de-tierra-edificios-viviendas]]
+- [[esquemas-conexion-neutro-masas]] — síntesis transversal de TT, TN e IT

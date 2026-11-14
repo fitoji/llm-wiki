@@ -50,3 +50,5 @@ La conexión equipotencial local no conectada a tierra debe unir todas las masas
 - [[itc-bt-08-sistemas-de-conexion-del-neutro-y-de-las-masas-en-redes-de-distribucion-de-energia-electrica]]
 - [[itc-bt-09-instalaciones-de-alumbrado-exterior]]
 - [[itc-bt-36-instalaciones-a-muy-baja-tension]]
+- [[proteccion-diferencial-selectividad]] — síntesis transversal del diferencial y la selectividad
+- [[esquemas-conexion-neutro-masas]] — síntesis transversal de los esquemas TT, TN e IT

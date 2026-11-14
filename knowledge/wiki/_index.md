@@ -2,11 +2,14 @@
 
 ## Concepts
 - [[butlleti-reconeixement-baixa-tensio]] — boletín justificativo de las condiciones de seguridad ante la distribuidora (validez 6 meses)
+- [[caida-de-tension]] — límites por tramo, cálculo y compensación de la caída de tensión
 - [[certificat-installacio-electrica-bt]] — certificado ELEC-1: declara la conformidad con el REBT
 - [[classificacio-p1-p2]] — listas P1 y P2 que determinan si hace falta memoria técnica
 - [[conductores-y-ejecucion-instalacion-interior]] — conductores, identificación, sistemas de instalación y condiciones generales (Guía-BT-26)
+- [[criterios-puesta-a-tierra]] — electrodos, secciones, medición y revisión de la puesta a tierra
 - [[divergencias-guias-tecnicas-rebt-vs-itc-bt]] — mapa de las 223 divergencias guía↔ITC-BT detectadas; prevalece la ITC
 - [[esquema-unifilar-bt-elc2]] — formulario ELEC-2: esquema unifilar de la instalación en baja tensión
+- [[esquemas-conexion-neutro-masas]] — TT, TN e IT: nomenclatura y condiciones de protección
 - [[guia-bt-03-instaladores-autorizados-en-baja-tension]] — instaladores autorizados en baja tensión (Guía-BT-03)
 - [[guia-bt-04-documentacion-y-puesta-en-servicio-de-las-instalaciones]] — documentación y puesta en servicio de las instalaciones (Guía-BT-04)
 - [[guia-bt-05-verificaciones-e-inspecciones]] — verificaciones e inspecciones (Guía-BT-05)
@@ -95,6 +98,7 @@
 - [[locales-banera-ducha-bt]] — volúmenes 0–3, protección y grados IP en baños y duchas (Guía-BT-27)
 - [[memoria-tecnica-baixa-tensio]] — memoria técnica ELEC-3 para instalaciones de clase P1
 - [[nota-interpretacion-separacion-galvanica]] — nota de interpretación técnica: equivalencias a la separación galvánica
+- [[proteccion-diferencial-selectividad]] — 30 mA, selectividad en serie y ubicación del diferencial
 - [[puntos-utilizacion-vivienda]] — puntos de utilización mínimos y de confort por estancia (Guía-BT-25)
 - [[reglament-electrotecnic-baixa-tensio]] — REBT aprobado por el RD 842/2002, con el texto íntegro del BOE
 - [[toma-de-tierra-edificios-viviendas]] — toma de tierra: anillo, picas, bornes y secciones (Guía-BT-26)

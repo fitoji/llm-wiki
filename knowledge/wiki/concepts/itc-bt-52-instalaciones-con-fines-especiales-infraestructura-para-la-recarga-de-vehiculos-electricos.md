@@ -73,3 +73,4 @@ Tabla 1. Potencias instaladas normalizadas en un circuito de recarga para una vi
 - [[itc-bt-29-prescripciones-particulares-para-las-instalaciones-electricas-de-los-locales-con-riesgo-de-ince]]
 - [[itc-bt-30-instalaciones-en-locales-de-caracteristicas-especiales]]
 - [[itc-bt-52-instalaciones-con-fines-especiales-infraestructura-para-la-recarga-de-vehiculos-electricos]]
+- [[proteccion-diferencial-selectividad]] — síntesis transversal del diferencial y la selectividad

@@ -52,7 +52,8 @@ La ITC-BT-18 (puesta a tierra) no fija límites de caída de tensión: el anexo 
 
 - [[reglament-electrotecnic-baixa-tensio]]
 - [[guia-rebt-anexo-3-calculo-de-corrientes-de-cortocircuito]]
-- [[ITC-BT-14]]
-- [[ITC-BT-15]]
-- [[ITC-BT-19]]
-- [[ITC-BT-25]]
+- [[itc-bt-14-instalaciones-de-enlace-linea-general-de-alimentacion]]
+- [[itc-bt-15-instalaciones-de-enlace-derivaciones-individuales]]
+- [[itc-bt-19-instalaciones-interiores-o-receptoras-prescripciones-generales]]
+- [[itc-bt-25-instalaciones-interiores-en-viviendas-numero-de-circuitos-y-caracteristicas]]
+- [[caida-de-tension]] — síntesis transversal de límites, cálculo y compensación

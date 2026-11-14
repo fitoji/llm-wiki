@@ -60,3 +60,4 @@ En instalaciones de utilización con centro de transformación, las masas y sus 
 - [[itc-bt-24-instalaciones-interiores-o-receptoras-proteccion-contra-los-contactos-directos-e-indirectos]]
 - [[toma-de-tierra-edificios-viviendas]]
 - [[reglament-electrotecnic-baixa-tensio]]
+- [[criterios-puesta-a-tierra]] — síntesis transversal de los criterios de puesta a tierra

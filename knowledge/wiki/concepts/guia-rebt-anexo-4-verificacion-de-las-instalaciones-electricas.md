@@ -45,9 +45,9 @@ En esquemas TT se cumple R_A·I_a ≤ U_A, con tensión de contacto límite de 5
 ## Relacionado
 
 - [[reglament-electrotecnic-baixa-tensio]]
-- [[ITC-BT-05]]
-- [[ITC-BT-18]]
-- [[ITC-BT-19]]
-- [[ITC-BT-24]]
-- [[ITC-BT-27]]
-- [[ITC-BT-38]]
+- [[itc-bt-05-verificaciones-e-inspecciones]]
+- [[itc-bt-18-instalaciones-de-puesta-a-tierra]]
+- [[itc-bt-19-instalaciones-interiores-o-receptoras-prescripciones-generales]]
+- [[itc-bt-24-instalaciones-interiores-o-receptoras-proteccion-contra-los-contactos-directos-e-indirectos]]
+- [[itc-bt-27-instalaciones-interiores-en-viviendas-locales-que-contienen-una-banera-o-ducha]]
+- [[itc-bt-38-instalaciones-con-fines-especiales-requisitos-particulares-para-la-instalacion-electrica-en-qui]]
