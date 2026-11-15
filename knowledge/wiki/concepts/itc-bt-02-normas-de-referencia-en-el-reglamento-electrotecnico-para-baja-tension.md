@@ -2,7 +2,8 @@
 title: ITC-BT-02 — Normas de Referencia en el Reglamento Electrotécnico para Baja Tensión
 type: concept
 tags: [rebt, baja-tension, itc-bt-02, normas-une]
-sources: [papers/2026-11-10-rebt-itc-bt-02-normas-de-referencia-en-el-reglamento-electrotecnico-para-baja-tension.md]created: 2026-11-10
+sources: [papers/2026-11-10-rebt-itc-bt-02-normas-de-referencia-en-el-reglamento-electrotecnico-para-baja-tension.md]
+created: 2026-11-10
 updated: 2026-11-10
 ---
 

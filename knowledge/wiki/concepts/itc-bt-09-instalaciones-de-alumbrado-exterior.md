@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, baja-tension, itc-bt-09, alumbrado-exterior, puesta-a-tierra]
 sources: [papers/2026-11-10-rebt-itc-bt-09-instalaciones-de-alumbrado-exterior.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-15
 ---
 
 # ITC-BT-09 — Instalaciones de Alumbrado Exterior
@@ -39,3 +39,4 @@ Siempre que sea posible, con niveles de iluminación decrecientes en las horas d
 - [[itc-bt-06-redes-aereas-para-distribucion-en-baja-tension]]
 - [[itc-bt-07-redes-subterraneas-para-distribucion-en-baja-tension]]
 - [[itc-bt-21-instalaciones-interiores-o-receptoras-tubos-y-canales-protectoras]]
+- [[itc-bt-31-instalaciones-con-fines-especiales-piscinas-y-fuentes]] — excluidas de su ámbito de aplicación

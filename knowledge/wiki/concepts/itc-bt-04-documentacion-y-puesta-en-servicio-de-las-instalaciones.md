@@ -2,8 +2,9 @@
 title: ITC-BT-04 — Documentación y Puesta en Servicio de las Instalaciones
 type: concept
 tags: [rebt, baja-tension, itc-bt-04, proyecto, puesta-en-servicio]
-sources: [papers/2026-11-10-rebt-itc-bt-04-documentacion-y-puesta-en-servicio-de-las-instalaciones.md]created: 2026-11-10
-updated: 2026-11-10
+sources: [papers/2026-11-10-rebt-itc-bt-04-documentacion-y-puesta-en-servicio-de-las-instalaciones.md]
+created: 2026-11-10
+updated: 2026-11-15
 ---
 
 # ITC-BT-04 — Documentación y Puesta en Servicio de las Instalaciones
@@ -49,3 +50,7 @@ Para el suministro, el titular entrega un ejemplar del certificado a la empresa 
 
 ## Relacionado
 - [[guia-bt-04-documentacion-y-puesta-en-servicio-de-las-instalaciones]] — guía técnica de aplicación (no vinculante: prevalece la ITC-BT-04)
+- [[esquema-unifilar-bt-elc2]] — el esquema unifilar figura entre los documentos del proyecto
+- [[itc-bt-32-instalaciones-con-fines-especiales-maquinas-de-elevacion-y-transporte]] — grupo j de la tabla de instalaciones que precisan proyecto
+- [[itc-bt-37-instalaciones-a-tensiones-especiales]] — grupo j de la tabla de instalaciones que precisan proyecto
+- [[itc-bt-39-instalaciones-con-fines-especiales-cercas-electricas-para-ganado]] — grupo j de la tabla de instalaciones que precisan proyecto

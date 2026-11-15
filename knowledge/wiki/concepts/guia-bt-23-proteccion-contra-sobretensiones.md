@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-23, sobretensiones]
 sources: [papers/2026-11-10-guia-bt-23-proteccion-contra-sobretensiones.md]
 created: 2026-11-10
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 
 # Guía-BT-23 — Protección contra sobretensiones
@@ -48,3 +48,6 @@ La guía conecta los descargadores según el régimen de neutro (en TT e IT entr
 - [[itc-bt-28-instalaciones-en-locales-de-publica-concurrencia]]
 - [[itc-bt-52-instalaciones-con-fines-especiales-infraestructura-para-la-recarga-de-vehiculos-electricos]]
 - [[itc-bt-24-instalaciones-interiores-o-receptoras-proteccion-contra-los-contactos-directos-e-indirectos]]
+- [[itc-bt-41-instalaciones-electricas-en-caravanas-y-parques-de-caravanas]] — fines especiales que la guía incluye en su alcance
+- [[itc-bt-42-instalaciones-electricas-en-puertos-y-marinas-para-barcos-de-recreo]] — fines especiales que la guía incluye en su alcance
+- [[itc-bt-35-instalaciones-con-fines-especiales-establecimientos-agricolas-y-horticolas]] — fines especiales que la guía incluye en su alcance

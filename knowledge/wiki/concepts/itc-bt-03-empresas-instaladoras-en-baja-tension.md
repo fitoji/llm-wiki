@@ -2,7 +2,8 @@
 title: ITC-BT-03 — Empresas Instaladoras en Baja Tensión
 type: concept
 tags: [rebt, baja-tension, itc-bt-03, empresas-instaladoras]
-sources: [papers/2026-11-10-rebt-itc-bt-03-empresas-instaladoras-en-baja-tension.md]created: 2026-11-10
+sources: [papers/2026-11-10-rebt-itc-bt-03-empresas-instaladoras-en-baja-tension.md]
+created: 2026-11-10
 updated: 2026-11-10
 ---
 

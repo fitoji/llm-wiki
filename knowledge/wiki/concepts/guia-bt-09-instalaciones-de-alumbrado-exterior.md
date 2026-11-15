@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-09, alumbrado-exterior, proteccion]
 sources: [papers/2026-11-10-guia-bt-09-instalaciones-de-alumbrado-exterior.md]
 created: 2026-11-10
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 
 # Guía-BT-09 — Instalaciones de alumbrado exterior
@@ -63,3 +63,4 @@ Nota de autoridad: la ITC-BT-09 del RD 842/2002 (consolidado del BOE, actualizac
 - [[itc-bt-06-redes-aereas-para-distribucion-en-baja-tension]]
 - [[itc-bt-07-redes-subterraneas-para-distribucion-en-baja-tension]]
 - [[itc-bt-21-instalaciones-interiores-o-receptoras-tubos-y-canales-protectoras]]
+- [[itc-bt-34-instalaciones-con-fines-especiales-ferias-y-stands]] — la guía excluye de su ámbito las temporales de ferias
