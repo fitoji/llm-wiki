@@ -8,14 +8,15 @@ edita a mano: se regenera con:
     python knowledge/tools/wiki_sources.py build
     python knowledge/tools/wiki_sources.py check   # avisa si está desactualizado
 
-`check` sale con código 1 si el archivo en disco no coincide con lo que
-correspondería generar hoy.
+`check` sale con código 1 si el contenido de `knowledge/sources.md` no
+coincide con el de `raw/` (la línea de fecha no cuenta).
 """
 import argparse
 import re
 import sys
 from datetime import date
 from pathlib import Path
+from typing import Optional, Union
 
 ROOT = Path(__file__).resolve().parent.parent  # carpeta knowledge/
 RAW = ROOT / "raw"
@@ -30,7 +31,8 @@ def frontmatter(path: Path) -> dict:
     """Campos del frontmatter de un markdown. Vacío si no tiene."""
     try:
         text = Path(path).read_text(encoding="utf-8-sig")
-    except (UnicodeDecodeError, OSError):
+    except (UnicodeDecodeError, OSError) as exc:
+        print(f"aviso: no se pudo leer {path}: {exc}", file=sys.stderr)
         return {}
     m = _FM.match(text)
     if not m:
@@ -46,7 +48,7 @@ def frontmatter(path: Path) -> dict:
     return out
 
 
-def _valor(raw: str):
+def _valor(raw: str) -> Union[list, bool, str]:
     v = raw.strip()
     if v.startswith("[") and v.endswith("]"):
         interior = v[1:-1].strip()
@@ -65,7 +67,9 @@ def collect(raw: Path = RAW) -> list:
         fm = frontmatter(p)
         rel = p.relative_to(raw)
         folder = rel.parts[0] if len(rel.parts) > 1 else "(raíz)"
-        compilada = bool(fm.get("compiled"))
+        tags = fm.get("tags") or []
+        if isinstance(tags, str):  # `tags: rebt` sin corchetes
+            tags = [tags]
         rows.append(
             {
                 "path": str(rel),
@@ -73,9 +77,8 @@ def collect(raw: Path = RAW) -> list:
                 "title": fm.get("title") or p.stem,
                 "source": str(fm.get("source") or ""),
                 "date": str(fm.get("date") or ""),
-                "tags": fm.get("tags") or [],
-                "compiled": compilada,
-                "estado": "compilada" if compilada else "pendiente",
+                "tags": tags,
+                "compiled": bool(fm.get("compiled")),
             }
         )
     rows.sort(key=lambda r: (r["title"].lower(), r["path"]))
@@ -88,8 +91,11 @@ def citations(wiki: Path = WIKI) -> dict:
     for p in sorted(Path(wiki).rglob("*.md")):
         if p.name == "_index.md":
             continue
-        for src in frontmatter(p).get("sources") or []:
-            out.setdefault(src, []).append(p.stem)
+        fuentes = frontmatter(p).get("sources") or []
+        if isinstance(fuentes, str):  # `sources: ruta.md` sin corchetes
+            fuentes = [fuentes]
+        for src in fuentes:
+            out.setdefault(str(src), []).append(p.stem)
     for src in out:
         out[src].sort()
     return out
@@ -98,12 +104,13 @@ def citations(wiki: Path = WIKI) -> dict:
 def _fila(r: dict, cites: dict) -> str:
     tags = ", ".join(r["tags"]) if r["tags"] else "—"
     origen = r["source"] or "—"
-    autores = cites.get(r["path"], [])
-    citan = ", ".join(autores) if autores else "—"
+    citan = cites.get(r["path"], [])
+    citan_txt = ", ".join(citan) if citan else "—"
     fecha = r["date"] or "—"
+    estado = "compilada" if r["compiled"] else "pendiente"
     return (
         f"| {r['title']} | {fecha} | {origen} | {tags} "
-        f"| {r['estado']} | {citan} |"
+        f"| {estado} | {citan_txt} |"
     )
 
 
@@ -126,7 +133,7 @@ def render(rows: list, cites: dict, hoy: str) -> str:
         f"**{total} {plural}** en total — {comp}, {pend}.",
         "",
         "Para comprobar si un PDF ya está digerido, buscá acá por título u origen",
-        "(`Ctrl+F`), o corré `python knowledge/tools/wiki_search.py search \"palabra\"`.",
+        "(`Ctrl+F`) o en `knowledge/raw/` con tu herramienta de búsqueda nativa.",
         "",
         "## Pendientes de compilar",
         "",
@@ -153,30 +160,46 @@ def render(rows: list, cites: dict, hoy: str) -> str:
     return "\n".join(out) + "\n"
 
 
-def build(root: Path = ROOT, hoy: str = None) -> str:
+def build(root: Path = ROOT, hoy: Optional[str] = None) -> str:
     root = Path(root)
     hoy = hoy or date.today().isoformat()
     return render(collect(root / "raw"), citations(root / "wiki"), hoy)
 
 
-def main():
+def _sin_fecha(texto: str) -> str:
+    """Texto sin la línea 'Actualizado: ...', para comparar contenido real."""
+    return re.sub(r"^Actualizado: .*$", "", texto, flags=re.M)
+
+
+def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__)
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("build", help="regenera knowledge/sources.md")
-    sub.add_parser("check", help="sale con 1 si knowledge/sources.md está desactualizado")
-    args = ap.parse_args()
+    sub.add_parser(
+        "check",
+        help="sale con 1 si el contenido de knowledge/sources.md no coincide con raw/",
+    )
+    args = ap.parse_args(argv)
 
     texto = build()
     if args.cmd == "build":
         OUT.write_text(texto, encoding="utf-8")
-        print(f"Generado {OUT.relative_to(ROOT.parent)} con {texto.count(chr(10))} líneas")
+        n_lineas = len(texto.splitlines())
+        try:
+            nombre = OUT.relative_to(ROOT.parent)
+        except ValueError:  # OUT reubicado (tests)
+            nombre = OUT
+        print(f"Generado {nombre} con {n_lineas} líneas")
         return 0
 
     actual = OUT.read_text(encoding="utf-8") if OUT.exists() else ""
-    if actual == texto:
+    if _sin_fecha(actual) == _sin_fecha(texto):
         print("knowledge/sources.md está al día")
         return 0
-    print("knowledge/sources.md está desactualizado: corré `... wiki_sources.py build`")
+    print(
+        "knowledge/sources.md está desactualizado: "
+        "corré `python knowledge/tools/wiki_sources.py build`"
+    )
     return 1
 
 

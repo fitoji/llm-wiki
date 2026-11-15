@@ -8,7 +8,7 @@ Actualizado: 2026-11-15.
 **100 fuentes** en total — 100 compiladas, 0 pendientes.
 
 Para comprobar si un PDF ya está digerido, buscá acá por título u origen
-(`Ctrl+F`), o corré `python knowledge/tools/wiki_search.py search "palabra"`.
+(`Ctrl+F`) o en `knowledge/raw/` con tu herramienta de búsqueda nativa.
 
 ## Pendientes de compilar
 
