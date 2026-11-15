@@ -17,6 +17,7 @@ f. **Desactualizados**: artículos cuyo `updated` tiene más de 90 días mientra
 g. **Fuentes sin compilar**: archivos de `knowledge/raw/` con `compiled: false`.
 h. **Afirmaciones sin respaldo**: artículos con `sources` vacío.
 i. **Tipos de divergencia**: cada viñeta de divergencia (el mapa y los artículos con sección `## Divergencias`) empieza por un tipo válido: `[conflicto]`, `[ampliacion]`, `[omision]` o `[desactualizacion]` (ver "Divergencias: taxonomía obligatoria" en AGENTS.md). Reportá las viñetas sin tipo, con tipo desconocido o con tipo que no corresponde a la relación descrita.
+j. **Índice de fuentes desactualizado**: `knowledge/sources.md` no coincide con lo que correspondería generar. Comprobá con `python knowledge/tools/wiki_sources.py check` (sale con código 1 si está desactualizado). Ese archivo es generado: no lo edites a mano, regeneralo con `... wiki_sources.py build`.
 
 ## 2. Informe
 

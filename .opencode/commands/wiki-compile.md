@@ -40,10 +40,11 @@ f. Marca la fuente: cambia `compiled: false` por `compiled: true` en su frontmat
 
 Actualiza `knowledge/wiki/_index.md` añadiendo los artículos nuevos con una descripción de una línea. Mantén el orden alfabético dentro de cada sección.
 
-## 4. Reconstruir la búsqueda
+## 4. Reconstruir la búsqueda y el índice de fuentes
 
 ```
 python knowledge/tools/wiki_search.py index
+python knowledge/tools/wiki_sources.py build
 ```
 
 ## 5. Informe final

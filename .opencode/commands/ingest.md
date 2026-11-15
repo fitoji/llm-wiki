@@ -33,4 +33,10 @@ compiled: false
 ---
 ```
 
-4. Confirma con la ruta del archivo creado y sugiere ejecutar `/wiki-compile`.
+4. Regenera el índice de fuentes procesadas:
+
+```
+python knowledge/tools/wiki_sources.py build
+```
+
+5. Confirma con la ruta del archivo creado y sugiere ejecutar `/wiki-compile`.

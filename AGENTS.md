@@ -20,11 +20,15 @@ knowledge/
     tools/          <- herramientas, productos, librerías
     _index.md       <- índice maestro
   output/           <- respuestas a consultas que merece la pena conservar
+  sources.md        <- GENERADO por wiki_sources.py: registro de las fuentes procesadas
   tools/
     wiki_search.py  <- búsqueda de texto completo (SQLite FTS5)
+    wiki_sources.py <- genera sources.md desde el frontmatter de raw/
 ```
 
 `knowledge/tools/wiki_index.sqlite` se genera solo al indexar y está ignorado por git. No lo edites ni lo borres a mano: `search` reconstruye el índice si detecta cambios.
+
+`knowledge/sources.md` es **generado**: no lo edites a mano, o se desincronizará de `raw/`. Regeneralo con `python knowledge/tools/wiki_sources.py build`; `... check` avisa si está desactualizado (sale con código 1). Es el registro de «¿ya digerí este PDF?»: lista cada fuente con título, fecha, origen, tags, estado de compilación y qué artículos la citan.
 
 `tools/guia_rebt/` (en la raíz del repo) es el pipeline que regenera el corpus de Guías Técnicas del REBT: `convert_guia_to_markdown.py` vuelve a bajar los PDF oficiales de industria.gob.es y produce los `.md` con las tablas inline, `indice.json` lleva el `sha256` de cada PDF para detectar si el ministerio publicó otra edición y `auditar_cobertura.py` verifica qué ITC tienen guía publicada.
 
@@ -77,7 +81,8 @@ Este vault es prosa, no código. Elegí la herramienta según qué estás buscan
 | Qué buscás | Herramienta |
 |---|---|
 | Artículos de la wiki | `python knowledge/tools/wiki_search.py search "consulta" [-n N]` — índice SQLite FTS5, reindexa solo si algo cambió |
-| Fuentes de `raw/` (no indexado) o cualquier archivo | tu herramienta de búsqueda nativa (ripgrep) |
+| Fuentes procesadas (¿ya digerí este PDF?) | `knowledge/sources.md` — generado por `wiki_sources.py`, buscá por título u origen |
+| Fuentes de `raw/` en detalle o cualquier archivo | tu herramienta de búsqueda nativa (ripgrep) |
 | Símbolos, funciones y flujo de código | CodeGraph, solo si el vault tiene código (hoy: `knowledge/tools/wiki_search.py` y `tools/guia_rebt/*.py`) |
 
 - **Nunca uses CodeGraph para buscar contenido de artículos**: indexa símbolos y prosa de código, no texto de markdown.
@@ -174,6 +179,7 @@ Guardar memoria es parte del trabajo, pero falla cerrado cuando hay ambigüedad 
 - `/wiki-compile`: convierte las fuentes con `compiled: false` en artículos de la wiki.
 - `/wiki-lint`: revisa la salud de la wiki y escribe un informe.
 - Búsqueda: `python knowledge/tools/wiki_search.py search "consulta"`. Reindexa sola si detectó cambios; `... index` la fuerza.
+- Índice de fuentes: `python knowledge/tools/wiki_sources.py build` regenera `knowledge/sources.md`; `... check` avisa si está desactualizado. Correlo tras cada `/ingest` y cada `/wiki-compile`.
 
 ## Responder preguntas
 

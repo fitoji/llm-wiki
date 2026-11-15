@@ -61,7 +61,9 @@ python knowledge/tools/wiki_search.py index          # solo si querés forzar la
 | `knowledge/raw/` | Material en bruto. Solo lectura para el agente (salvo el campo `compiled`). |
 | `knowledge/wiki/` | La wiki. Acá escribe el agente. |
 | `knowledge/output/` | Respuestas e informes que vale la pena conservar. |
+| `knowledge/sources.md` | Registro **generado** de las fuentes procesadas: título, fecha, origen, estado y qué artículos la citan. No se edita a mano. |
 | `knowledge/tools/wiki_search.py` | Búsqueda de texto completo (SQLite FTS5, sin dependencias). |
+| `knowledge/tools/wiki_sources.py` | Genera `sources.md` desde el frontmatter de `raw/`. |
 | `tools/guia_rebt/` | Pipeline de regeneración del corpus de guías del REBT. |
 | `odd/tasks/` | Documentos de seguimiento de los trabajos grandes. |
 
@@ -77,11 +79,19 @@ python knowledge/tools/wiki_search.py index          # solo si querés forzar la
 
 Los binarios que no son texto (PDF, capturas) van a `knowledge/inbox/`, que está ignorada por git. Lo que se versiona es el `.md` que queda en `raw/`.
 
+Tras cada `/ingest` y cada `/wiki-compile` se regenera `knowledge/sources.md`, el registro de lo ya digerido. Para verlo a mano:
+
+```
+python knowledge/tools/wiki_sources.py build   # regenera
+python knowledge/tools/wiki_sources.py check   # avisa si está desactualizado
+```
+
 ## Herramientas de búsqueda
 
 | Qué buscás | Herramienta |
 | --- | --- |
 | Artículos de la wiki | `wiki_search.py` (índice FTS5, reindexa solo si algo cambió) |
+| Fuentes procesadas (¿ya digerí este PDF?) | `knowledge/sources.md` — archivo generado, buscá por título u origen |
 | Fuentes de `knowledge/raw/` o cualquier archivo | La herramienta de búsqueda nativa del agente |
 | Símbolos y flujo de código | CodeGraph, solo para el Python del vault |
 
