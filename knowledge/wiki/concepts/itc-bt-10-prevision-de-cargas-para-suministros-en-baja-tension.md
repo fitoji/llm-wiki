@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, baja-tension, itc-bt-10, prevision-cargas, simultaneidad]
 sources: [papers/2026-11-10-rebt-itc-bt-10-prevision-de-cargas-para-suministros-en-baja-tension.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-15
 ---
 
 # ITC-BT-10 — Previsión de Cargas para Suministros en Baja Tensión
@@ -16,7 +16,7 @@ Establece la potencia a prever por vivienda y edificio (viviendas, servicios gen
 - Clasificación de lugares de consumo: edificios de viviendas, comerciales o de oficinas, destinados a industria específica, a concentración de industrias, y aparcamientos con infraestructura de recarga de vehículos eléctricos.
 - Electrificación básica: cobertura de las necesidades primarias de uso sin obras posteriores; electrificación elevada: uso electrodoméstico mayor, calefacción eléctrica o aire acondicionado, superficie útil superior a 160 m², o recarga de vehículo eléctrico en unifamiliares, o combinaciones.
 - Potencia a prever en construcción nueva: como mínimo 5 750 W a 230 V por vivienda; con electrificación elevada, no inferior a 9 200 W.
-- La potencia a prever se corresponde con la capacidad máxima de la instalación, definida por la intensidad asignada del interruptor general automático (ITC-BT-25).
+- La potencia a prever se corresponde con la capacidad máxima de la instalación, definida por la intensidad asignada del interruptor general automático (ITC-BT-25). La potencia a prever no debe confundirse con la potencia a contratar por cada usuario (que depende de su utilización y se gestiona con la suministradora, y a la que se asocia el control del ICP cuando procede).
 - Servicios generales del edificio: se suman sin factor de reducción (simultaneidad = 1).
 - Locales comerciales y oficinas: mínimo 100 W por m² y planta, con un mínimo de 3 450 W a 230 V por local y simultaneidad 1.
 - Garajes: 10 W/m² y planta con ventilación natural y 20 W/m² con ventilación forzada, mínimo 3 450 W a 230 V y simultaneidad 1.

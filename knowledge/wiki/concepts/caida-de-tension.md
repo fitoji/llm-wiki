@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, baja-tension, caidas-de-tension, secciones, itc-bt-19, itc-bt-25, guia-tecnica]
 sources: [papers/2026-11-10-guia-rebt-anexo-2-calculos-de-caidas-de-tension.md, papers/2026-11-10-rebt-itc-bt-19-instalaciones-interiores-o-receptoras-prescripciones-generales.md, papers/2026-11-10-rebt-itc-bt-25-instalaciones-interiores-en-viviendas-numero-de-circuitos-y-caracteristicas.md, papers/2026-11-10-rebt-itc-bt-14-instalaciones-de-enlace-linea-general-de-alimentacion.md, papers/2026-11-10-rebt-itc-bt-15-instalaciones-de-enlace-derivaciones-individuales.md, papers/2026-11-10-guia-bt-25-instalaciones-interiores-en-viviendas-numero-de-circuitos-y-caracteristicas.md, papers/2026-11-10-guia-bt-19-instalaciones-interiores-o-receptoras-prescripciones-generales.md, papers/2026-11-10-guia-bt-14-linea-general-de-alimentacion.md, papers/2026-11-10-guia-bt-15-derivaciones-individuales.md]
 created: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
 ---
 
 # Caída de tensión en baja tensión — límites, cálculo y compensación
@@ -44,7 +44,7 @@ El Anexo 2 ofrece dos itinerarios. El simplificado admite la temperatura máxima
 
 ### Tablas de longitudes máximas
 
-La Guía-BT-25, en el apartado 3, publica la Tabla B: longitud máxima del conductor en función de su sección y de la intensidad nominal del dispositivo de protección, para una caída del 3 %, una temperatura estimada de 40 °C y cos φ = 1 (1,5 mm²: 27 m a 10 A; 2,5 mm²: 45 m a 10 A y 28 m a 16 A; 4 mm²: 45 m a 16 A y 36 m a 20 A; 6 mm²: 53 m a 20 A y 43 m a 25 A). Sirve para acotar el trazado de los circuitos de vivienda sin calcular cada línea. El texto consolidado de la [[itc-bt-25-instalaciones-interiores-en-viviendas-numero-de-circuitos-y-caracteristicas]] fija el límite del 3 % y la regla de compensación, pero no incluye esa tabla: es una divergencia de tipo `[ampliacion]` respecto a la ITC. La aplicación práctica a los circuitos C1–C13 está en [[instalaciones-interiores-viviendas-bt]].
+La Guía-BT-25, en el apartado 3, publica la Tabla B: longitud máxima del conductor en función de su sección y de la intensidad nominal del dispositivo de protección, para una caída del 3 %, una temperatura estimada de 40 °C y cos φ = 1 (1,5 mm²: 27 m a 10 A; 2,5 mm²: 45 m a 10 A y 28 m a 16 A; 4 mm²: 45 m a 16 A y 36 m a 20 A; 6 mm²: 53 m a 20 A y 43 m a 25 A). Cada valor es la longitud máxima (en metros) desde el origen del circuito hasta el punto más alejado; sirve para acotar el trazado sin repetir el cálculo. Ejemplo práctico: un C2 con 2,5 mm² y 16 A tiene 28 m como máximo orientativo, por lo que un punto a 32 m obliga a verificar el 3 % y, si no cumple, aumentar sección, acortar recorrido o compensar la caída total con la derivación individual cuando proceda. El texto consolidado de la [[itc-bt-25-instalaciones-interiores-en-viviendas-numero-de-circuitos-y-caracteristicas]] fija el límite del 3 % y la regla de compensación, pero no incluye esa tabla: es una divergencia de tipo `[ampliacion]` respecto a la ITC. La aplicación práctica a los circuitos C1–C13 está en [[instalaciones-interiores-viviendas-bt]].
 
 ### Compensación entre instalación interior y derivaciones individuales
 

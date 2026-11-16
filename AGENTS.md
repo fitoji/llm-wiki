@@ -189,4 +189,4 @@ Cuando el usuario pregunte algo sobre su conocimiento:
 3. Responde citando los artículos con `[[enlaces]]`.
 4. Si la wiki no alcanza pero la información está en una fuente de `knowledge/raw/`, responde desde la fuente, cita su ruta y ofrece compilarla con `/wiki-compile`.
 5. Si no está ni en la wiki ni en `raw/`, dilo claramente; no la inventes.
-6. Si la respuesta es valiosa, ofrece guardarla en `knowledge/output/` (con el formato de arriba) o convertirla en un artículo.
+6. Si la respuesta es valiosa, haz que el conocimiento **componga** en la wiki (espíritu LLM wiki/Karpathy): intégrala en los artículos existentes que correspondan o conviértela en un artículo nuevo con `sources` trazables, `[[enlaces]]` y actualización de `_index.md`. Guarda en `knowledge/output/` solo respuestas efímeras o que no deban entrar al grafo de la wiki.

@@ -2,7 +2,7 @@
 description: Compila las fuentes nuevas de raw/ en artículos de la wiki
 ---
 
-Sigue estos pasos EN ORDEN. Las reglas completas están en AGENTS.md.
+Sigue estos pasos EN ORDEN. Las reglas completas están en AGENTS.md. Mantén el espíritu LLM wiki: la wiki es un artefacto que compone e integra conocimiento (no solo indexa), así que al compilar extrae, cruza, enlaza y actualiza la síntesis existente en lugar de crear páginas aisladas. Si el énfasis o la interpretación no es obvia, coméntalo brevemente con el usuario antes de cerrar.
 
 ## 1. Encontrar fuentes pendientes
 

@@ -6,6 +6,8 @@ Haz una auditoría de `knowledge/wiki/`. Reglas en AGENTS.md. NO corrijas nada a
 
 ## 1. Comprobaciones
 
+Mantén el espíritu LLM wiki: además de consistencia formal, busca oportunidades de que el conocimiento componga mejor (síntesis dispersa, conexiones faltantes, respuestas valiosas que deberían haberse integrado en la wiki).
+
 Revisa todos los archivos `.md` de `knowledge/wiki/` (excepto `_index.md` para los puntos b y c):
 
 a. **Enlaces rotos**: enlaces `[[nombre]]` que no corresponden a ningún archivo `nombre.md` en la wiki.
