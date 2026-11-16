@@ -1,6 +1,7 @@
 # Índice de la wiki
 
 ## Concepts
+- [[analizador-de-redes-calidad-de-energia]] — analizador de redes: THD, huecos, desequilibrios, normas y conexión segura
 - [[butlleti-reconeixement-baixa-tensio]] — boletín justificativo de las condiciones de seguridad ante la distribuidora (validez 6 meses)
 - [[caida-de-tension]] — límites por tramo, cálculo y compensación de la caída de tensión
 - [[certificat-installacio-electrica-bt]] — certificado ELEC-1: declara la conformidad con el REBT
@@ -101,5 +102,6 @@
 - [[proteccion-diferencial-selectividad]] — 30 mA, selectividad en serie y ubicación del diferencial
 - [[puntos-utilizacion-vivienda]] — puntos de utilización mínimos y de confort por estancia (Guía-BT-25)
 - [[reglament-electrotecnic-baixa-tensio]] — REBT aprobado por el RD 842/2002, con el texto íntegro del BOE
+- [[simbolos-electricos-planos]] — símbolos IEC 60617 en planos, designación IEC 81346 y marcado de bornes
 - [[toma-de-tierra-edificios-viviendas]] — toma de tierra: anillo, picas, bornes y secciones (Guía-BT-26)
 - [[usos-installacio-bt]] — usos de instalación y subclasificaciones g/h del certificado ELEC-1
