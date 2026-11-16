@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, baja-tension, puesta-a-tierra, electrodos, itc-bt-18, guia-bt-18, bt-26]
 sources: [papers/2026-11-10-rebt-itc-bt-18-instalaciones-de-puesta-a-tierra.md, papers/2026-11-10-guia-bt-18-instalaciones-de-puesta-a-tierra.md, papers/2026-11-10-rebt-itc-bt-26-instalaciones-interiores-en-viviendas-prescripciones-generales-de-instalacion.md, papers/2026-11-10-guia-bt-26-prescripciones-generales.md, papers/2026-11-10-guia-rebt-anexo-4-verificacion-de-las-instalaciones-electricas.md]
 created: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-16
 ---
 
 # Criterios de puesta a tierra en baja tensión
@@ -48,6 +48,8 @@ Toda instalación prevé un borne principal de tierra al que se unen los conduct
 ### Medición y resistencia
 
 La ITC-BT-18 fija la tensión de contacto máxima (24 V en local o emplazamiento conductor, 50 V en los demás casos) y el criterio de independencia de dos tomas de tierra: lo son cuando, circulando por una la máxima corriente de defecto prevista, la otra no supera 50 V respecto a un punto de potencial cero. La Guía-BT-18 desarrolla el procedimiento con electrodos auxiliares y la fórmula R = 1,6 ρ/P, además de coeficientes de la UNE 207003; son criterios de la guía. El detalle de la comprobación está en [[guia-rebt-anexo-4-verificacion-de-las-instalaciones-electricas]].
+
+**Picas no es sinónimo de toma de tierra.** La ITC-BT-18 admite como electrodos tanto barras o tubos (picas) como conductores desnudos, anillos o mallas y armaduras enterradas: el anillo de cimentación exigido por la ITC-BT-26 ya es un electrodo válido por sí mismo. Lo obligatorio es cumplir la condición del esquema TT, `R_A × I_a ≤ U` (ITC-BT-24), donde R_A suma la resistencia de la toma de tierra y de los conductores de protección, e I_a es la corriente asignada del diferencial. Con 30 mA y U = 50 V el límite teórico resultante es de unos 1666 Ω (800 Ω si la tensión límite es 24 V en locales conductores). La cifra práctica de 37 Ω sin pararrayos de la Guía-BT-26 es más exigente y no aparece en la ITC: la propia guía recuerda en su apartado 00 que procede del RBT 1973, que la necesitaba para emplear diferenciales de 650 mA, mientras que el reglamento vigente no fija una resistencia máxima sino que limita la tensión de contacto. En terreno favorable y sin pararrayos la Tabla A de la Guía-BT-26 da 0 picas; si la resistencia medida no alcanza el objetivo, se añaden picas de 2 m separadas al menos 4 m o se alarga el anillo.
 
 ### Aplicación en viviendas y verificación
 

@@ -4,14 +4,14 @@ type: concept
 tags: [rebt, baixa-tensio, espana, guia-tecnica, itc-bt, viviendas, circuitos]
 sources: [papers/2026-11-10-guia-bt-25-circuitos-caracteristicas.md, papers/2026-11-10-rebt-itc-bt-25-instalaciones-interiores-en-viviendas-numero-de-circuitos-y-caracteristicas.md, papers/2026-11-10-guia-bt-25-instalaciones-interiores-en-viviendas-numero-de-circuitos-y-caracteristicas.md]
 created: 2026-11-10
-updated: 2026-11-15
+updated: 2026-11-16
 ---
 
 # Instalaciones interiores en viviendas: electrificación, circuitos y características (Guía-BT-25)
 
 Guía técnica de aplicación ITC-BT-25 (edición jul 12, revisión 2): número de circuitos, características eléctricas y grado de electrificación de las instalaciones interiores en viviendas.
 
-## Punts clau
+## Puntos clave
 - Electrificación elevada cuando se cumple alguna de: superficie útil > 160 m²; previsión de aire acondicionado, calefacción eléctrica, sistemas de automatización, secadora; más de 30 puntos de luz; más de 20 tomas de uso general; más de 6 tomas en baños y auxiliares de cocina; o las condiciones del apartado 2.3.
 - Electrificación básica: IGA mínimo 25 A (25 A para 5.750 W; 32 A para 7.360 W). Electrificación elevada: 40/50/63 A para 9.200/11.500/14.490 W.
 - Protección general mínima: IGA omnipolar con protección contra sobrecargas y cortocircuitos; uno o varios diferenciales de ≤ 30 mA y corriente asignada ≥ IGA; dispositivos de protección contra sobretensiones si procede (ITC-BT-23).

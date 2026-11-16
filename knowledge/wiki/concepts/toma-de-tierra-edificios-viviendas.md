@@ -4,14 +4,14 @@ type: concept
 tags: [rebt, baixa-tensio, espana, guia-tecnica, itc-bt, toma-de-tierra, edificios]
 sources: [papers/2026-11-10-guia-bt-26-prescripciones-generales.md, papers/2026-11-10-rebt-itc-bt-18-instalaciones-de-puesta-a-tierra.md, papers/2026-11-10-guia-bt-26-instalaciones-interiores-en-viviendas-prescripciones-generales-de-instalaciones.md]
 created: 2026-11-10
-updated: 2026-11-14
+updated: 2026-11-16
 ---
 
 # Toma de tierra en edificios de viviendas (Guía-BT-26)
 
 Prescripciones generales de la Guía-BT-26 (edición sep 03, revisión 1) sobre toma de tierra, protección contra contactos indirectos, cuadro general y conductores en instalaciones interiores de viviendas.
 
-## Punts clau
+## Puntos clave
 - En toda nueva edificación se establece una toma de tierra de protección: cable rígido de cobre desnudo en anillo cerrado en el fondo de las zanjas de cimentación, que interese todo el perímetro del edificio. Profundidad mínima de enterramiento 0,8 m. Sección mínima según ITC-BT-18 (con un mínimo de 35 mm² de Cu según NTE 1973 para el anillo). En rehabilitación se pueden usar electrodos en patios o jardines.
 - Electrodos verticales (picas) de 2 m cuando sea necesario disminuir la resistencia; separados al menos 2 veces su longitud. Tabla A orientativa del número de picas según terreno, longitud del anillo y presencia de pararrayos; resistencia a tierra objetivo < 15 Ω con pararrayos y < 37 Ω sin pararrayos.
 - A la toma de tierra se conectan: masas metálicas importantes, masas accesibles de receptores, depósitos de gasóleo, instalaciones de calefacción general, agua, gas canalizado, antenas de radio/TV. Las partes conductoras con origen exterior se conectan a tierra tan cerca como sea posible de la entrada.
@@ -23,6 +23,19 @@ Prescripciones generales de la Guía-BT-26 (edición sep 03, revisión 1) sobre 
 
 ## Detalles
 Las conexiones a la estructura metálica del edificio o a los hierros principales de las zapatas de hormigón armado se establecen por soldadura aluminotérmica o autógena. Las tomas de tierra en edificios existentes pueden realizarse en patios de luces o jardines particulares.
+
+### Cómo leer la Tabla A de la Guía-BT-26
+
+La Tabla A es orientativa: no aparece en la ITC-BT-26, que solo exige electrodos verticales «cuando se prevea la necesidad de disminuir la resistencia de tierra». Se lee por columnas: cada tipo de terreno tiene dos subcolumnas, «sin pararrayos» y «con pararrayos». El número de cada celda es la longitud mínima del conductor enterrado del anillo (∑L, en metros) exigida para esa fila, que indica el número de picas de 2 m. El símbolo «^» significa que hay que aumentar la longitud del anillo en lugar de añadir picas.
+
+- Sin pararrayos la resistencia objetivo es < 37 Ω (con pararrayos, < 15 Ω), así que se necesita menos electrodo.
+- En terrenos orgánicos, arcillas y margas **sin pararrayos**, 0 picas requieren ∑L ≥ 25 m; la tabla no prevé añadir picas en esa columna: si el anillo es más corto hay que alargarlo.
+- En arenas arcillosas y graveras **sin pararrayos**, 0 picas requieren ∑L ≥ 28 m y 1 pica reduce el mínimo a 25 m.
+- Ojo con el nombre: «arenas arcillosas y graveras» (2.ª columna) no es «grava y arena silícea» (4.ª columna, mucho más resistiva). En esta última, 0 picas exigen ∑L ≥ 162 m.
+
+Ejemplo: edificio sin pararrayos con L1 = 7 m y L2 = 8 m en terreno arcilloso con grava. En un anillo rectangular L3 = L1 y L4 = L2, luego ∑L = 2 · (7 + 8) = 30 m. Como 30 m ≥ 28 m (y también ≥ 25 m), la tabla da **0 picas**: basta el anillo enterrado de la cimentación. El ejemplo de la propia guía es el caso contrario: con pararrayos, en arena arcillosa y ∑L = 33 m hacen falta 8 picas y 2 m más de conductor, porque la fila de 8 picas marca 35 m.
+
+Nota: el Markdown generado desde el PDF muestra «L = 3L1 + 3L2 + 3L3 + 3L4»; parece un artefacto de la extracción. Tomado literalmente daría 90 m, que también cae en 0 picas, así que la conclusión del ejemplo no cambia.
 
 ## Divergencias con la ITC-BT-26
 Comparación de la Guía-BT-26 (edición sep 03, revisión 1) con el texto consolidado de la ITC-BT-26 del BOE (RD 842/2002). En todos los casos prevalece la ITC-BT-26.

@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, baja-tension, itc-bt-26, viviendas, instalacion]
 sources: [papers/2026-11-10-rebt-itc-bt-26-instalaciones-interiores-en-viviendas-prescripciones-generales-de-instalacion.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-16
 ---
 
 # ITC-BT-26 — Instalaciones interiores en viviendas. Prescripciones generales de instalación
@@ -13,7 +13,7 @@ Texto normativo de la ITC-BT-26 (REBT, RD 842/2002): ámbito, tensiones y esquem
 
 ## Puntos clave
 - Ámbito: prescripciones complementarias de [[itc-bt-19-instalaciones-interiores-o-receptoras-prescripciones-generales]], aplicables a las instalaciones interiores de viviendas y, en lo que pueda afectarles, a locales comerciales, de oficinas y a cualquier otro local de fines análogos.
-- Las viviendas se consideran alimentadas por red pública de distribución según el esquema TT ([[itc-bt-08-sistemas-de-conexion-del-neutro-y-de-las-masas-en-redes-de-distribucion-de-energia-electrica]], a 230 V monofásica y 230/400 V trifásica.
+- Las viviendas se consideran alimentadas por red pública de distribución según el esquema TT ([[itc-bt-08-sistemas-de-conexion-del-neutro-y-de-las-masas-en-redes-de-distribucion-de-energia-electrica]]), a 230 V monofásica y 230/400 V trifásica.
 - Toma de tierra en toda nueva edificación: anillo cerrado de cable rígido de cobre desnudo en el fondo de las zanjas de cimentación, colocado antes de empezar la obra, con sección según [[itc-bt-18-instalaciones-de-puesta-a-tierra]]; electrodos hincados si conviene reducir la resistencia; unión de anillos de edificios próximos para formar una malla.
 - En rehabilitación o reforma pueden usarse electrodos en patios de luces o jardines particulares; las conexiones a la estructura metálica o a los hierros principales de zapatas de hormigón armado (mínimo uno por zapata) se hacen con soldadura aluminotérmica o autógena.
 - A la toma de tierra se conectan toda masa metálica importante, las masas accesibles de los receptores cuando su clase de aislamiento lo exija, y las partes metálicas de depósitos de gasóleo, calefacción general, instalaciones de agua, gas canalizado y antenas de radio y televisión.

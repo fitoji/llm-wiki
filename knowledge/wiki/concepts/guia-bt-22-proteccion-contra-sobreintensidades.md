@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, guia-tecnica, baja-tension, itc-bt-22, sobreintensidades, proteccion]
 sources: [papers/2026-11-10-guia-bt-22-proteccion-contra-sobreintensidades.md]
 created: 2026-11-10
-updated: 2026-11-14
+updated: 2026-11-16
 ---
 
 # Guía-BT-22 — Protección contra sobreintensidades
@@ -15,7 +15,7 @@ La Guía-BT-22 (edición de octubre de 2005, revisión 1) desarrolla las medidas
 
 - Todo circuito se protege frente a sobrecargas, cortocircuitos y descargas atmosféricas, con un IA de corte omnipolar o fusibles calibrados; en el origen de cada circuito se sitúa la protección contra cortocircuitos.
 - Poder de corte igual o mayor que la intensidad de cortocircuito máxima en el punto de instalación; la guía fija 4500 A como mínimo para el IGA.
-- Sobrecargas: In ≤ Ib ≤ 1,45 In, con Ib = 1,45 In (UNE-EN 60898 y 61009) o 1,30 In (UNE-EN 60947-2) y, en fusibles gG, If = 1,60 In (In ≥ 16 A), 1,90 In (4 A < In < 16 A) o 2,10 In (In ≤ 4 A).
+- Sobrecargas: **Ib ≤ In ≤ Iz** e **I2 ≤ 1,45 Iz**. Ib es la corriente para la que se diseñó el circuito según la previsión de cargas; Iz, la corriente admisible del cable según el sistema de instalación; In, la corriente asignada del dispositivo de protección (en regulables, la regulación seleccionada); e I2, la corriente que asegura la actuación del dispositivo en tiempo largo. I2 = 1,45 In (UNE-EN 60898 y 61009) o 1,30 In (UNE-EN 60947-2); en fusibles gG, If = 1,60 In (In ≥ 16 A), 1,90 In (4 A < In < 16 A) o 2,10 In (In ≤ 4 A).
 - Cortocircuitos: S ≥ k·√t con los valores de k por aislamiento y material del conductor, y la condición alternativa I_m > I_cc,mín (I_m = 10 In en un IA doméstico de curva C).
 
 | Aislamiento | T. inicial/final | k cobre | k aluminio |

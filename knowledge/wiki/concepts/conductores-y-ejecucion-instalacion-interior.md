@@ -4,14 +4,14 @@ type: concept
 tags: [rebt, baixa-tensio, espana, guia-tecnica, itc-bt, conductores, ejecucion]
 sources: [papers/2026-11-10-guia-bt-26-prescripciones-generales.md, papers/2026-11-10-rebt-itc-bt-26-instalaciones-interiores-en-viviendas-prescripciones-generales-de-instalacion.md, papers/2026-11-10-guia-bt-26-instalaciones-interiores-en-viviendas-prescripciones-generales-de-instalaciones.md]
 created: 2026-11-10
-updated: 2026-11-14
+updated: 2026-11-16
 ---
 
 # Conductores y ejecución de la instalación interior en viviendas (Guía-BT-26)
 
 Prescripciones generales de la Guía-BT-26 sobre conductores (naturaleza, secciones, identificación, conexiones) y ejecución de la instalación (sistemas, condiciones generales), incluido el cuadro general de distribución.
 
-## Punts clau
+## Puntos clave
 - Conductores activos de cobre, aislados, tensión asignada mínima 450/750 V. Secciones según ITC-BT-25. Tipos habituales: H07V-U (clase 1, rígido), H07V-R (clase 2, rígido), H07V-K (clase 5, flexible). Norma UNE 21.031-3 y UNE 21.022.
 - Conductores de protección de cobre con el mismo aislamiento que los activos, misma canalización, sección según ITC-BT-19 (igual a la del conductor de fase para secciones habituales ≤ 16 mm²).
 - Identificación por color: neutro (o previsión de paso a neutro) azul claro; protección verde-amarillo; fases marrón, negro o gris.

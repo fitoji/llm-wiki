@@ -2,9 +2,9 @@
 title: Esquemas de conexión del neutro y de las masas (TT, TN, IT)
 type: concept
 tags: [rebt, baja-tension, esquemas, neutro, masas, tt, tn, it, itc-bt-08, itc-bt-24]
-sources: [papers/2026-11-10-rebt-itc-bt-08-sistemas-de-conexion-del-neutro-y-de-las-masas-en-redes-de-distribucion-de-energia-electrica.md, papers/2026-11-10-guia-bt-08-sistema-de-conexion-del-neutro-y-de-las-masas-en-redes-de-distribucion-de-energi.md, papers/2026-11-10-rebt-itc-bt-24-instalaciones-interiores-o-receptoras-proteccion-contra-los-contactos-directos-e-indirectos.md, papers/2026-11-10-rebt-itc-bt-18-instalaciones-de-puesta-a-tierra.md]
+sources: [papers/2026-11-10-rebt-itc-bt-08-sistemas-de-conexion-del-neutro-y-de-las-masas-en-redes-de-distribucion-de-energia-electrica.md, papers/2026-11-10-guia-bt-08-sistema-de-conexion-del-neutro-y-de-las-masas-en-redes-de-distribucion-de-energi.md, papers/2026-11-10-rebt-itc-bt-24-instalaciones-interiores-o-receptoras-proteccion-contra-los-contactos-directos-e-indirectos.md, papers/2026-11-10-rebt-itc-bt-18-instalaciones-de-puesta-a-tierra.md, papers/2026-11-10-rebt-itc-bt-26-instalaciones-interiores-en-viviendas-prescripciones-generales-de-instalacion.md, papers/2026-11-10-rebt-itc-bt-28-instalaciones-en-locales-de-publica-concurrencia.md, papers/2026-11-10-rebt-itc-bt-38-instalaciones-con-fines-especiales-requisitos-particulares-para-la-instalacion-electrica-en-qui.md, papers/2026-11-10-rebt-itc-bt-42-instalaciones-electricas-en-puertos-y-marinas-para-barcos-de-recreo.md, papers/2026-11-10-rebt-itc-bt-45-instalacion-de-receptores-aparatos-de-caldeo.md, papers/2026-11-10-rebt-itc-bt-52-instalaciones-con-fines-especiales-infraestructura-para-la-recarga-de-vehiculos-electricos.md]
 created: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-16
 ---
 
 # Esquemas de conexión del neutro y de las masas (TT, TN, IT)
@@ -47,6 +47,16 @@ El desarrollo de la selectividad y del tipo de diferencial está en [[proteccion
 ### Resistencias de tierra del esquema TN
 
 La ITC-BT-08 exige, para el esquema TN, una resistencia de tierra del neutro no superior a 5 Ω junto a la central o centro de transformación y en los 200 últimos metros de toda derivación, y una resistencia global de todas las tomas de tierra del neutro no superior a 2 Ω. La sección mínima del neutro se fija según la sección de las fases, con valores distintos para redes aéreas y subterráneas. Los criterios generales de electrodos y medición están en [[criterios-puesta-a-tierra]].
+
+### Aplicaciones según la normativa
+
+No hay un esquema mejor en abstracto: la ITC-BT-08 (apdo. 1.4) remite la elección a las características técnicas y económicas de cada instalación. Sí hay prescripciones que reducen la elección:
+
+- **TT** es el esquema de las instalaciones alimentadas directamente de la red pública de baja tensión (ITC-BT-08, 1.4.a); por eso las viviendas se consideran alimentadas según TT (ITC-BT-26).
+- **TN** solo puede elegirse, como regla, en instalaciones alimentadas desde un centro de transformación de abonado (ITC-BT-08, 1.4.b). La excepción es un IT parcial montado con transformadores adecuados sobre una instalación de red pública (1.4.c).
+- **TN-S** es la única variante de TN admitida en puertos y marinas para barcos de recreo (ITC-BT-42) y en recarga de vehículos eléctricos cuando se emplea un esquema TN (ITC-BT-52, apartado 5.2), en ambos casos porque la protección exige dispositivos diferenciales.
+- **TN-C** se prescribe para hornos industriales con corrientes de fuga importantes, como los hornos de resistencias (ITC-BT-45); es justamente la variante incompatible con la protección diferencial (ITC-BT-24).
+- **IT** encaja donde interesa no cortar al primer defecto: la ITC-BT-28 prefiere protecciones sin corte al primer defecto en locales de pública concurrencia y exige controlador permanente de aislamiento con señal si se usa IT; en quirófanos se obliga a transformador de aislamiento por sala con vigilancia del aislamiento (ITC-BT-38).
 
 ## Relacionado
 

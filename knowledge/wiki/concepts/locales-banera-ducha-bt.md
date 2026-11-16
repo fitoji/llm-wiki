@@ -4,14 +4,14 @@ type: concept
 tags: [rebt, baixa-tensio, espana, guia-tecnica, itc-bt, banos, duchas, ip]
 sources: [papers/2026-11-10-guia-bt-27-locales-banera-ducha.md, papers/2026-11-10-rebt-itc-bt-27-instalaciones-interiores-en-viviendas-locales-que-contienen-una-banera-o-ducha.md, papers/2026-11-10-guia-bt-27-locales-que-contienen-una-banera-o-ducha.md]
 created: 2026-11-10
-updated: 2026-11-14
+updated: 2026-11-16
 ---
 
 # Locales con bañera o ducha: volúmenes y protección (Guía-BT-27)
 
 Guía técnica de aplicación ITC-BT-27 (edición sep 03, revisión 1): clasificación de volúmenes, protección contra contactos y elección de materiales en locales que contienen una bañera o ducha.
 
-## Punts clau
+## Puntos clave
 - Cuatro volúmenes: Volumen 0 (interior de la bañera/ducha; para ducha sin plato, radio 1,2 m si el difusor es desplazable o 0,6 m si es fijo, y 0,05 m por encima del suelo). Volumen 1 (hasta 2,25 m por encima del suelo, alrededor de la bañera/ducha). Volumen 2 (0,6 m más allá del volumen 1, hasta 2,25 m; hasta 3 m si el techo es más alto). Volumen 3 (2,4 m más allá del volumen 2, hasta 2,25 m; hasta 3 m). Falsos techos y mamparas no se consideran barreras.
 - Protección contra contactos directos con MBTS: barreras/envolventes IP2X o IPXXB, o aislamiento capaz de soportar 500 V eficaz durante 1 minuto. Conexión equipotencial local suplementaria que una el conductor de protección con las partes conductoras accesibles de equipos de clase I en los volúmenes 1, 2 y 3, más partes conductoras externas (canalizaciones metálicas de servicios, calefacción/aire acondicionado, estructura metálica, otras susceptibles de transferir tensiones). Excepción: volumen 3 en recintos con cabina prefabricada con drenaje propio.
 - Bañeras y duchas metálicas se consideran partes conductoras externas susceptibles de transferir tensiones, salvo si están aisladas (resistencia de aislamiento ≥ 100 kΩ entre el área del baño/ducha y la estructura).
