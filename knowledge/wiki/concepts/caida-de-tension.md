@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, baja-tension, caidas-de-tension, secciones, itc-bt-19, itc-bt-25, guia-tecnica]
 sources: [papers/2026-11-10-guia-rebt-anexo-2-calculos-de-caidas-de-tension.md, papers/2026-11-10-rebt-itc-bt-19-instalaciones-interiores-o-receptoras-prescripciones-generales.md, papers/2026-11-10-rebt-itc-bt-25-instalaciones-interiores-en-viviendas-numero-de-circuitos-y-caracteristicas.md, papers/2026-11-10-rebt-itc-bt-14-instalaciones-de-enlace-linea-general-de-alimentacion.md, papers/2026-11-10-rebt-itc-bt-15-instalaciones-de-enlace-derivaciones-individuales.md, papers/2026-11-10-guia-bt-25-instalaciones-interiores-en-viviendas-numero-de-circuitos-y-caracteristicas.md, papers/2026-11-10-guia-bt-19-instalaciones-interiores-o-receptoras-prescripciones-generales.md, papers/2026-11-10-guia-bt-14-linea-general-de-alimentacion.md, papers/2026-11-10-guia-bt-15-derivaciones-individuales.md]
 created: 2026-11-13
-updated: 2026-11-15
+updated: 2026-11-16
 ---
 
 # Caída de tensión en baja tensión — límites, cálculo y compensación
@@ -41,6 +41,10 @@ Los límites proceden de la [[itc-bt-14-instalaciones-de-enlace-linea-general-de
 ### Cómo calcularla
 
 El Anexo 2 ofrece dos itinerarios. El simplificado admite la temperatura máxima del aislamiento y es el habitual en baja tensión; el detallado estima la temperatura real del conductor y puede permitir secciones normalizadas inferiores. En ambos, la sección se despeja de la caída admisible y después se comprueba que soporta la intensidad prevista según las condiciones de instalación (tablas de intensidades admisibles de la ITC-BT-19 y de la Guía-BT-14, con los factores de reducción por agrupación). Cuando la reactancia no es despreciable se usa la expresión completa; hasta 120 mm² se simplifica al término resistivo. La segunda iteración estima la temperatura real con T = T₀ + (T_máx − T₀)·(I/I_máx)² y re comprueba la caída; el Anexo 2 también expone el cálculo por valores unitarios e_u = e/(L·I) y sus tablas 4 y 5.
+
+**Forma porcentual para una DI monofásica.** Despejando la caída de la fórmula [16] del Anexo 2 se obtiene `e(V) = 2·P·L/(γ·S·U)`; como `e(%) = 100·e(V)/U`, resulta **`e(%) = 200·P·L/(γ·S·U²)`**. El coeficiente 200 es el `2` del circuito monofásico (ida y vuelta) por el `100` del paso a porcentaje; en trifásico el coeficiente es 100. La expresión equivale a partir de `ΔU = 2·I·L/(γ·S)` con `I = P/U` y cos φ = 1, que es el caso más desfavorable cuando el calibre de la protección fija la intensidad. Con L en m, P en W, S en mm², γ = 48 m/(Ω·mm²) para cobre a 70 °C y U = 230 V, las unidades se cancelan y el resultado se expresa directamente en %.
+
+**Coeficientes numéricos que aparecen en tablas y calculadoras** (cobre a 70 °C, γ = 48, U = 230 V, monofásico): `200/(γ·U²) = 7,88·10⁻⁵`, que con P en kW y L en m se escribe **0,0788** (`e(%) = 0,0788·P·L/S`); y `200/(γ·U) = 0,0181`, que es el mismo coeficiente pero referido a la intensidad, porque P = U·I (`e(%) = 0,0181·I·L/S`, con I en A). Se cumple 0,0788 ≈ 0,0181 · 1000 / 230. Comprobación: 5750 W (25 A), 10 m y 6 mm² dan 0,755 % con cualquiera de las dos formas. Algunos manuales escriben `e = 0,0788 · m / S`, donde `m` es el «momento» P·L en kW·m; si la fórmula lleva solo metros en el numerador, está asumiendo P = 1 kW.
 
 ### Tablas de longitudes máximas
 
