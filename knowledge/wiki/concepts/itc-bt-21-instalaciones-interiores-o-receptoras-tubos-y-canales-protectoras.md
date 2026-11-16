@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, baja-tension, itc-bt-21, tubos-protectores, canalizacion]
 sources: [papers/2026-11-10-rebt-itc-bt-21-instalaciones-interiores-o-receptoras-tubos-y-canales-protectoras.md]
 created: 2026-11-10
-updated: 2026-11-10
+updated: 2026-11-16
 ---
 
 # ITC-BT-21 — Instalaciones interiores o receptoras. Tubos y canales protectoras
@@ -29,6 +29,14 @@ La ITC-BT-21 del REBT regula los tubos protectores y las canales protectoras des
 Cada tipo de montaje impone un conjunto mínimo de características ensayadas. En canalizaciones superficiales los tubos serán preferentemente rígidos (curvables en casos especiales), con resistencia a la compresión «fuerte» (código 4), al impacto «media» (3), temperaturas de -5 °C a +60 °C, penetración de objetos sólidos contra objetos de 1 mm o más y no propagadores de la llama. En empotrados en obra de fábrica los requisitos bajan a compresión e impacto «ligeros», mientras que para tubos embebidos en hormigón y canalizaciones precableadas la exigencia sube a compresión e impacto «medios» y temperatura máxima de +90 °C (con excepción de +60 °C para precableadas ordinarias empotradas en obra de fábrica). Para tubos al aire, permitidos solo para alimentar máquinas o elementos de movilidad restringida, los tubos son flexibles con compresión «fuerte» e impacto «media».
 
 Los diámetros exteriores mínimos dependen del número de conductores y de su sección: para superficiales va de 12 mm (uno o dos conductores de 1,5 mm²) a 75 mm (240 mm²), con peaje creciente en empotrados (hasta 75 mm) y considerable en enterrados, donde la tabla referencia el número de conductores de 6 a 10 y llega a diámetros de 250 mm. En enterrados, la resistencia a la compresión se declara por tramos: 250 N para tubos embebidos en hormigón (impacto ligero), 450 N en suelo ligero (aceras, parques, jardines) y 750 N en suelo pesado (pedregoso y duro, con cargas pesadas, como calzadas y vías férreas).
+
+### Orden de trabajo: elegir tubo y secciones
+
+1. **Primero se dimensionan los conductores** (fase, neutro y protección) según la ITC-BT-19/25: en viviendas, el neutro es como mínimo igual a la fase (ITC-BT-19, 2.2.2, salvo justificación por cálculo) y el conductor de protección sigue la tabla 2 de la ITC-BT-19 (si S ≤ 16 mm², igual a la fase). Para fases de 4 mm², tanto el neutro como la protección son también de 4 mm².
+2. **Se cuentan todos los conductores que van en el tubo**, no solo las fases: una canalización monofásica con fase, neutro y protección son 3 conductores de 4 mm² (Tabla 5 → 20 mm), pero una trifásica con 3 fases, neutro y protección son 5 conductores de 4 mm² (Tabla 5 → 25 mm), no 20 mm.
+3. **Se entra en la Tabla 5** con la sección y el número total de conductores para obtener el diámetro exterior mínimo.
+4. **Si hay más de 5 conductores o secciones distintas** en el mismo tubo, la Tabla 5 no aplica y se usa la regla de sección interior mínima: 2,5 veces la sección ocupada por los conductores en superficie (3 en empotrados, 4 en aéreas; en enterrados, 4 veces para más de 10 conductores).
+5. **Se verifica que el tubo permita alojamiento y extracción** de los conductores; la Tabla 5 da mínimos, no máximos.
 
 El montaje fijo en superficie exige interrumpir los tubos rígidos en cruces con juntas de dilatación, dejando los extremos separados unos 5 cm y empalmados con manguitos deslizantes de al menos 20 cm. El montaje empotrado prescribe rozas que no pongan en peligro la seguridad de las paredes o techos, recorridos horizontales recomendados a 50 cm como máximo de suelos o techos, verticales a menos de 20 cm de los ángulos, cajas y registros accesibles, desmontables y enrasados. El montaje al aire solo está permitido desde canalizaciones prefabricadas y cajas de derivación fijadas al techo, con longitud total de conducción no superior a 4 m, sin empezar a menos de 2 m de altura.
 
