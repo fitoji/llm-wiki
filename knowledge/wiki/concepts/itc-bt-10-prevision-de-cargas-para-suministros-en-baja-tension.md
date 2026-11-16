@@ -4,7 +4,7 @@ type: concept
 tags: [rebt, baja-tension, itc-bt-10, prevision-cargas, simultaneidad]
 sources: [papers/2026-11-10-rebt-itc-bt-10-prevision-de-cargas-para-suministros-en-baja-tension.md]
 created: 2026-11-10
-updated: 2026-11-15
+updated: 2026-11-16
 ---
 
 # ITC-BT-10 — Previsión de Cargas para Suministros en Baja Tensión
@@ -21,6 +21,7 @@ Establece la potencia a prever por vivienda y edificio (viviendas, servicios gen
 - Locales comerciales y oficinas: mínimo 100 W por m² y planta, con un mínimo de 3 450 W a 230 V por local y simultaneidad 1.
 - Garajes: 10 W/m² y planta con ventilación natural y 20 W/m² con ventilación forzada, mínimo 3 450 W a 230 V y simultaneidad 1.
 - Concentración de industrias: mínimo 125 W por m² y planta, mínimo por local 10 350 W a 230 V, simultaneidad 1.
+- Para un único usuario (vivienda unifamiliar o derivación individual): el coeficiente de simultaneidad es 1, porque la tabla 1 da 1 para n = 1 vivienda y la carga prevista es la de esa única vivienda, sin factor de reducción.
 
 | N.º viviendas | Coef. simultaneidad |
 |---|---|
