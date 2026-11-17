@@ -7,6 +7,7 @@
 - [[certificat-installacio-electrica-bt]] — certificado ELEC-1: declara la conformidad con el REBT
 - [[classificacio-p1-p2]] — listas P1 y P2 que determinan si hace falta memoria técnica
 - [[conductores-y-ejecucion-instalacion-interior]] — conductores, identificación, sistemas de instalación y condiciones generales (Guía-BT-26)
+- [[corriente-alterna-sinusoidal-y-circuitos-rl]] — tensión sinusoidal, comportamiento de R/L/C y circuito serie RL con potencias
 - [[criterios-puesta-a-tierra]] — electrodos, secciones, medición y revisión de la puesta a tierra
 - [[divergencias-guias-tecnicas-rebt-vs-itc-bt]] — mapa de las 221 divergencias guía↔ITC-BT detectadas; prevalece la ITC
 - [[esquema-unifilar-bt-elc2]] — formulario ELEC-2: esquema unifilar de la instalación en baja tensión
