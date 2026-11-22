@@ -81,6 +81,7 @@ python knowledge/tools/wiki_search.py index          # solo si querés forzar la
 | Ruta | Qué es |
 | --- | --- |
 | `AGENTS.md` | El contrato: estructura, reglas y formatos. Es lo primero que lee el agente. |
+| `.engram/` | Memoria del proyecto versionada como chunks comprimidos. En otro equipo: `engram sync --import`. |
 | `wiki-contenido.svg` | Mapa visual del contenido, incrustado arriba. Se regenera desde el `.excalidraw`. |
 | `wiki-contenido.excalidraw` | Versión editable del mapa: abrir en Excalidraw. |
 | `.opencode/commands/` | Los tres comandos: `/ingest`, `/wiki-compile`, `/wiki-lint`. |
@@ -138,6 +139,7 @@ python knowledge/tools/wiki_sources.py check   # avisa si está desactualizado
    ```
 3. Crea `knowledge/wiki/_index.md` con una sola línea: `# Índice de la wiki`.
 4. Abre opencode desde la raíz del vault.
+5. Para llevarte la memoria de Engram a otro equipo, corré `engram sync --import` desde la raíz: importa los chunks de `.engram/` a tu base local. Los prompts no se versionan, solo sesiones y observaciones.
 
 > [!TIP]
 > ✅ Requisitos: opencode y Python 3. Nada más: la búsqueda usa el módulo `sqlite3` de la biblioteca estándar. En Linux y macOS el intérprete suele ser `python3`; en Windows es `python`.
