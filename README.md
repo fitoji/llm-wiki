@@ -1,26 +1,38 @@
-# Wiki del REBT: el reglamento, sus guías técnicas y el mapa de sus divergencias
+# ⚡ Wiki del REBT: el reglamento, sus guías técnicas y el mapa de sus divergencias
+
+![Fuentes](https://img.shields.io/badge/fuentes-107-blue) ![Artículos](https://img.shields.io/badge/art%C3%ADculos-105-green) ![Divergencias](https://img.shields.io/badge/divergencias-221-orange) ![Stack](https://img.shields.io/badge/stack-Obsidian%20%2B%20Python%203-purple)
 
 Vault de conocimiento sobre el **Reglamento Electrotécnico para Baja Tensión** (REBT, RD 842/2002) que mantiene el agente: vos aportás material y hacés preguntas; el agente escribe, ordena y enlaza los artículos según el contrato de `AGENTS.md`.
 
-Hoy contiene **107 fuentes** en bruto, **105 artículos** y **221 divergencias** documentadas entre el reglamento y sus 27 Guías Técnicas de Aplicación.
+> [!NOTE]
+> **En una línea:** 107 fuentes → 105 artículos enlazados → 221 divergencias documentadas entre el reglamento y sus 27 Guías Técnicas de Aplicación. Si recién llegás, empezá por **🚀 Camino rápido**.
 
-## Mapa de contenido
+---
+
+## 🗺️ Mapa de contenido
 
 ![Mapa de contenido de la wiki: normativa REBT e ITC-BT, Guías Técnicas y material extra](wiki-contenido.svg)
 
 Los artículos se reparten en tres bloques: la normativa vinculante (ITC-BT), las Guías Técnicas de aplicación (8 unidades temáticas más los anexos) y el material de apoyo. Las guías son no vinculantes: donde discrepan del BOE, prevalece la ITC-BT. La versión editable del mapa está en [`wiki-contenido.excalidraw`](wiki-contenido.excalidraw).
 
-## Camino rápido
+> [!IMPORTANT]
+> ⚖️ **La regla del vault:** el REBT tiene siempre la autoridad. Las Guías Técnicas son de carácter **no vinculante** (art. 29 del RD 842/2002) y el texto consolidado del BOE manda; donde discrepan, está anotado en el artículo de la guía y recopilado en el mapa.
+
+---
+
+## 🚀 Camino rápido
 
 | Paso | Qué hacés | Qué ocurre |
 | --- | --- | --- |
-| 1. Traer material | `/ingest <url o ruta>` | El material queda en `knowledge/raw/` con `compiled: false` |
-| 2. Compilar | `/wiki-compile` | El agente crea o actualiza artículos, enlaza, actualiza `_index.md` y marca las fuentes |
-| 3. Auditar | `/wiki-lint` | Informe de salud en `knowledge/output/lint-YYYY-MM-DD.md` |
-| 4. Consultar | Preguntás en el chat | El agente busca, lee y responde citando `[[enlaces]]` |
-| 5. Conservar | Pedís guardar o convertir | La respuesta va a `knowledge/output/` o se vuelve artículo |
+| 1️⃣ Traer material | `/ingest <url o ruta>` | El material queda en `knowledge/raw/` con `compiled: false` |
+| 2️⃣ Compilar | `/wiki-compile` | El agente crea o actualiza artículos, enlaza, actualiza `_index.md` y marca las fuentes |
+| 3️⃣ Auditar | `/wiki-lint` | Informe de salud en `knowledge/output/lint-YYYY-MM-DD.md` |
+| 4️⃣ Consultar | Preguntás en el chat | El agente busca, lee y responde citando `[[enlaces]]` |
+| 5️⃣ Conservar | Pedís guardar o convertir | La respuesta va a `knowledge/output/` o se vuelve artículo |
 
-## Preguntar a la wiki
+---
+
+## 💬 Preguntar a la wiki
 
 Escribís la pregunta como en un chat. El agente lee `_index.md`, busca con `wiki_search.py`, abre los artículos y responde citando con `[[enlaces]]`, que en Obsidian son enlaces navegables.
 
@@ -30,35 +42,41 @@ Escribís la pregunta como en un chat. El agente lee `_index.md`, busca con `wik
 | «¿Cómo lo interpreta la Guía-BT-52?» | El artículo de la guía: su criterio de interpretación **y** sus divergencias |
 | «¿En qué se diferencian la Guía-BT-14 y la ITC-BT-14?» | El mapa de divergencias, con el valor que rige |
 
-**La regla del vault:** el REBT tiene siempre la autoridad. Las Guías Técnicas son de carácter **no vinculante** (art. 29 del RD 842/2002) y el texto consolidado del BOE manda; donde discrepan, está anotado en el artículo de la guía y recopilado en el mapa.
+> [!WARNING]
+> 🚫 Si el dato no está en la wiki pero sí en una fuente de `raw/`, el agente responde desde la fuente y te ofrece compilarla. Si no está en ninguno, te lo dice: **no inventa**.
 
-Si el dato no está en la wiki pero sí en una fuente de `raw/`, el agente responde desde la fuente y te ofrece compilarla. Si no está en ninguno, te lo dice: no inventa.
-
-Para buscar sin pasar por el chat:
+> [!TIP]
+> 🔎 ¿Sin chat? Buscás directo desde la terminal:
 
 ```bash
 python knowledge/tools/wiki_search.py search "caída de tensión" -n 5
 python knowledge/tools/wiki_search.py index          # solo si querés forzar la reconstrucción
 ```
 
-## Estado del vault
+---
+
+## 📊 Estado del vault
 
 | Qué | Cuánto | Nota |
 | --- | --- | --- |
-| Fuentes en `raw/` | 107 | Con figuras (`knowledge/raw/imgs/`) y CSV de tablas (`knowledge/raw/tablas/`) que las fuentes referencian |
-| Artículos | 105 | 52 de las ITC-BT, 33 de las guías técnicas y 20 de apoyo y transversales |
-| Entradas en `_index.md` | 105 | Sin links rotos y sin artículos fuera del índice |
-| Divergencias guía ↔ ITC-BT | 221 | Cada una con el cierre «Prevalece la ITC-BT-XX» |
-| Guías técnicas del REBT | 27 | De las 30 publicadas por el ministerio: 22 ITC con guía + las 4 que no la tienen, más la guía del RD y los anexos |
+| 📥 Fuentes en `raw/` | 107 | Con figuras (`knowledge/raw/imgs/`) y CSV de tablas (`knowledge/raw/tablas/`) que las fuentes referencian |
+| 📄 Artículos | 105 | 🔵 52 de las ITC-BT · 🟢 33 de las guías técnicas · 🟡 20 de apoyo y transversales |
+| 🧭 Entradas en `_index.md` | 105 | Sin links rotos y sin artículos fuera del índice |
+| 🔴 Divergencias guía ↔ ITC-BT | 221 | Cada una con el cierre «Prevalece la ITC-BT-XX» |
+| 📘 Guías técnicas del REBT | 27 | De las 30 publicadas por el ministerio: 22 ITC con guía + las 4 que no la tienen, más la guía del RD y los anexos |
 
-## El REBT en este vault
+---
 
-- **52 artículos de ITC-BT** (ITC-BT-01 a 52) con el texto consolidado del BOE.
-- **33 artículos de guía técnica**: las 27 Guías Técnicas de Aplicación, la guía del RD 842/2002, los cuatro anexos (códigos IP/IK, caídas de tensión, cortocircuito, verificación) y la Nota de Interpretación sobre separación galvánica.
-- **Un mapa con las 221 divergencias**, agrupadas por instrucción, con la tabla resumen y el detalle de cada una.
-- **`tools/guia_rebt/`**: el pipeline que regenera el corpus desde los PDF oficiales del ministerio. `indice.json` lleva el `sha256` de cada PDF, así que avisa cuando se publica una edición nueva de una guía.
+## 📚 El REBT en este vault
 
-## Qué hay acá
+- 🔵 **52 artículos de ITC-BT** (ITC-BT-01 a 52) con el texto consolidado del BOE.
+- 🟢 **33 artículos de guía técnica**: las 27 Guías Técnicas de Aplicación, la guía del RD 842/2002, los cuatro anexos (códigos IP/IK, caídas de tensión, cortocircuito, verificación) y la Nota de Interpretación sobre separación galvánica.
+- 🔴 **Un mapa con las 221 divergencias**, agrupadas por instrucción, con la tabla resumen y el detalle de cada una.
+- 🧰 **`tools/guia_rebt/`**: el pipeline que regenera el corpus desde los PDF oficiales del ministerio. `indice.json` lleva el `sha256` de cada PDF, así que avisa cuando se publica una edición nueva de una guía.
+
+---
+
+## 🗂️ Qué hay acá
 
 | Ruta | Qué es |
 | --- | --- |
@@ -75,7 +93,9 @@ python knowledge/tools/wiki_search.py index          # solo si querés forzar la
 | `tools/guia_rebt/` | Pipeline de regeneración del corpus de guías del REBT. |
 | `odd/tasks/` | Documentos de seguimiento de los trabajos grandes. |
 
-## Los tres comandos
+---
+
+## ⚙️ Los tres comandos
 
 | Comando | Qué hace | Qué escribe | Cuándo |
 | --- | --- | --- | --- |
@@ -94,7 +114,9 @@ python knowledge/tools/wiki_sources.py build   # regenera
 python knowledge/tools/wiki_sources.py check   # avisa si está desactualizado
 ```
 
-## Herramientas de búsqueda
+---
+
+## 🔎 Herramientas de búsqueda
 
 | Qué buscás | Herramienta |
 | --- | --- |
@@ -103,7 +125,9 @@ python knowledge/tools/wiki_sources.py check   # avisa si está desactualizado
 | Fuentes de `knowledge/raw/` o cualquier archivo | La herramienta de búsqueda nativa del agente |
 | Símbolos y flujo de código | CodeGraph, solo para el Python del vault |
 
-## Instalación (si vas a montar el kit en otro vault)
+---
+
+## 🧩 Instalación (si vas a montar el kit en otro vault)
 
 1. Copia `AGENTS.md`, `.opencode/commands/` y `knowledge/` a la raíz de tu vault de Obsidian.
 2. Las carpetas vacías vienen con `.gitkeep`; si armas el vault de cero:
@@ -115,9 +139,12 @@ python knowledge/tools/wiki_sources.py check   # avisa si está desactualizado
 3. Crea `knowledge/wiki/_index.md` con una sola línea: `# Índice de la wiki`.
 4. Abre opencode desde la raíz del vault.
 
-Requisitos: opencode y Python 3. Nada más: la búsqueda usa el módulo `sqlite3` de la biblioteca estándar. En Linux y macOS el intérprete suele ser `python3`; en Windows es `python`.
+> [!TIP]
+> ✅ Requisitos: opencode y Python 3. Nada más: la búsqueda usa el módulo `sqlite3` de la biblioteca estándar. En Linux y macOS el intérprete suele ser `python3`; en Windows es `python`.
 
-## Modelo
+---
+
+## 🎛️ Modelo
 
 Los comandos no fijan modelo: usan el que tengas activo en opencode. Para fijar uno solo a un comando, agregá al frontmatter del archivo:
 
@@ -130,18 +157,22 @@ model: proveedor/modelo
 
 Los ids exactos salen de `opencode models`. Para cambiarlo en toda la sesión, usá `/models`.
 
-## Problemas comunes
+---
 
-- **«Sin resultados» y hay artículos.** Ejecutá `index` a mano. Si se repite, revisá que los archivos estén en UTF-8.
-- **«Aviso: se omitieron archivos ilegibles».** Alguno está guardado en ANSI (pasa con el Bloc de notas y con `Set-Content` de PowerShell). Volvé a guardarlo como UTF-8.
-- **El agente intenta usar `grep` o `rg`.** Hoy ambos están en el PATH, pero no dependas de eso: usá la herramienta de búsqueda nativa, que es portable. Para los artículos, `knowledge/tools/wiki_search.py` es lo más rápido.
-- **`knowledge/tools/wiki_index.sqlite` aparece como cambio.** No debería: está en `.gitignore`. Si lo ves, revisá que el `.gitignore` haya viajado con el kit.
-- **Una fuente queda sin artículo.** `compiled: true` no garantiza que exista un artículo que la cite: verificá en los dos sentidos, pendientes y huérfanas.
+## 🩺 Problemas comunes
 
-## Consejos con modelos chicos
+- 🔍 **«Sin resultados» y hay artículos.** Ejecutá `index` a mano. Si se repite, revisá que los archivos estén en UTF-8.
+- 📝 **«Aviso: se omitieron archivos ilegibles».** Alguno está guardado en ANSI (pasa con el Bloc de notas y con `Set-Content` de PowerShell). Volvé a guardarlo como UTF-8.
+- 🧭 **El agente intenta usar `grep` o `rg`.** Hoy ambos están en el PATH, pero no dependas de eso: usá la herramienta de búsqueda nativa, que es portable. Para los artículos, `knowledge/tools/wiki_search.py` es lo más rápido.
+- 🗃️ **`knowledge/tools/wiki_index.sqlite` aparece como cambio.** No debería: está en `.gitignore`. Si lo ves, revisá que el `.gitignore` haya viajado con el kit.
+- 🔗 **Una fuente queda sin artículo.** `compiled: true` no garantiza que exista un artículo que la cite: verificá en los dos sentidos, pendientes y huérfanas.
 
-- Compilá de 1 a 3 fuentes por tanda; los modelos chicos pierden calidad con lotes grandes.
-- Si el runtime corta los subagentes por cuota de uso, lanzalos en olas de 3 en vez de todos juntos.
-- Después de las primeras compilaciones, revisá a mano un par de artículos para confirmar que respetan el formato.
-- Ejecutá `/wiki-lint` cada pocas fuentes: es más barato corregir temprano.
-- Obsidian es solo el visor: abrí `knowledge/wiki/` como parte de tu vault y usá la vista de grafo para ver los enlaces.
+---
+
+## 💡 Consejos con modelos chicos
+
+- 📦 Compilá de 1 a 3 fuentes por tanda; los modelos chicos pierden calidad con lotes grandes.
+- 🌊 Si el runtime corta los subagentes por cuota de uso, lanzalos en olas de 3 en vez de todos juntos.
+- 👀 Después de las primeras compilaciones, revisá a mano un par de artículos para confirmar que respetan el formato.
+- 🧪 Ejecutá `/wiki-lint` cada pocas fuentes: es más barato corregir temprano.
+- 🕸️ Obsidian es solo el visor: abrí `knowledge/wiki/` como parte de tu vault y usá la vista de grafo para ver los enlaces.
