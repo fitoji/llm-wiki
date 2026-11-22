@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="16 -6 1688 1009" width="1688" height="1009" role="img" aria-label="Mapa de contenido de la wiki del REBT">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 9 5 L 0 9 z" fill="#5c5c5c"/></marker></defs>
+<rect x="16" y="-6" width="1688" height="1009" fill="#ffffff"/>
+<text x="40.0" y="18.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="28" text-anchor="start" dominant-baseline="hanging">Mapa de contenido de la wiki — REBT, Guías Técnicas y material extra</text>
+<text x="40.0" y="62.0" fill="#5c5c5c" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="start" dominant-baseline="hanging">105 artículos = 52 ITC-BT · 32 guías y anexos · 21 material extra</text>
+<rect x="700.0" y="105.0" width="300.0" height="84.0" rx="8" ry="8" fill="#ffd43b" stroke="#1e1e1e" stroke-width="2"/>
+<text x="850.0" y="134.5" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="20" text-anchor="middle" dominant-baseline="central">Wiki REBT</text>
+<text x="850.0" y="159.5" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="20" text-anchor="middle" dominant-baseline="central">105 artículos</text>
+<rect x="40.0" y="230.0" width="500.0" height="700.0" rx="8" ry="8" fill="#e7f5ff" stroke="#74c0fc" stroke-width="2"/>
+<rect x="640.0" y="230.0" width="520.0" height="700.0" rx="8" ry="8" fill="#e6fcf5" stroke="#63e6be" stroke-width="2"/>
+<rect x="1260.0" y="230.0" width="420.0" height="700.0" rx="8" ry="8" fill="#fff9db" stroke="#ffd43b" stroke-width="2"/>
+<text x="60.0" y="246.0" fill="#1864ab" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="start" dominant-baseline="hanging">NORMATIVA · REBT + ITC-BT (52)</text>
+<text x="660.0" y="246.0" fill="#087f5b" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="start" dominant-baseline="hanging">GUÍAS TÉCNICAS · 8 UT + anexos (32)</text>
+<text x="1280.0" y="246.0" fill="#e67700" font-family="Helvetica, Arial, sans-serif" font-size="18" text-anchor="start" dominant-baseline="hanging">MATERIAL EXTRA (21)</text>
+<rect x="65.0" y="300.0" width="450.0" height="64.0" rx="8" ry="8" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="290.0" y="332.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" dominant-baseline="central">ITC-BT 01–02 · Terminología y normas</text>
+<rect x="65.0" y="376.0" width="450.0" height="64.0" rx="8" ry="8" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="290.0" y="408.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" dominant-baseline="central">ITC-BT 03–05 · Empresas y documentación</text>
+<rect x="65.0" y="452.0" width="450.0" height="64.0" rx="8" ry="8" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="290.0" y="484.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" dominant-baseline="central">ITC-BT 06–11 · Redes y acometidas</text>
+<rect x="65.0" y="528.0" width="450.0" height="64.0" rx="8" ry="8" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="290.0" y="560.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" dominant-baseline="central">ITC-BT 12–17 · Instalaciones de enlace</text>
+<rect x="65.0" y="604.0" width="450.0" height="64.0" rx="8" ry="8" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="290.0" y="636.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" dominant-baseline="central">ITC-BT 18–27 · Tierra y viviendas</text>
+<rect x="65.0" y="680.0" width="450.0" height="64.0" rx="8" ry="8" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="290.0" y="712.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" dominant-baseline="central">ITC-BT 28–42 · Locales y fines especiales</text>
+<rect x="65.0" y="756.0" width="450.0" height="64.0" rx="8" ry="8" fill="#a5d8ff" stroke="#1e1e1e" stroke-width="2"/>
+<text x="290.0" y="788.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="15" text-anchor="middle" dominant-baseline="central">ITC-BT 43–52 · Receptores y otros</text>
+<rect x="665.0" y="300.0" width="470.0" height="52.0" rx="8" ry="8" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="900.0" y="326.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">UT 1 · REBT, aspectos generales (BT-03/04/05)</text>
+<rect x="665.0" y="362.0" width="470.0" height="52.0" rx="8" ry="8" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="900.0" y="388.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">UT 2 · Enlace (BT-10, 12–17)</text>
+<rect x="665.0" y="424.0" width="470.0" height="52.0" rx="8" ry="8" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="900.0" y="450.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">UT 3 · Interiores (BT-19/20/21/25/26/27/49)</text>
+<rect x="665.0" y="486.0" width="470.0" height="52.0" rx="8" ry="8" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="900.0" y="512.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">UT 4 · Pública concurrencia (BT-28)</text>
+<rect x="665.0" y="548.0" width="470.0" height="52.0" rx="8" ry="8" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="900.0" y="574.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">UT 5 · Alumbrado exterior (BT-09)</text>
+<rect x="665.0" y="610.0" width="470.0" height="52.0" rx="8" ry="8" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="900.0" y="636.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">UT 6 · Protecciones (BT-08/18/22/23/24)</text>
+<rect x="665.0" y="672.0" width="470.0" height="52.0" rx="8" ry="8" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="900.0" y="698.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">UT 7 · Domótica (BT-51)</text>
+<rect x="665.0" y="734.0" width="470.0" height="52.0" rx="8" ry="8" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="900.0" y="760.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">UT 8 · Especiales (BT-29/30/33/40/52)</text>
+<rect x="665.0" y="796.0" width="470.0" height="52.0" rx="8" ry="8" fill="#b2f2bb" stroke="#1e1e1e" stroke-width="2"/>
+<text x="900.0" y="822.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">Anexos 1–4 · IP/IK, caídas, cortocircuitos, verificación</text>
+<rect x="1285.0" y="300.0" width="370.0" height="64.0" rx="8" ry="8" fill="#ffe066" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1470.0" y="332.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">Certificados ELEC-1 / ELEC-2 / ELEC-3</text>
+<rect x="1285.0" y="376.0" width="370.0" height="64.0" rx="8" ry="8" fill="#ffc9c9" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1470.0" y="408.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">Divergencias guía vs ITC (221)</text>
+<rect x="1285.0" y="452.0" width="370.0" height="64.0" rx="8" ry="8" fill="#ffe066" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1470.0" y="484.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">Conceptos: CA, THD, caída de tensión</text>
+<rect x="1285.0" y="528.0" width="370.0" height="64.0" rx="8" ry="8" fill="#ffe066" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1470.0" y="560.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">Protección: diferencial, TT/TN/IT</text>
+<rect x="1285.0" y="604.0" width="370.0" height="64.0" rx="8" ry="8" fill="#ffe066" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1470.0" y="636.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">Símbolos IEC 60617 / 81346</text>
+<rect x="1285.0" y="680.0" width="370.0" height="64.0" rx="8" ry="8" fill="#ffe066" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1470.0" y="712.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">P1/P2 · usos de instalación</text>
+<rect x="1285.0" y="756.0" width="370.0" height="64.0" rx="8" ry="8" fill="#ffe066" stroke="#1e1e1e" stroke-width="2"/>
+<text x="1470.0" y="788.0" fill="#1e1e1e" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">Viviendas, baños, puntos de uso</text>
+<text x="60.0" y="866.0" fill="#1864ab" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" dominant-baseline="hanging">Texto vinculante (BOE): prevalece sobre la guía</text>
+<text x="660.0" y="866.0" fill="#087f5b" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" dominant-baseline="hanging">Carácter no vinculante (art. 29 RD 842/2002)</text>
+<text x="1280.0" y="866.0" fill="#e67700" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" dominant-baseline="hanging">Ej.: nota de interpretación sobre separación galvánica</text>
+<polyline points="760.0,189.0 290.0,230.0" fill="none" stroke="#5c5c5c" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="850.0,189.0 900.0,230.0" fill="none" stroke="#5c5c5c" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="940.0,189.0 1420.0,230.0" fill="none" stroke="#5c5c5c" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="540.0,520.0 640.0,520.0" fill="none" stroke="#5c5c5c" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="543.8" y="496.0" fill="#5c5c5c" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" dominant-baseline="hanging">desarrollan</text>
+<polyline points="640.0,600.0 540.0,600.0" fill="none" stroke="#5c5c5c" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="548.0" y="576.0" fill="#5c5c5c" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="start" dominant-baseline="hanging">prevalecen</text>
+<text x="40.0" y="960.0" fill="#5c5c5c" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="start" dominant-baseline="hanging">Azul = normativa vinculante · Verde = guías (no vinculantes) · Amarillo = apoyo · Rojo = divergencias</text>
+</svg>

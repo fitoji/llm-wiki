@@ -2,7 +2,13 @@
 
 Vault de conocimiento sobre el **Reglamento Electrotécnico para Baja Tensión** (REBT, RD 842/2002) que mantiene el agente: vos aportás material y hacés preguntas; el agente escribe, ordena y enlaza los artículos según el contrato de `AGENTS.md`.
 
-Hoy contiene **100 fuentes** en bruto, **102 artículos** y **221 divergencias** documentadas entre el reglamento y sus 27 Guías Técnicas de Aplicación.
+Hoy contiene **107 fuentes** en bruto, **105 artículos** y **221 divergencias** documentadas entre el reglamento y sus 27 Guías Técnicas de Aplicación.
+
+## Mapa de contenido
+
+![Mapa de contenido de la wiki: normativa REBT e ITC-BT, Guías Técnicas y material extra](wiki-contenido.svg)
+
+Los artículos se reparten en tres bloques: la normativa vinculante (ITC-BT), las Guías Técnicas de aplicación (8 unidades temáticas más los anexos) y el material de apoyo. Las guías son no vinculantes: donde discrepan del BOE, prevalece la ITC-BT. La versión editable del mapa está en [`wiki-contenido.excalidraw`](wiki-contenido.excalidraw).
 
 ## Camino rápido
 
@@ -39,9 +45,9 @@ python knowledge/tools/wiki_search.py index          # solo si querés forzar la
 
 | Qué | Cuánto | Nota |
 | --- | --- | --- |
-| Fuentes en `raw/` | 100 | Con figuras (`knowledge/raw/imgs/`) y CSV de tablas (`knowledge/raw/tablas/`) que las fuentes referencian |
-| Artículos | 102 | 52 de las ITC-BT, 33 de las guías técnicas, 13 de formularios y normativa y 4 transversales |
-| Entradas en `_index.md` | 102 | Sin links rotos y sin artículos fuera del índice |
+| Fuentes en `raw/` | 107 | Con figuras (`knowledge/raw/imgs/`) y CSV de tablas (`knowledge/raw/tablas/`) que las fuentes referencian |
+| Artículos | 105 | 52 de las ITC-BT, 33 de las guías técnicas y 20 de apoyo y transversales |
+| Entradas en `_index.md` | 105 | Sin links rotos y sin artículos fuera del índice |
 | Divergencias guía ↔ ITC-BT | 221 | Cada una con el cierre «Prevalece la ITC-BT-XX» |
 | Guías técnicas del REBT | 27 | De las 30 publicadas por el ministerio: 22 ITC con guía + las 4 que no la tienen, más la guía del RD y los anexos |
 
@@ -57,6 +63,8 @@ python knowledge/tools/wiki_search.py index          # solo si querés forzar la
 | Ruta | Qué es |
 | --- | --- |
 | `AGENTS.md` | El contrato: estructura, reglas y formatos. Es lo primero que lee el agente. |
+| `wiki-contenido.svg` | Mapa visual del contenido, incrustado arriba. Se regenera desde el `.excalidraw`. |
+| `wiki-contenido.excalidraw` | Versión editable del mapa: abrir en Excalidraw. |
 | `.opencode/commands/` | Los tres comandos: `/ingest`, `/wiki-compile`, `/wiki-lint`. |
 | `knowledge/raw/` | Material en bruto. Solo lectura para el agente (salvo el campo `compiled`). |
 | `knowledge/wiki/` | La wiki. Acá escribe el agente. |
